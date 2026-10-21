@@ -1,12 +1,12 @@
 [
   {
     "id": "2026-10-21-pl2338-pilot",
-    "status": "approved",
+    "status": "error",
     "scheduled_for": "2026-10-20T23:00:00-03:00",
     "image_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-21/pilot_feed_pl2338.png",
     "caption": "O PL 2338/2023, que cria o marco legal da inteligência artificial no Brasil, ainda não é lei.\n\nAprovado pelo Senado em dezembro de 2024, o texto está na Câmara dos Deputados, em Comissão Especial sobre IA, aguardando o parecer do relator, deputado Aguinaldo Ribeiro (PP-PB).\n\nEnquanto isso, nenhum artigo do projeto está em vigor. Para acompanhar a tramitação, consulte o site da Câmara dos Deputados.\n\n#DireitoDigital #InteligenciaArtificial #Legislacao",
     "ig_media_id": null,
     "permalink": null,
-    "error": null
+    "error": "HTTP 400 em 39241822288794396/media: {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AVP-oJCU3e6g-olgo26evaV\"}}"
   }
 ]
