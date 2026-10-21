@@ -1,0 +1,12 @@
+{
+  "kicker": "DIREITO DIGITAL  •  IA",
+  "title": ["Marco legal da", "inteligência artificial"],
+  "sections": [
+    {"label": "O que é", "text": "PL 2338/2023, que estabelece regras gerais para o uso da IA no Brasil."},
+    {"label": "Situação", "text": "Aprovado pelo Senado em dezembro de 2024. Está na Câmara dos Deputados, aguardando o parecer do relator na comissão especial."},
+    {"label": "Ponto central", "text": "Cria o Sistema Nacional de Regulação e Governança de IA (SIA), coordenado pela ANPD."}
+  ],
+  "footer_bold": "Projeto de lei, ainda não é lei.",
+  "source": "Fonte: Câmara dos Deputados, ficha de tramitação PL 2338/2023",
+  "handle": "@direitobinario"
+}
