@@ -1,0 +1,30 @@
+name: Render Direitobinario Reel
+on:
+  workflow_dispatch:
+    inputs:
+      source_video_url:
+        description: Public HTTPS URL of the source MP4
+        required: true
+        type: string
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Download source video
+        env:
+          SOURCE_URL: ${{ inputs.source_video_url }}
+        run: curl --fail --location --silent --show-error "$SOURCE_URL" --output source.mp4
+      - name: Render vertical Reel
+        run: python scripts/render_reel.py source.mp4 direitobinario_reel_1080x1920.mp4
+      - name: Upload rendered MP4
+        uses: actions/upload-artifact@v4
+        with:
+          name: direitobinario-reel-1080x1920
+          path: direitobinario_reel_1080x1920.mp4
+          retention-days: 7
