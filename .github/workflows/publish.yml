@@ -1,0 +1,31 @@
+name: Publicar posts agendados
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # 09h BRT
+    - cron: '0 15 * * *'   # 12h BRT
+    - cron: '0 22 * * *'   # 19h BRT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Publicar próximo post aprovado
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python scripts/publish.py
+      - name: Salvar status na fila
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add queue/posts.json
+          git diff --staged --quiet || (git commit -m "Atualiza status da fila" && git push)
