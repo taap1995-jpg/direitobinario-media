@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-'Renderiza uma arte 1080x1350 (JPEG) a partir de um arquivo posts/<slug>.json.
+'''Renderiza uma arte 1080x1350 (JPEG) a partir de um arquivo posts/<slug>.json.
+
 Uso: python scripts/make_post_image.py posts/<slug>.json
 Saida: posts/<slug>.jpg
-'
+'''
 import json
 import sys
 from pathlib import Path
