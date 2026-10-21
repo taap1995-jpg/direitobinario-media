@@ -1,4 +1,4 @@
-import json, os, sys, time, urllib.parse, urllib.request
+import json, os, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 GRAPH = "https://graph.facebook.com/v21.0"
@@ -19,13 +19,15 @@ def save(q):
 def call(method, path, params):
     params = dict(params)
     if method == "GET":
-        url = f"{GRAPH}/{path}?" + urllib.parse.urlencode(params)
-        req = urllib.request.Request(url, method="GET")
+        req = urllib.request.Request(f"{GRAPH}/{path}?" + urllib.parse.urlencode(params), method="GET")
     else:
-        data = urllib.parse.urlencode(params).encode()
-        req = urllib.request.Request(f"{GRAPH}/{path}", data=data, method="POST")
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read().decode())
+        req = urllib.request.Request(f"{GRAPH}/{path}", data=urllib.parse.urlencode(params).encode(), method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode(errors="replace")
+        raise RuntimeError(f"HTTP {e.code} em {path}: {body[:800]}") from None
 
 
 def main():
@@ -45,14 +47,16 @@ def main():
 
     post = min(due, key=lambda p: p["scheduled_for"])
     post["status"] = "publishing"
-    save(q)  # marca antes da chamada para nunca publicar duas vezes
+    save(q)
     try:
         c = call("POST", f"{uid}/media", {"image_url": post["image_url"],
                                           "caption": post["caption"],
                                           "access_token": tok})
         cid = c["id"]
+        print("Container criado:", cid)
         for _ in range(20):
             s = call("GET", cid, {"fields": "status_code", "access_token": tok}).get("status_code")
+            print("Status do container:", s)
             if s == "FINISHED":
                 break
             if s in ("ERROR", "EXPIRED"):
