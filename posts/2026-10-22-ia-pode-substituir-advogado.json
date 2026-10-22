@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO BINÁRIO  •  IA E DIREITO",
+  "title": [
+    "A IA PODE",
+    "SUBSTITUIR UM",
+    "ADVOGADO?"
+  ],
+  "sections": [
+    {
+      "label": "IA COMO ALIADA",
+      "text": "Ajuda na pesquisa e na organização.\nNão assume a responsabilidade profissional."
+    }
+  ],
+  "footer_bold": "TECNOLOGIA COM RESPONSABILIDADE",
+  "source": "Conteúdo educativo • Direito e IA",
+  "handle": "@DIREITOBINARIO"
+}
