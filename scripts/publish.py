@@ -1,4 +1,4 @@
-import json, os, sys, time, urllib.error, urllib.parse, urllib.request
+import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 
@@ -94,7 +94,7 @@ def main():
     save(q)
     try:
         c = call("POST", f"{uid}/media", {
-            "image_url": post["image_url"], "caption": post["caption"], "access_token": tok
+            "image_url": post["image_url"], "caption": re.sub(r"%23", "#", post["caption"], flags=re.IGNORECASE), "access_token": tok
         })
         cid = c["id"]
         post["container_id"] = cid
