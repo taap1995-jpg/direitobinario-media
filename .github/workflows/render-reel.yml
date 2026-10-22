@@ -1,4 +1,5 @@
 name: Render Direitobinario Reel
+
 on:
   workflow_dispatch:
     inputs:
@@ -6,23 +7,73 @@ on:
         description: Public HTTPS URL of the source MP4
         required: true
         type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-direitobinario-reel
+  cancel-in-progress: false
+
 jobs:
   render:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
       - name: Download source video
         env:
           SOURCE_URL: ${{ inputs.source_video_url }}
-        run: curl --fail --location --silent --show-error "$SOURCE_URL" --output source.mp4
+        run: |
+          case "$SOURCE_URL" in
+            https://*) ;;
+            *) echo "A URL de origem precisa usar HTTPS." >&2; exit 1 ;;
+          esac
+          curl --fail --location --silent --show-error "$SOURCE_URL" --output source.mp4
+          test -s source.mp4
+
       - name: Render vertical Reel
         run: python scripts/render_reel.py source.mp4 direitobinario_reel_1080x1920.mp4
-      - name: Upload rendered MP4
+
+      - name: Prepare public media URL
+        id: public_asset
+        run: |
+          mkdir -p media/reels
+          REEL_PATH="media/reels/reel-${GITHUB_RUN_ID}.mp4"
+          cp direitobinario_reel_1080x1920.mp4 "$REEL_PATH"
+          SIZE=$(stat -c%s "$REEL_PATH")
+          if [ "$SIZE" -gt 90000000 ]; then
+            echo "O vídeo ultrapassa 90 MB; reduza o arquivo antes de publicar no repositório." >&2
+            exit 1
+          fi
+          echo "reel_path=$REEL_PATH" >> "$GITHUB_OUTPUT"
+          echo "reel_url=https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/$REEL_PATH" >> "$GITHUB_OUTPUT"
+
+      - name: Commit public MP4
+        env:
+          REEL_PATH: ${{ steps.public_asset.outputs.reel_path }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$REEL_PATH"
+          git commit -m "Publica Reel renderizado ${GITHUB_RUN_ID}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Show public URL
+        env:
+          REEL_URL: ${{ steps.public_asset.outputs.reel_url }}
+        run: |
+          echo "### Reel renderizado" >> "$GITHUB_STEP_SUMMARY"
+          echo "URL pública para o Instagram: $REEL_URL" >> "$GITHUB_STEP_SUMMARY"
+          echo "$REEL_URL"
+          echo "::notice title=URL pública do Reel::$REEL_URL"
+
+      - name: Upload rendered MP4 artifact
         uses: actions/upload-artifact@v4
         with:
           name: direitobinario-reel-1080x1920
