@@ -1,0 +1,48 @@
+name: Validar qualidade da automação
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "queue/**"
+      - ".github/workflows/**"
+      - ".github/AGENT_ORCHESTRATION.md"
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "queue/**"
+      - ".github/workflows/**"
+      - ".github/AGENT_ORCHESTRATION.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validar sintaxe e fila
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validar sintaxe Python
+        run: python -m compileall -q scripts
+      - name: Validar JSON da fila (se existir)
+        run: |
+          if [ -f queue/posts.json ]; then
+            python -m json.tool queue/posts.json > /dev/null
+            echo "Fila JSON válida."
+          else
+            echo "Fila queue/posts.json não existe neste commit; validação específica ignorada."
+          fi
