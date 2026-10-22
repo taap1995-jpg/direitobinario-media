@@ -1,31 +1,43 @@
-name: Publicar posts agendados
+name: Publicar posts aprovados do Direito Binário
 
 on:
   schedule:
-    - cron: '0 12 * * *'   # 09h BRT
-    - cron: '0 15 * * *'   # 12h BRT
-    - cron: '0 22 * * *'   # 19h BRT
+    - cron: '0 12 * * *'   # 09h Brasília
+    - cron: '0 15 * * *'   # 12h Brasília
+    - cron: '0 22 * * *'   # 19h Brasília
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: instagram-publish-direitobinario
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Publicar próximo post aprovado
+      - name: Validar sintaxe e JSON da fila
+        run: |
+          python -m py_compile scripts/publish.py
+          python -m json.tool queue/posts.json > /dev/null
+      - name: Publicar próximo post que passar pelos gates
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          EXPECTED_IG_USER_ID: '39241822288794396'
         run: python scripts/publish.py
-      - name: Salvar status na fila
+      - name: Persistir estado da fila mesmo em caso de falha
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add queue/posts.json
-          git diff --staged --quiet || (git commit -m "Atualiza status da fila" && git push)
+          git diff --staged --quiet || (git commit -m "Atualiza estado da fila de publicação" && git push)
