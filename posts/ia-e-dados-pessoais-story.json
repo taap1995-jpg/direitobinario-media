@@ -1,0 +1,24 @@
+{
+  "kicker": "DIREITO DIGITAL  •  INTELIGÊNCIA ARTIFICIAL",
+  "title": [
+    "Vai usar IA",
+    "no trabalho?"
+  ],
+  "sections": [
+    {
+      "label": "01  Proteja os dados",
+      "text": "Evite inserir dados pessoais, documentos de clientes ou informações confidenciais sem avaliar autorização, necessidade e segurança."
+    },
+    {
+      "label": "02  Confira a resposta",
+      "text": "A IA pode inventar informações. Verifique fatos, fontes e referências antes de compartilhar."
+    },
+    {
+      "label": "03  Use com responsabilidade",
+      "text": "A ferramenta auxilia; a revisão humana continua essencial."
+    }
+  ],
+  "footer_bold": "Tecnologia com responsabilidade.",
+  "source": "Referência: LGPD (Lei 13.709/2018), Planalto",
+  "handle": "@direitobinario"
+}
