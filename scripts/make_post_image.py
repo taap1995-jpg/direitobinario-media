@@ -17,7 +17,6 @@ def render(spec_path):
     W,H=(1080,1920) if story else (1080,1350)
     im=Image.new('RGB',(W,H),NAVY); d=ImageDraw.Draw(im)
     if story:
-        # Restrained, high-contrast Story: one hook + one takeaway.
         for y in range(H):
             t=y/H
             c=tuple(int(NAVY[i]*(1-t)+((16,35,61)[i])*t) for i in range(3))
@@ -42,11 +41,15 @@ def render(spec_path):
         d.rectangle([48,48,W-48,H-48],outline=GOLD,width=4)
         x=110; max_w=W-220
         d.text((x,120),spec['kicker'],font=font(FB,34),fill=GOLD)
+        title=spec['title']
+        title_size=68 if len(title)<=2 else 60
+        line_height=82 if len(title)>2 else 100
         y=200
-        for line in spec['title']:
-            d.text((x,y),line,font=font(FS,68),fill=WHITE)
-            y+=100
-        d.line([x,420,W-x,420],fill=GOLD,width=3); y=470
+        for line in title:
+            d.text((x,y),line,font=font(FS,title_size),fill=WHITE)
+            y+=line_height
+        divider_y=max(420,y+18)
+        d.line([x,divider_y,W-x,divider_y],fill=GOLD,width=3); y=divider_y+48
         for sec in spec['sections']:
             d.text((x,y),sec['label'].upper(),font=font(FB,30),fill=GOLD); y+=48
             for line in sec['text'].splitlines():
