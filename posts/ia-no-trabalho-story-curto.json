@@ -1,0 +1,19 @@
+{
+  "format": "story",
+  "kicker": "IA • PRIVACIDADE",
+  "title": [
+    "IA NO",
+    "TRABALHO?"
+  ],
+  "message": "DADO CONFIDENCIAL, NÃO.",
+  "supporting_copy": "Proteja informações pessoais e de clientes.",
+  "source": "Orientação prática de privacidade",
+  "handle": "@direitobinario",
+  "qa": {
+    "story_brevity": "PASS",
+    "headline_words": 2,
+    "supporting_words": 6,
+    "central_message": "Não insira dados confidenciais em ferramentas de IA sem avaliar autorização e segurança.",
+    "legal_review": "Cautela geral de privacidade; sem alegação de proibição jurídica absoluta."
+  }
+}
