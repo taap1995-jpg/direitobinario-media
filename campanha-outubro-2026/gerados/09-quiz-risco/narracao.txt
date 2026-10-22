@@ -1,0 +1,1 @@
+Quiz jurídico: uma equipe cola numa IA gratuita um contrato com nome, CPF e valores de um cliente para resumir mais rápido. Está tudo certo? Não dá para afirmar sem avaliar finalidade, necessidade, base legal, segurança, regras da ferramenta e deveres de confidencialidade. Minimize ou anonimize dados quando possível.

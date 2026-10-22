@@ -1,0 +1,7 @@
+file '/home/runner/work/direitobinario-media/direitobinario-media/campanha-outubro-2026/gerados/01-jurisprudencia/frame-1.jpg'
+duration 3.2
+file '/home/runner/work/direitobinario-media/direitobinario-media/campanha-outubro-2026/gerados/01-jurisprudencia/frame-2.jpg'
+duration 3.2
+file '/home/runner/work/direitobinario-media/direitobinario-media/campanha-outubro-2026/gerados/01-jurisprudencia/frame-3.jpg'
+duration 3.2
+file '/home/runner/work/direitobinario-media/direitobinario-media/campanha-outubro-2026/gerados/01-jurisprudencia/frame-3.jpg'

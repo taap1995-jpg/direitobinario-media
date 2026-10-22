@@ -1,0 +1,1 @@
+Três hábitos para revisar: primeiro, compartilhar dados além do necessário; segundo, deixar permissões de aplicativos sem revisão; terceiro, armazenar documentos sensíveis sem controle de acesso. A LGPD prevê princípios como necessidade e segurança. Pequenas revisões ajudam a reduzir riscos, mas cada organização deve avaliar seu contexto.
