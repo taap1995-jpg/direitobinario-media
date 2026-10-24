@@ -1,0 +1,13 @@
+{
+  "format": "feed",
+  "template": "carousel_editorial",
+  "kicker": "PRIVACIDADE + IA",
+  "title": ["SUA FOTO VIROU", "TREINO DE IA?"],
+  "sections": [
+    {"label": "ATENÇÃO", "text": "Postar uma foto não significa abrir mão dos seus dados."},
+    {"label": "LGPD", "text": "O uso de dados pessoais exige hipótese legal e deve respeitar finalidade, transparência e os direitos do titular."}
+  ],
+  "footer_bold": "DADO PÚBLICO NÃO É DADO SEM REGRA.",
+  "source": "Fonte: LGPD — Lei 13.709/2018, arts. 6º, 7º, 9º e 18",
+  "handle": "@DIREITOBINARIO"
+}
