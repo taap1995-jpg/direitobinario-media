@@ -16,6 +16,38 @@ def render(spec_path):
     story=spec.get('format')=='story'
     W,H=(1080,1920) if story else (1080,1350)
     im=Image.new('RGB',(W,H),NAVY); d=ImageDraw.Draw(im)
+    if spec.get('template') == 'carousel_editorial':
+        d.rectangle((48,48,W-48,H-48),outline=GOLD,width=4)
+        d.text((100,115),spec['kicker'],font=font(FB,32),fill=GOLD)
+        y=210
+        for line in spec['title']:
+            assert font(FS,60).getlength(line) <= 880
+            d.text((100,y),line,font=font(FS,60),fill=WHITE)
+            y+=82
+        d.line((100,490,980,490),fill=GOLD,width=3)
+        y=545
+        for sec in spec['sections']:
+            d.text((100,y),sec['label'].upper(),font=font(FB,32),fill=GOLD)
+            y+=62
+            words=sec['text'].replace('\n',' ').split()
+            lines=[]; current=''
+            for word in words:
+                candidate=(current+' '+word).strip()
+                if font(FR,43).getlength(candidate)>880:
+                    lines.append(current); current=word
+                else: current=candidate
+            if current: lines.append(current)
+            for line in lines:
+                d.text((100,y),line,font=font(FR,43),fill=WHITE); y+=59
+            y+=56
+        assert y <= 1155, 'Texto excede o espaço da arte'
+        d.text((100,1180),spec['footer_bold'],font=font(FB,30),fill=WHITE)
+        d.text((100,1235),spec['source'],font=font(FR,22),fill=SOFT)
+        d.text((100,1273),spec['handle'],font=font(FR,24),fill=GOLD)
+        out=Path(spec_path).with_suffix('.jpg')
+        im.save(out,'JPEG',quality=94,optimize=True)
+        print(f'Renderizado: {out} ({W}x{H})')
+        return
     if story and spec.get('template') == 'editorial':
         d.line((88,240,992,240),fill=GOLD,width=4)
         d.text((88,280),'DIREITO BINÁRIO',font=font(FB,30),fill=GOLD)
