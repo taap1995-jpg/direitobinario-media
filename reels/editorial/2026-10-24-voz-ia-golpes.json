@@ -1,0 +1,79 @@
+{
+  "slug": "2026-10-24-voz-ia-golpes",
+  "title": "Uma IA pode usar seus dados para aplicar golpes?",
+  "audio": "Sem narração; leitura em tela, trilha de áudio silenciosa.",
+  "scenes": [
+    {
+      "seconds": 4,
+      "kicker": "GOLPES COM IA",
+      "lines": [
+        "Sua voz pode",
+        "ser clonada",
+        "para um golpe?"
+      ],
+      "note": "Uma voz familiar não confirma identidade."
+    },
+    {
+      "seconds": 5,
+      "kicker": "01  RECONHEÇA",
+      "lines": [
+        "Gravações de voz",
+        "podem ser usadas",
+        "para imitar alguém."
+      ],
+      "note": "A IA também pode ser usada em fraudes."
+    },
+    {
+      "seconds": 5,
+      "kicker": "DESCONFIE DA PRESSA",
+      "lines": [
+        "Pedido urgente",
+        "de dinheiro?",
+        "Pare e confirme."
+      ],
+      "note": "Não transfira só porque reconheceu a voz."
+    },
+    {
+      "seconds": 6,
+      "kicker": "02  CONFIRME",
+      "lines": [
+        "Ligue para um",
+        "contato conhecido.",
+        "Use um número",
+        "que você já tinha."
+      ],
+      "note": "Evite o contato enviado na mensagem suspeita."
+    },
+    {
+      "seconds": 5,
+      "kicker": "O QUE DIZ O DIREITO",
+      "lines": [
+        "A fraude pode",
+        "configurar",
+        "estelionato."
+      ],
+      "note": "Art. 171 do Código Penal. Depende do caso."
+    },
+    {
+      "seconds": 7,
+      "kicker": "03  SE JÁ ACONTECEU",
+      "lines": [
+        "Guarde mensagens",
+        "e comprovantes.",
+        "Procure seu banco",
+        "e registre ocorrência."
+      ],
+      "note": "Use os canais oficiais de atendimento."
+    },
+    {
+      "seconds": 4,
+      "kicker": "PROTEÇÃO DIGITAL",
+      "lines": [
+        "Compartilhe",
+        "este alerta",
+        "com sua família."
+      ],
+      "note": "Fontes e orientações completas na legenda."
+    }
+  ]
+}

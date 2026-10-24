@@ -1,0 +1,41 @@
+name: Render editorial Reels
+on:
+  push:
+    paths:
+      - 'reels/editorial/*.json'
+      - 'scripts/render_editorial_reel.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: render-editorial-reels
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install rendering dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          pip install pillow
+      - name: Render editorial videos
+        run: |
+          for f in reels/editorial/*.json; do
+            python scripts/render_editorial_reel.py "$f"
+          done
+      - name: Save public media
+        run: |
+          git config user.name 'media-bot'
+          git config user.email 'media-bot@users.noreply.github.com'
+          git add media/reels/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Renderiza Reels editoriais e QA técnico'
+            git pull --rebase origin main
+            git push origin main
+          fi
