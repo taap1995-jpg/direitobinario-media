@@ -7,7 +7,7 @@
 3. Renderizar a arte **sempre por código**: `scripts/make_post_image.py` gera o JPEG 1080x1350 a partir do JSON. Nunca enviar binários de imagem pela API nem usar gerador manual.
 4. Commitar o JSON na `main`. O workflow `render-post-images` gera `posts/<slug>.jpg` e commita no repositório.
 5. Usar a URL pública `https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/<slug>.jpg` como `image_url` no container do Instagram.
-6. Publicar somente na conta `direitobinario` (ID 39241822288794396). Confirmar a identidade antes de qualquer publicação.
+6. Publicar somente na conta `direitobinario`. Confirmar a identidade com GET_USER_INFO e usar o user_id de publicação retornado (17841424809505687 na última verificação); não confundir com o id scoped 39241822288794396.
 7. Confirmar o resultado: ID do container, ID da mídia publicada e permalink. Só considerar concluído após essa confirmação.
 8. Registrar data, horário, tema, IDs e permalink.
 
@@ -21,9 +21,7 @@
 
 ## Agendamento
 
-Horários em America/Sao_Paulo: 08h revisão, 09h, 12h e 19h publicação. Em UTC (Brasil sem horário de verão): 11:00, 12:00, 15:00 e 22:00.
-O workflow `publish.yml` publica um post com `status: approved` da `queue/posts.json`. Requer os secrets `IG_USER_ID` e `IG_ACCESS_TOKEN`.
-
+O fluxo vigente está em `editorial/PUBLICACAO.md`: relatório às 08h todos os dias, aprovação exclusivamente no chat, publicações aprovadas às 09h/12h/19h de segunda a sexta e após aprovação a qualquer hora nos fins de semana. A fila ativa é `editorial/queue.json`; não usar a fila legada como publicador paralelo.
 
 ## Hashtags nas publicações — preferência de 24/10/2026
 

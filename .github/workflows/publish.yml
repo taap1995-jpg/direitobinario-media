@@ -1,10 +1,7 @@
 name: Publicar posts aprovados do Direito Binário
 
 on:
-  schedule:
-    - cron: '0 12 * * *'   # 09h Brasília
-    - cron: '0 15 * * *'   # 12h Brasília
-    - cron: '0 22 * * *'   # 19h Brasília
+  # Agendamento migrado para o fluxo Composio descrito em editorial/PUBLICACAO.md.
   workflow_dispatch:
 
 permissions:
