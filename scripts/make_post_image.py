@@ -16,6 +16,30 @@ def render(spec_path):
     story=spec.get('format')=='story'
     W,H=(1080,1920) if story else (1080,1350)
     im=Image.new('RGB',(W,H),NAVY); d=ImageDraw.Draw(im)
+    if story and spec.get('template') == 'editorial':
+        d.line((88,240,992,240),fill=GOLD,width=4)
+        d.text((88,280),'DIREITO BINÁRIO',font=font(FB,30),fill=GOLD)
+        d.text((88,395),spec['kicker'],font=font(FB,34),fill=SOFT)
+        y=470
+        for line in spec['title']:
+            d.text((82,y),line,font=font(FB,82),fill=WHITE)
+            y+=106
+        d.rounded_rectangle((88,735,240,744),radius=4,fill=GOLD)
+        y=820
+        for sec in spec['sections']:
+            d.text((88,y),sec['label'],font=font(FB,31),fill=GOLD)
+            y+=65
+            for line in sec['text'].splitlines():
+                d.text((88,y),line,font=font(FR,43),fill=WHITE)
+                y+=63
+            y+=80
+        d.text((88,1510),spec['footer_bold'],font=font(FB,48),fill=WHITE)
+        d.text((88,1600),spec['source'],font=font(FR,27),fill=SOFT)
+        d.text((88,1660),spec['handle'],font=font(FB,31),fill=GOLD)
+        out=Path(spec_path).with_suffix('.jpg')
+        im.save(out,'JPEG',quality=94,optimize=True)
+        print(f'Renderizado: {out} ({W}x{H})')
+        return
     if story:
         for y in range(H):
             t=y/H

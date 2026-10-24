@@ -1,0 +1,22 @@
+{
+  "format": "story",
+  "template": "editorial",
+  "kicker": "BIG TECHS E ELEIÇÕES",
+  "title": [
+    "Quem controla",
+    "o seu feed?"
+  ],
+  "sections": [
+    {
+      "label": "O PODER DA VISIBILIDADE",
+      "text": "Algoritmos, anúncios e moderação\nmudam o alcance de conteúdos\nno debate eleitoral."
+    },
+    {
+      "label": "INFLUÊNCIA NÃO É PROVA DE FRAUDE",
+      "text": "Interferência ilegal exige evidências\ne análise do caso concreto."
+    }
+  ],
+  "footer_bold": "Transparência importa.",
+  "source": "Fonte: TSE • Portaria 463/2026, arts. 18 e 22",
+  "handle": "@direitobinario"
+}
