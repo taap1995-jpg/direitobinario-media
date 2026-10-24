@@ -16,6 +16,8 @@ def render(spec_path):
         im=Image.new('RGB',(1080,1920),NAVY);d=ImageDraw.Draw(im)
         def text(x,y,s,size=72,color=WHITE,bold=True):
             f=ImageFont.truetype(FB if bold else FR,size)
+            while f.getlength(s)>860 and size>48:
+                size-=2; f=ImageFont.truetype(FB if bold else FR,size)
             assert f.getlength(s)<=860,(s,size)
             d.text((x,y),s,font=f,fill=color)
         d.line((100,265,980,265),fill=GOLD,width=4)
