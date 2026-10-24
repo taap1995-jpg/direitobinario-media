@@ -1,0 +1,25 @@
+{
+  "kicker": "DEMOCRACIA DIGITAL",
+  "title": [
+    "Participar também",
+    "exige",
+    "responsabilidade."
+  ],
+  "sections": [
+    {
+      "label": "01  Verifique",
+      "text": "Fonte, data e contexto antes de compartilhar."
+    },
+    {
+      "label": "02  Respeite",
+      "text": "Discorde sem violar a honra e a privacidade."
+    },
+    {
+      "label": "03  Corrija",
+      "text": "Errou? Retifique a informação com clareza."
+    }
+  ],
+  "footer_bold": "Liberdade com respeito aos direitos.",
+  "source": "CF, art. 5º, IV, IX e X • Código Civil, arts. 186 e 927",
+  "handle": "@direitobinario"
+}
