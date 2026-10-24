@@ -1,0 +1,71 @@
+{
+  "slug": "2026-10-24-foto-treino-ia-reel",
+  "title": "Sua foto virou treino de IA?",
+  "audio": "Sem narração; leitura em tela.",
+  "scenes": [
+    {
+      "seconds": 4,
+      "kicker": "IA E PRIVACIDADE",
+      "lines": [
+        "Sua foto virou",
+        "treino de IA?"
+      ],
+      "note": "Publicou. Perdeu seus direitos?"
+    },
+    {
+      "seconds": 6,
+      "kicker": "01  FOTO PÚBLICA",
+      "lines": [
+        "Não é permissão",
+        "para qualquer uso."
+      ],
+      "note": "Se identifica você, pode ser dado pessoal."
+    },
+    {
+      "seconds": 7,
+      "kicker": "02  CONSENTIMENTO",
+      "lines": [
+        "Não é a única",
+        "hipótese legal."
+      ],
+      "note": "A análise depende do contexto e da finalidade."
+    },
+    {
+      "seconds": 7,
+      "kicker": "A LGPD CONTINUA VALENDO",
+      "lines": [
+        "Mesmo públicos,",
+        "seus dados",
+        "têm proteção."
+      ],
+      "note": "Finalidade, boa-fé e direitos devem ser respeitados."
+    },
+    {
+      "seconds": 7,
+      "kicker": "03  O QUE VOCÊ PODE FAZER",
+      "lines": [
+        "Confira a política.",
+        "Pergunte como",
+        "usam seus dados."
+      ],
+      "note": "Você pode pedir informações sobre o tratamento."
+    },
+    {
+      "seconds": 5,
+      "kicker": "DIREITO E TECNOLOGIA",
+      "lines": [
+        "Salve e envie",
+        "para quem usa IA."
+      ],
+      "note": "LGPD: arts. 6º, 7º, 9º e 18. Fontes na legenda."
+    }
+  ],
+  "sources": [
+    "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm"
+  ],
+  "alternative_hooks": [
+    "Sua foto virou treino de IA?",
+    "Foto pública: a IA pode usar como quiser?",
+    "Publicar uma foto elimina seus direitos?"
+  ]
+}
