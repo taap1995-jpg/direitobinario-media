@@ -27,6 +27,11 @@
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
         "checked_at": "2026-10-24",
         "provision": "art. 171"
+      },
+      {
+        "url": "https://suzano.sp.gov.br/procon-de-suzano-alerta-sobre-golpes-de-inteligencia-artificial/",
+        "published_at": "2025-11-07",
+        "checked_at": "2026-10-24"
       }
     ],
     "content_path": "reels/editorial/2026-10-24-voz-ia-golpes.json",
@@ -34,16 +39,20 @@
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-24-voz-ia-golpes/reel.mp4"
     ],
     "cover_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-24-voz-ia-golpes/cover.jpg",
-    "caption": "Uma voz familiar não é garantia de que a pessoa está do outro lado.\n\nCriminosos podem usar IA para imitar vozes e fazer pedidos fraudulentos. Gravações divulgadas na internet podem servir de material para esse tipo de manipulação.\n\nAntes de transferir dinheiro:\n• Desconfie de urgência, segredo e pressão para agir.\n• Encerre o contato e confirme por um canal independente, usando um número que você já conhece.\n• Não envie senhas nem códigos de verificação.\n\nSe já houve prejuízo, guarde mensagens e comprovantes, procure seu banco pelos canais oficiais e registre a ocorrência. Essas medidas não garantem recuperação dos valores.\n\nNo Brasil, obter vantagem ilícita causando prejuízo a alguém por meio de fraude pode configurar estelionato (art. 171 do Código Penal). A modalidade aplicável e eventuais outras infrações dependem dos fatos. O uso de IA, isoladamente, não define o enquadramento.\n\nCompartilhe este alerta com sua família.\n\nFontes verificadas em 24/10/2026:\nTJRR, “Golpes com inteligência artificial: conheça 5 tipos” (18/06/2025): https://ia.tjrr.jus.br/2025/06/18/golpes-com-inteligencia-artificial-conheca-5-tipos/\nCTIR Gov, Recomendação 04/2025 sobre vishing: https://www.gov.br/gsi/pt-br/assuntos/ctir/recomendacoes/2025/recomendacao-04-2025/\nCódigo Penal, art. 171: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm\n\nConteúdo informativo. Não substitui orientação jurídica individual.\n\n#InteligenciaArtificial #GolpesDigitais #SegurancaDigital #DireitoDigital #DireitoBinario",
+    "caption": "Uma voz familiar não é garantia de que a pessoa está do outro lado.\n\nCriminosos podem usar IA para imitar vozes e fazer pedidos fraudulentos. Gravações divulgadas na internet podem servir de material para esse tipo de manipulação.\n\nAntes de transferir dinheiro:\n• Desconfie de urgência, segredo e pressão para agir.\n• Encerre o contato e confirme por um canal independente, usando um número que você já conhece.\n• Não envie senhas nem códigos de verificação.\n\nSe já houve prejuízo, guarde mensagens e comprovantes, procure seu banco pelos canais oficiais e registre a ocorrência. Essas medidas não garantem recuperação dos valores.\n\nNo Brasil, obter vantagem ilícita causando prejuízo a alguém por meio de fraude pode configurar estelionato (art. 171 do Código Penal). A modalidade aplicável e eventuais outras infrações dependem dos fatos. O uso de IA, isoladamente, não define o enquadramento.\n\nCompartilhe este alerta com sua família.\n\nFontes verificadas em 24/10/2026:\nTJRR, “Golpes com inteligência artificial: conheça 5 tipos” (18/06/2025): https://ia.tjrr.jus.br/2025/06/18/golpes-com-inteligencia-artificial-conheca-5-tipos/\nCTIR Gov, Recomendação 04/2025 sobre vishing: https://www.gov.br/gsi/pt-br/assuntos/ctir/recomendacoes/2025/recomendacao-04-2025/\nProcon de Suzano (07/11/2025): https://suzano.sp.gov.br/procon-de-suzano-alerta-sobre-golpes-de-inteligencia-artificial/\nCódigo Penal, art. 171: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm\n\nConteúdo informativo. Não substitui orientação jurídica individual.\n\n#InteligenciaArtificial #GolpesDigitais #SegurancaDigital #DireitoDigital #DireitoBinario",
     "qa": {
-      "status": "pending_visual_render",
+      "status": "passed",
       "factual": "Fontes oficiais verificadas; conteúdo educativo, sem notícia de incidente novo.",
-      "legal": "Não afirma pena nem enquadramento automático pelo mero uso de IA."
+      "legal": "Não afirma pena nem enquadramento automático pelo mero uso de IA.",
+      "visual": "Sete cenas revisadas, texto sem cortes e margens seguras; tempo de leitura 4 a 7 segundos por cena.",
+      "technical": "MP4 H.264/AAC, 1080x1920, 30fps, yuv420p, 36 segundos, acesso público HTTP 200.",
+      "audio": "Sem narração e sem imitação de voz; faixa silenciosa intencional."
     },
-    "status": "preparing",
+    "status": "ready",
     "container_id": null,
     "media_id": null,
     "permalink": null,
-    "published_at": null
+    "published_at": null,
+    "automation_id": "hoje-19h-reel-aprovado-sobre-clonagem-de-voz-por-ia"
   }
 ]

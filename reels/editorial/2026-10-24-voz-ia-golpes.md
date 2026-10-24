@@ -16,15 +16,11 @@ Compartilhe este alerta com sua família.
 Fontes verificadas em 24/10/2026:
 TJRR, “Golpes com inteligência artificial: conheça 5 tipos” (18/06/2025): https://ia.tjrr.jus.br/2025/06/18/golpes-com-inteligencia-artificial-conheca-5-tipos/
 CTIR Gov, Recomendação 04/2025 sobre vishing: https://www.gov.br/gsi/pt-br/assuntos/ctir/recomendacoes/2025/recomendacao-04-2025/
+Procon de Suzano (07/11/2025): https://suzano.sp.gov.br/procon-de-suzano-alerta-sobre-golpes-de-inteligencia-artificial/
 Código Penal, art. 171: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm
 
 Conteúdo informativo. Não substitui orientação jurídica individual.
 
 #InteligenciaArtificial #GolpesDigitais #SegurancaDigital #DireitoDigital #DireitoBinario
 
-Aberturas consideradas:
-1. Sua voz pode ser clonada para um golpe? (escolhida)
-2. Reconheceu a voz? Ainda assim, confirme.
-3. Um pedido urgente de dinheiro merece outra ligação.
-
-Formato: vídeo com textos em tela e movimento suave, sem narração ou simulação de voz. Conteúdo educativo permanente, sem alegar incidente novo. Aprovado no chat para 24/10/2026 às 19h de Brasília.
+QA visual e técnico concluído. Sete cenas, 36s, texto em tela e movimento suave, sem narração. Abertura: Sua voz pode ser clonada para um golpe? Alternativas: Reconheceu a voz? Ainda assim, confirme. / Um pedido urgente de dinheiro merece outra ligação. Aprovado para 24/10/2026 às 19h America/Sao_Paulo. Não publicar antecipadamente.
