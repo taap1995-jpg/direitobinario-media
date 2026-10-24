@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "id": "2026-10-24-19h-voz-ia-golpes",
+    "report_date": "2026-10-24",
+    "topic_id": "escolha-avulsa-19h",
+    "topic": "Uma IA pode usar seus dados para aplicar golpes?",
+    "format": "reel",
+    "scheduled_for": "2026-10-24T19:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-24T16:48:23.569781+00:00",
+      "reference": "Aprovação explícita neste chat à proposta de Reel para hoje às 19h.",
+      "timestamp_note": "Horário de registro da aprovação explícita recebida neste chat."
+    },
+    "sources": [
+      {
+        "url": "https://ia.tjrr.jus.br/2025/06/18/golpes-com-inteligencia-artificial-conheca-5-tipos/",
+        "published_at": "2025-06-18",
+        "checked_at": "2026-10-24"
+      },
+      {
+        "url": "https://www.gov.br/gsi/pt-br/assuntos/ctir/recomendacoes/2025/recomendacao-04-2025/",
+        "checked_at": "2026-10-24"
+      },
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "checked_at": "2026-10-24",
+        "provision": "art. 171"
+      }
+    ],
+    "content_path": "reels/editorial/2026-10-24-voz-ia-golpes.json",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-24-voz-ia-golpes/reel.mp4"
+    ],
+    "cover_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-24-voz-ia-golpes/cover.jpg",
+    "caption": "Uma voz familiar não é garantia de que a pessoa está do outro lado.\n\nCriminosos podem usar IA para imitar vozes e fazer pedidos fraudulentos. Gravações divulgadas na internet podem servir de material para esse tipo de manipulação.\n\nAntes de transferir dinheiro:\n• Desconfie de urgência, segredo e pressão para agir.\n• Encerre o contato e confirme por um canal independente, usando um número que você já conhece.\n• Não envie senhas nem códigos de verificação.\n\nSe já houve prejuízo, guarde mensagens e comprovantes, procure seu banco pelos canais oficiais e registre a ocorrência. Essas medidas não garantem recuperação dos valores.\n\nNo Brasil, obter vantagem ilícita causando prejuízo a alguém por meio de fraude pode configurar estelionato (art. 171 do Código Penal). A modalidade aplicável e eventuais outras infrações dependem dos fatos. O uso de IA, isoladamente, não define o enquadramento.\n\nCompartilhe este alerta com sua família.\n\nFontes verificadas em 24/10/2026:\nTJRR, “Golpes com inteligência artificial: conheça 5 tipos” (18/06/2025): https://ia.tjrr.jus.br/2025/06/18/golpes-com-inteligencia-artificial-conheca-5-tipos/\nCTIR Gov, Recomendação 04/2025 sobre vishing: https://www.gov.br/gsi/pt-br/assuntos/ctir/recomendacoes/2025/recomendacao-04-2025/\nCódigo Penal, art. 171: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm\n\nConteúdo informativo. Não substitui orientação jurídica individual.\n\n#InteligenciaArtificial #GolpesDigitais #SegurancaDigital #DireitoDigital #DireitoBinario",
+    "qa": {
+      "status": "pending_visual_render",
+      "factual": "Fontes oficiais verificadas; conteúdo educativo, sem notícia de incidente novo.",
+      "legal": "Não afirma pena nem enquadramento automático pelo mero uso de IA."
+    },
+    "status": "preparing",
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null
+  }
+]
