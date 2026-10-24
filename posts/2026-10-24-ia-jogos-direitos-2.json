@@ -1,0 +1,21 @@
+{
+  "kicker": "IA + JOGOS DIGITAIS  •  2/3",
+  "title": [
+    "Engenharia reversa",
+    "não é sinônimo",
+    "de crack."
+  ],
+  "sections": [
+    {
+      "label": "Não confunda",
+      "text": "Analisar o funcionamento é diferente\nde contornar proteções contra cópia."
+    },
+    {
+      "label": "Existem limites",
+      "text": "A Lei do Software tem exceções específicas.\nNão há liberação geral para redistribuir."
+    }
+  ],
+  "footer_bold": "O contexto e a finalidade importam.",
+  "source": "Lei 9.609, art. 6º • Lei 9.610, art. 107",
+  "handle": "@direitobinario"
+}
