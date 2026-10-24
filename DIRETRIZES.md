@@ -32,3 +32,10 @@ O workflow `publish.yml` publica um post com `status: approved` da `queue/posts.
 - Enviar o caractere literal `#` e conferir a legenda publicada para evitar o erro de exibir `%23`.
 - Nos Stories, quando houver hashtags, integrá-las de modo discreto à arte, preservando a legibilidade; não depender de legenda não exibida nesse formato.
 - Esta preferência se aplica às novas publicações. Não editar ou republicar posts antigos sem solicitação.
+
+
+## Skill editorial guion-reel — uso em todas as próximas publicações
+
+Antes de escrever novos posts, carregar `.agents/skills/guion-reel/SKILL.md`, adaptação em português brasileiro da skill confirmada pelo usuário em 24/10/2026. Aplicar abertura clara, desenvolvimento e chamada para ação ao formato escolhido: Reels, carrossel, imagem de feed ou Story. Preservar fontes atuais, rigor jurídico, identidade visual, produção por código, hashtags por assunto e QA.
+
+A adaptação não incorpora alegações sem fonte da versão original sobre algoritmo, duração obrigatória, porcentagens de alcance ou limite universal de hashtags. Instalar uma skill não ativa agendamento. Não alterar ou republicar mídias antigas automaticamente.
