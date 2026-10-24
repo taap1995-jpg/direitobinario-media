@@ -4,10 +4,10 @@
   "kicker": "IA + REGULAÇÃO",
   "title": ["IA EM TESTE", "ANTES DA REGRA?"],
   "sections": [
-    {"label": "ANPD", "text": "O Sandbox Regulatório testa sistemas de IA em ambiente controlado e supervisionado."},
-    {"label": "POR QUE IMPORTA", "text": "Os testes produzem evidências sobre segurança, transparência e proteção de dados para orientar a atuação regulatória."}
+    {"label": "ANPD", "text": "Sandbox testa sistemas de IA em ambiente controlado e supervisionado."},
+    {"label": "POR QUE IMPORTA", "text": "Os testes geram evidências sobre segurança, transparência e proteção de dados."}
   ],
-  "footer_bold": "INOVAR TAMBÉM EXIGE GOVERNANÇA.",
-  "source": "Fonte: ANPD — 3º Relatório Parcial do Sandbox Regulatório em IA, 16/10/2026",
+  "footer_bold": "INOVAR EXIGE GOVERNANÇA.",
+  "source": "Fonte: ANPD — 3º Relatório do Sandbox de IA, 16/10/2026",
   "handle": "@DIREITOBINARIO"
 }
