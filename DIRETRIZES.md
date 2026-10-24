@@ -23,3 +23,12 @@
 
 Horários em America/Sao_Paulo: 08h revisão, 09h, 12h e 19h publicação. Em UTC (Brasil sem horário de verão): 11:00, 12:00, 15:00 e 22:00.
 O workflow `publish.yml` publica um post com `status: approved` da `queue/posts.json`. Requer os secrets `IG_USER_ID` e `IG_ACCESS_TOKEN`.
+
+
+## Hashtags nas publicações — preferência de 24/10/2026
+
+- Incluir hashtags relevantes ao assunto nas legendas de todos os próximos posts de feed, carrosséis e Reels do @direitobinario, além de hashtags da marca quando pertinentes.
+- Selecionar poucas hashtags específicas e coerentes com o conteúdo; não prometer aumento de alcance ou engajamento.
+- Enviar o caractere literal `#` e conferir a legenda publicada para evitar o erro de exibir `%23`.
+- Nos Stories, quando houver hashtags, integrá-las de modo discreto à arte, preservando a legibilidade; não depender de legenda não exibida nesse formato.
+- Esta preferência se aplica às novas publicações. Não editar ou republicar posts antigos sem solicitação.
