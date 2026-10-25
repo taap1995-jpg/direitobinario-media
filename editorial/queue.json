@@ -793,14 +793,14 @@
       "audio_narration": false,
       "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
     },
-    "status": "publishing",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-19h-print-apuracao/music-reel.mp4"
     ],
     "container_id": "18130288639826984",
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "media_id": "17915484423537423",
+    "permalink": "https://www.instagram.com/reel/De6ovuTjSyE/",
+    "published_at": "2026-10-25T19:03:03-03:00",
     "scenes": [
       {
         "seconds": 7,
@@ -850,7 +850,9 @@
       "status": "FINISHED",
       "status_code": "FINISHED"
     },
-    "publishing_started_at": "2026-10-25T19:02:00-03:00"
+    "publishing_started_at": "2026-10-25T19:02:00-03:00",
+    "verified_format": "REELS",
+    "verification_status": "verified"
   },
   {
     "id": "2026-10-25-19h-conversa-ia-prova",
@@ -904,16 +906,16 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619635+00:00"
     },
-    "status": "publishing",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-01.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-02.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-03.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130357789826984",
+    "media_id": "18094414193179320",
+    "permalink": "https://www.instagram.com/p/De7vGFFHR31/",
+    "published_at": "2026-10-25T19:03:22-03:00",
     "slides": [
       {
         "title": [
@@ -949,7 +951,9 @@
       "posts/2026-10-25-19h-conversa-ia-prova-03.json"
     ],
     "content_path": "posts/2026-10-25-19h-conversa-ia-prova-01.json",
-    "publishing_started_at": "2026-10-25T19:02:00-03:00"
+    "publishing_started_at": "2026-10-25T19:02:00-03:00",
+    "verified_format": "CAROUSEL_ALBUM",
+    "verification_status": "verified"
   },
   {
     "id": "2026-10-25-19h-agente-ia-compra",
@@ -991,14 +995,14 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619636+00:00"
     },
-    "status": "publishing",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-agente-ia-compra.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130357663826984",
+    "media_id": "18451641025192586",
+    "permalink": "https://www.instagram.com/stories/direitobinario/4016010524784953556",
+    "published_at": "2026-10-25T19:03:22-03:00",
     "slides": [
       {
         "title": [
@@ -1014,7 +1018,9 @@
       "posts/2026-10-25-19h-agente-ia-compra.json"
     ],
     "content_path": "posts/2026-10-25-19h-agente-ia-compra.json",
-    "publishing_started_at": "2026-10-25T19:02:00-03:00"
+    "publishing_started_at": "2026-10-25T19:02:00-03:00",
+    "verified_format": "STORY",
+    "verification_status": "verified"
   },
   {
     "id": "2026-10-25-19h-foto-anuncio-ia",
@@ -1056,14 +1062,14 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619638+00:00"
     },
-    "status": "publishing",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-foto-anuncio-ia.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130357657826984",
+    "media_id": "17886565437506134",
+    "permalink": "https://www.instagram.com/p/De7vErkCaKb/",
+    "published_at": "2026-10-25T19:03:22-03:00",
     "slides": [
       {
         "title": [
@@ -1079,6 +1085,8 @@
       "posts/2026-10-25-19h-foto-anuncio-ia.json"
     ],
     "content_path": "posts/2026-10-25-19h-foto-anuncio-ia.json",
-    "publishing_started_at": "2026-10-25T19:02:00-03:00"
+    "publishing_started_at": "2026-10-25T19:02:00-03:00",
+    "verified_format": "FEED",
+    "verification_status": "verified"
   }
 ]
