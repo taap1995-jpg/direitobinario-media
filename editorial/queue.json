@@ -91,7 +91,7 @@
       "audio_narration": false,
       "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
     },
-    "status": "ready",
+    "status": "publishing",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-09h-oculos-votacao/music-reel.mp4"
     ],
@@ -148,7 +148,8 @@
       "id": "18130288642826984",
       "status": "FINISHED",
       "status_code": "FINISHED"
-    }
+    },
+    "publishing_started_at": "2026-10-25T09:04:00-03:00"
   },
   {
     "id": "2026-10-25-09h-rotulo-ia-eleitoral",
@@ -202,7 +203,7 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619607+00:00"
     },
-    "status": "ready",
+    "status": "publishing",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-01.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-02.jpg",
@@ -246,7 +247,9 @@
       "posts/2026-10-25-09h-rotulo-ia-eleitoral-02.json",
       "posts/2026-10-25-09h-rotulo-ia-eleitoral-03.json"
     ],
-    "content_path": "posts/2026-10-25-09h-rotulo-ia-eleitoral-01.json"
+    "content_path": "posts/2026-10-25-09h-rotulo-ia-eleitoral-01.json",
+    "publishing_started_at": "2026-10-25T09:04:00-03:00",
+    "error": null
   },
   {
     "id": "2026-10-25-09h-falso-advogado",
@@ -294,7 +297,7 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619621+00:00"
     },
-    "status": "ready",
+    "status": "publishing",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-falso-advogado.jpg"
     ],
@@ -316,7 +319,9 @@
     "content_paths": [
       "posts/2026-10-25-09h-falso-advogado.json"
     ],
-    "content_path": "posts/2026-10-25-09h-falso-advogado.json"
+    "content_path": "posts/2026-10-25-09h-falso-advogado.json",
+    "publishing_started_at": "2026-10-25T09:04:00-03:00",
+    "error": null
   },
   {
     "id": "2026-10-25-09h-aceitei-consentimento",
@@ -364,7 +369,7 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619624+00:00"
     },
-    "status": "ready",
+    "status": "publishing",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-aceitei-consentimento.jpg"
     ],
@@ -387,7 +392,9 @@
     "content_paths": [
       "posts/2026-10-25-09h-aceitei-consentimento.json"
     ],
-    "content_path": "posts/2026-10-25-09h-aceitei-consentimento.json"
+    "content_path": "posts/2026-10-25-09h-aceitei-consentimento.json",
+    "publishing_started_at": "2026-10-25T09:04:00-03:00",
+    "error": null
   },
   {
     "id": "2026-10-25-12h-curriculo-algoritmo",
