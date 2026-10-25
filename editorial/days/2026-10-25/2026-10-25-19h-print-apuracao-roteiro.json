@@ -9,7 +9,8 @@
   "approval": {
     "status": "approved",
     "approved_at": "2026-10-25T11:40:50.512098+00:00",
-    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026.",
+    "modification_reference": "Usuário solicitou em 25/10/2026: sem narração, apenas música de fundo."
   },
   "sources": [
     {
@@ -21,59 +22,73 @@
   ],
   "caption": "Antes de compartilhar um print, confira o resultado nos canais oficiais da Justiça Eleitoral. Veja cargo, localidade, horário e percentual de seções totalizadas. Uma imagem isolada pode mostrar uma parcial antiga. Este conteúdo não anuncia vencedores nem antecipa resultados.\n\n#Eleicoes2026 #EducacaoDigital #Desinformacao #DireitoBinario\n\nFontes: https://www.tse.jus.br/",
   "qa": {
-    "status": "blocked_audio",
+    "status": "passed",
     "legal_notes": "Guia educativo sem números, candidatos ou vencedores; não precisa antecipar apuração das 19h.",
-    "audio": "blocked",
+    "audio": "Instrumental original por síntese, sem narração ou samples; AAC, áudio não silencioso verificado.",
     "factual": "passed",
     "legal": "passed",
-    "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+    "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
+    "visual": "passed",
+    "technical": "MP4 H.264/AAC, 1080x1920, 30 fps; áudio musical não silencioso; contêiner Instagram FINISHED.",
+    "audio_mode": "music_only",
+    "audio_narration": false,
+    "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
   },
-  "status": "blocked",
-  "media_urls": [],
-  "container_id": null,
+  "status": "ready",
+  "media_urls": [
+    "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-19h-print-apuracao/music-reel.mp4"
+  ],
+  "container_id": "18130288639826984",
   "media_id": null,
   "permalink": null,
   "published_at": null,
   "scenes": [
     {
       "seconds": 7,
-      "screen": [
+      "lines": [
         "Chegou um print",
         "da apuração?"
       ],
-      "speech": "Chegou um print da apuração? Antes de compartilhar, abra a fonte oficial."
+      "detail": "Antes de compartilhar, confira na fonte oficial."
     },
     {
-      "seconds": 9,
-      "screen": [
+      "seconds": 8,
+      "lines": [
         "Confira o cargo,",
         "o local e o horário."
       ],
-      "speech": "Confira o cargo, a localidade e o horário da atualização. Uma imagem pode mostrar uma parcial antiga."
+      "detail": "Uma imagem isolada pode mostrar uma parcial antiga."
     },
     {
-      "seconds": 9,
-      "screen": [
-        "Parcial e resultado final",
-        "não são a mesma coisa."
+      "seconds": 8,
+      "lines": [
+        "Parcial não é",
+        "resultado final."
       ],
-      "speech": "Veja também o percentual de seções totalizadas. Não confunda uma parcial com o resultado final."
+      "detail": "Confira também o percentual de seções totalizadas."
     },
     {
       "seconds": 7,
-      "screen": [
-        "Vá ao portal do TSE.",
-        "Confirme antes de repassar."
+      "lines": [
+        "Acesse o",
+        "portal do TSE."
       ],
-      "speech": "Entre no portal do Tribunal Superior Eleitoral e acesse a divulgação oficial dos resultados."
+      "detail": "Abra a divulgação oficial dos resultados. Confirme antes de repassar."
     }
   ],
-  "narration": "Chegou um print da apuração? Antes de compartilhar, abra a fonte oficial. Confira o cargo, a localidade e o horário da atualização. Uma imagem pode mostrar uma parcial antiga. Veja também o percentual de seções totalizadas. Não confunda uma parcial com o resultado final. Entre no portal do Tribunal Superior Eleitoral e acesse a divulgação oficial dos resultados.",
+  "narration": null,
   "alternative_hooks": [
     "Um print da apuração basta para conferir o resultado?",
     "Antes de confiar na tecnologia, confira este cuidado.",
     "Tecnologia e direitos: entenda o que muda na prática."
   ],
-  "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
-  "content_path": "editorial/days/2026-10-25/2026-10-25-19h-print-apuracao-roteiro.json"
+  "error": null,
+  "content_path": "editorial/days/2026-10-25/music-reels.json",
+  "cover_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-19h-print-apuracao/cover.jpg",
+  "audio_mode": "original_instrumental_no_narration",
+  "container_processing_status": {
+    "id": "18130288639826984",
+    "status": "FINISHED",
+    "status_code": "FINISHED"
+  }
 }

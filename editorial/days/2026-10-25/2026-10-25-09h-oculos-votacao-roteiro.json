@@ -9,7 +9,8 @@
   "approval": {
     "status": "approved",
     "approved_at": "2026-10-25T11:40:50.511995+00:00",
-    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026.",
+    "modification_reference": "Usuário solicitou em 25/10/2026: sem narração, apenas música de fundo."
   },
   "sources": [
     {
@@ -21,59 +22,74 @@
   ],
   "caption": "Vai votar com óculos inteligentes? Aparelhos capazes de registrar o voto, inclusive óculos com câmera, devem ficar no local indicado pela equipe da seção, mesmo desligados. A regra protege o sigilo do voto. Confira a orientação oficial antes de sair.\n\n#Eleicoes2026 #Privacidade #DireitoDigital #DireitoBinario\n\nFontes: https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-3-dias-uso-de-celular-e-de-outros-dispositivos-eletronicos-e-proibido-na-cabine-de-votacao",
   "qa": {
-    "status": "blocked_audio",
+    "status": "passed",
     "legal_notes": "Regras de 25/10/2026; não confundir óculos comuns com dispositivos de gravação.",
-    "audio": "blocked",
+    "audio": "Instrumental original por síntese, sem narração ou samples; AAC, áudio não silencioso verificado.",
     "factual": "passed",
     "legal": "passed",
-    "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+    "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
+    "visual": "passed",
+    "technical": "MP4 H.264/AAC, 1080x1920, 30 fps; áudio musical não silencioso; contêiner Instagram FINISHED.",
+    "audio_mode": "music_only",
+    "audio_narration": false,
+    "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
   },
-  "status": "blocked",
-  "media_urls": [],
-  "container_id": null,
+  "status": "ready",
+  "media_urls": [
+    "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-09h-oculos-votacao/music-reel.mp4"
+  ],
+  "container_id": "18130288642826984",
   "media_id": null,
   "permalink": null,
   "published_at": null,
   "scenes": [
     {
       "seconds": 7,
-      "screen": [
+      "lines": [
         "Óculos com câmera",
-        "na cabine?"
+        "na cabine?",
+        "NÃO."
       ],
-      "speech": "Óculos com câmera podem entrar na cabine de votação? Não."
+      "detail": "Dispositivos capazes de registrar o voto devem ficar fora da cabine."
     },
     {
-      "seconds": 9,
-      "screen": [
+      "seconds": 8,
+      "lines": [
         "Mesmo desligados,",
         "ficam de fora."
       ],
-      "speech": "Segundo o Tribunal Superior Eleitoral, a restrição vale também para aparelhos desligados que possam registrar o voto."
+      "detail": "A regra também alcança óculos inteligentes com câmera."
     },
     {
-      "seconds": 9,
-      "screen": [
-        "Siga a orientação",
-        "da equipe da seção."
+      "seconds": 8,
+      "lines": [
+        "Antes de votar,",
+        "guarde o aparelho."
       ],
-      "speech": "Antes de votar, deixe esses objetos no local indicado pela equipe da sua seção."
+      "detail": "Deixe os objetos no local indicado pela equipe da sua seção."
     },
     {
       "seconds": 7,
-      "screen": [
+      "lines": [
         "Seu voto",
         "é secreto."
       ],
-      "speech": "A medida protege o sigilo e a liberdade do voto. Compartilhe esta orientação."
+      "detail": "Proteja a liberdade de escolha. Compartilhe esta orientação."
     }
   ],
-  "narration": "Óculos com câmera podem entrar na cabine de votação? Não. Segundo o Tribunal Superior Eleitoral, a restrição vale também para aparelhos desligados que possam registrar o voto. Antes de votar, deixe esses objetos no local indicado pela equipe da sua seção. A medida protege o sigilo e a liberdade do voto. Compartilhe esta orientação.",
+  "narration": null,
   "alternative_hooks": [
     "Óculos com câmera podem entrar na cabine?",
     "Antes de confiar na tecnologia, confira este cuidado.",
     "Tecnologia e direitos: entenda o que muda na prática."
   ],
-  "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
-  "content_path": "editorial/days/2026-10-25/2026-10-25-09h-oculos-votacao-roteiro.json"
+  "error": null,
+  "content_path": "editorial/days/2026-10-25/music-reels.json",
+  "cover_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-09h-oculos-votacao/cover.jpg",
+  "audio_mode": "original_instrumental_no_narration",
+  "container_processing_status": {
+    "id": "18130288642826984",
+    "status": "FINISHED",
+    "status_code": "FINISHED"
+  }
 }

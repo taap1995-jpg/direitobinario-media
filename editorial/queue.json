@@ -85,7 +85,11 @@
       "factual": "passed",
       "legal": "passed",
       "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
-      "visual": "passed"
+      "visual": "passed",
+      "technical": "MP4 H.264/AAC, 1080x1920, 30 fps; áudio musical não silencioso; contêiner Instagram FINISHED.",
+      "audio_mode": "music_only",
+      "audio_narration": false,
+      "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
     },
     "status": "ready",
     "media_urls": [
@@ -415,15 +419,19 @@
     ],
     "caption": "Uma rejeição automatizada não é, por si só, ilegal. Quando a decisão usa exclusivamente tratamento automatizado de dados pessoais e afeta seus interesses, a LGPD permite solicitar revisão e informações sobre critérios e procedimentos, respeitados os segredos comercial e industrial.\n\n#InteligenciaArtificial #Recrutamento #LGPD #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
     "qa": {
-      "status": "pending_instagram_processing",
+      "status": "passed",
       "legal_notes": "Art. 20 não garante contratação, abertura de código nem revisão necessariamente por pessoa humana.",
       "audio": "Instrumental original por síntese, sem narração ou samples; AAC, áudio não silencioso verificado.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
-      "visual": "passed"
+      "visual": "passed",
+      "technical": "MP4 H.264/AAC, 1080x1920, 30 fps; áudio musical não silencioso; contêiner Instagram FINISHED.",
+      "audio_mode": "music_only",
+      "audio_narration": false,
+      "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-12h-curriculo-algoritmo/music-reel.mp4"
     ],
@@ -478,8 +486,8 @@
     "audio_mode": "original_instrumental_no_narration",
     "container_processing_status": {
       "id": "18130288636826984",
-      "status": "IN_PROGRESS",
-      "status_code": "IN_PROGRESS"
+      "status": "FINISHED",
+      "status_code": "FINISHED"
     }
   },
   {
@@ -738,15 +746,19 @@
     ],
     "caption": "Antes de compartilhar um print, confira o resultado nos canais oficiais da Justiça Eleitoral. Veja cargo, localidade, horário e percentual de seções totalizadas. Uma imagem isolada pode mostrar uma parcial antiga. Este conteúdo não anuncia vencedores nem antecipa resultados.\n\n#Eleicoes2026 #EducacaoDigital #Desinformacao #DireitoBinario\n\nFontes: https://www.tse.jus.br/",
     "qa": {
-      "status": "pending_instagram_processing",
+      "status": "passed",
       "legal_notes": "Guia educativo sem números, candidatos ou vencedores; não precisa antecipar apuração das 19h.",
       "audio": "Instrumental original por síntese, sem narração ou samples; AAC, áudio não silencioso verificado.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
-      "visual": "passed"
+      "visual": "passed",
+      "technical": "MP4 H.264/AAC, 1080x1920, 30 fps; áudio musical não silencioso; contêiner Instagram FINISHED.",
+      "audio_mode": "music_only",
+      "audio_narration": false,
+      "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-19h-print-apuracao/music-reel.mp4"
     ],
@@ -800,8 +812,8 @@
     "audio_mode": "original_instrumental_no_narration",
     "container_processing_status": {
       "id": "18130288639826984",
-      "status": "IN_PROGRESS",
-      "status_code": "IN_PROGRESS"
+      "status": "FINISHED",
+      "status_code": "FINISHED"
     }
   },
   {

@@ -9,7 +9,8 @@
   "approval": {
     "status": "approved",
     "approved_at": "2026-10-25T11:40:50.512028+00:00",
-    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026.",
+    "modification_reference": "Usuário solicitou em 25/10/2026: sem narração, apenas música de fundo."
   },
   "sources": [
     {
@@ -27,59 +28,74 @@
   ],
   "caption": "Uma rejeição automatizada não é, por si só, ilegal. Quando a decisão usa exclusivamente tratamento automatizado de dados pessoais e afeta seus interesses, a LGPD permite solicitar revisão e informações sobre critérios e procedimentos, respeitados os segredos comercial e industrial.\n\n#InteligenciaArtificial #Recrutamento #LGPD #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
   "qa": {
-    "status": "blocked_audio",
+    "status": "passed",
     "legal_notes": "Art. 20 não garante contratação, abertura de código nem revisão necessariamente por pessoa humana.",
-    "audio": "blocked",
+    "audio": "Instrumental original por síntese, sem narração ou samples; AAC, áudio não silencioso verificado.",
     "factual": "passed",
     "legal": "passed",
-    "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+    "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
+    "visual": "passed",
+    "technical": "MP4 H.264/AAC, 1080x1920, 30 fps; áudio musical não silencioso; contêiner Instagram FINISHED.",
+    "audio_mode": "music_only",
+    "audio_narration": false,
+    "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
   },
-  "status": "blocked",
-  "media_urls": [],
-  "container_id": null,
+  "status": "ready",
+  "media_urls": [
+    "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-12h-curriculo-algoritmo/music-reel.mp4"
+  ],
+  "container_id": "18130288636826984",
   "media_id": null,
   "permalink": null,
   "published_at": null,
   "scenes": [
     {
       "seconds": 8,
-      "screen": [
-        "Um algoritmo",
-        "recusou seu currículo?"
+      "lines": [
+        "Seu currículo",
+        "foi recusado",
+        "por um algoritmo?"
       ],
-      "speech": "Seu currículo foi eliminado por um algoritmo? Isso, sozinho, não torna a seleção ilegal."
-    },
-    {
-      "seconds": 10,
-      "screen": [
-        "Decisão só automatizada?",
-        "Entenda os critérios."
-      ],
-      "speech": "Se a decisão foi tomada unicamente pelo tratamento automatizado dos seus dados e afetou seus interesses, existem direitos."
+      "detail": "Isso, sozinho, não torna a seleção ilegal."
     },
     {
       "seconds": 9,
-      "screen": [
-        "Você pode pedir",
-        "revisão e informações."
+      "lines": [
+        "Decisão só",
+        "automatizada?"
       ],
-      "speech": "A LGPD permite pedir revisão e informações sobre os critérios e procedimentos usados."
+      "detail": "Se envolve seus dados pessoais e afeta seus interesses, a LGPD prevê direitos."
     },
     {
       "seconds": 9,
-      "screen": [
-        "Guarde o retorno.",
-        "Procure o canal oficial."
+      "lines": [
+        "Peça revisão",
+        "e informações."
       ],
-      "speech": "Há proteção a segredos comerciais e industriais. Guarde a resposta e procure o canal de privacidade da empresa."
+      "detail": "Você pode pedir os critérios e procedimentos usados na decisão."
+    },
+    {
+      "seconds": 8,
+      "lines": [
+        "Use o canal de",
+        "privacidade da empresa."
+      ],
+      "detail": "Segredos comerciais e industriais são protegidos. A revisão não garante contratação."
     }
   ],
-  "narration": "Seu currículo foi eliminado por um algoritmo? Isso, sozinho, não torna a seleção ilegal. Se a decisão foi tomada unicamente pelo tratamento automatizado dos seus dados e afetou seus interesses, existem direitos. A LGPD permite pedir revisão e informações sobre os critérios e procedimentos usados. Há proteção a segredos comerciais e industriais. Guarde a resposta e procure o canal de privacidade da empresa.",
+  "narration": null,
   "alternative_hooks": [
     "Seu currículo foi eliminado por um algoritmo?",
     "Antes de confiar na tecnologia, confira este cuidado.",
     "Tecnologia e direitos: entenda o que muda na prática."
   ],
-  "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
-  "content_path": "editorial/days/2026-10-25/2026-10-25-12h-curriculo-algoritmo-roteiro.json"
+  "error": null,
+  "content_path": "editorial/days/2026-10-25/music-reels.json",
+  "cover_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-12h-curriculo-algoritmo/cover.jpg",
+  "audio_mode": "original_instrumental_no_narration",
+  "container_processing_status": {
+    "id": "18130288636826984",
+    "status": "FINISHED",
+    "status_code": "FINISHED"
+  }
 }

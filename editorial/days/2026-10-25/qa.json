@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "static_posts_ready": 9,
-  "reels_blocked_audio": 3,
+  "reels_blocked_audio": 0,
   "github_render_run": "https://github.com/taap1995-jpg/direitobinario-media/actions/runs/40189901695",
   "media_checks": [
     {
@@ -96,5 +96,26 @@
     }
   ],
   "independent_review": "Sem erro jurídico crítico; melhorias de clareza aplicadas.",
-  "published_in_this_preparation": false
+  "published_in_this_preparation": false,
+  "reels_ready_music": 3,
+  "all_posts_ready": 12,
+  "music_render_run": "https://github.com/taap1995-jpg/direitobinario-media/actions/runs/40190231764",
+  "instagram_reels_processing": [
+    {
+      "id": "18130288642826984",
+      "status": "FINISHED",
+      "status_code": "FINISHED"
+    },
+    {
+      "id": "18130288636826984",
+      "status": "FINISHED",
+      "status_code": "FINISHED"
+    },
+    {
+      "id": "18130288639826984",
+      "status": "FINISHED",
+      "status_code": "FINISHED"
+    }
+  ],
+  "music_qa": "Instrumental original a 88 BPM, sem voz; AAC não silencioso; QA independente editorial/visual aprovado."
 }
