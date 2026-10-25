@@ -66,7 +66,8 @@
     "approval": {
       "status": "approved",
       "approved_at": "2026-10-25T11:40:50.511995+00:00",
-      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026.",
+      "modification_reference": "Usuário solicitou em 25/10/2026: sem narração, apenas música de fundo."
     },
     "sources": [
       {
@@ -78,61 +79,72 @@
     ],
     "caption": "Vai votar com óculos inteligentes? Aparelhos capazes de registrar o voto, inclusive óculos com câmera, devem ficar no local indicado pela equipe da seção, mesmo desligados. A regra protege o sigilo do voto. Confira a orientação oficial antes de sair.\n\n#Eleicoes2026 #Privacidade #DireitoDigital #DireitoBinario\n\nFontes: https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-3-dias-uso-de-celular-e-de-outros-dispositivos-eletronicos-e-proibido-na-cabine-de-votacao",
     "qa": {
-      "status": "blocked_audio",
+      "status": "passed",
       "legal_notes": "Regras de 25/10/2026; não confundir óculos comuns com dispositivos de gravação.",
-      "audio": "blocked",
+      "audio": "Instrumental original por síntese, sem narração ou samples; AAC, áudio não silencioso verificado.",
       "factual": "passed",
       "legal": "passed",
-      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+      "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
+      "visual": "passed"
     },
-    "status": "blocked",
-    "media_urls": [],
-    "container_id": null,
+    "status": "ready",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-09h-oculos-votacao/music-reel.mp4"
+    ],
+    "container_id": "18130288642826984",
     "media_id": null,
     "permalink": null,
     "published_at": null,
     "scenes": [
       {
         "seconds": 7,
-        "screen": [
+        "lines": [
           "Óculos com câmera",
-          "na cabine?"
+          "na cabine?",
+          "NÃO."
         ],
-        "speech": "Óculos com câmera podem entrar na cabine de votação? Não."
+        "detail": "Dispositivos capazes de registrar o voto devem ficar fora da cabine."
       },
       {
-        "seconds": 9,
-        "screen": [
+        "seconds": 8,
+        "lines": [
           "Mesmo desligados,",
           "ficam de fora."
         ],
-        "speech": "Segundo o Tribunal Superior Eleitoral, a restrição vale também para aparelhos desligados que possam registrar o voto."
+        "detail": "A regra também alcança óculos inteligentes com câmera."
       },
       {
-        "seconds": 9,
-        "screen": [
-          "Siga a orientação",
-          "da equipe da seção."
+        "seconds": 8,
+        "lines": [
+          "Antes de votar,",
+          "guarde o aparelho."
         ],
-        "speech": "Antes de votar, deixe esses objetos no local indicado pela equipe da sua seção."
+        "detail": "Deixe os objetos no local indicado pela equipe da sua seção."
       },
       {
         "seconds": 7,
-        "screen": [
+        "lines": [
           "Seu voto",
           "é secreto."
         ],
-        "speech": "A medida protege o sigilo e a liberdade do voto. Compartilhe esta orientação."
+        "detail": "Proteja a liberdade de escolha. Compartilhe esta orientação."
       }
     ],
-    "narration": "Óculos com câmera podem entrar na cabine de votação? Não. Segundo o Tribunal Superior Eleitoral, a restrição vale também para aparelhos desligados que possam registrar o voto. Antes de votar, deixe esses objetos no local indicado pela equipe da sua seção. A medida protege o sigilo e a liberdade do voto. Compartilhe esta orientação.",
+    "narration": null,
     "alternative_hooks": [
       "Óculos com câmera podem entrar na cabine?",
       "Antes de confiar na tecnologia, confira este cuidado.",
       "Tecnologia e direitos: entenda o que muda na prática."
     ],
-    "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
-    "content_path": "editorial/days/2026-10-25/2026-10-25-09h-oculos-votacao-roteiro.json"
+    "error": null,
+    "content_path": "editorial/days/2026-10-25/music-reels.json",
+    "cover_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-09h-oculos-votacao/cover.jpg",
+    "audio_mode": "original_instrumental_no_narration",
+    "container_processing_status": {
+      "id": "18130288642826984",
+      "status": "FINISHED",
+      "status_code": "FINISHED"
+    }
   },
   {
     "id": "2026-10-25-09h-rotulo-ia-eleitoral",
@@ -384,7 +396,8 @@
     "approval": {
       "status": "approved",
       "approved_at": "2026-10-25T11:40:50.512028+00:00",
-      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026.",
+      "modification_reference": "Usuário solicitou em 25/10/2026: sem narração, apenas música de fundo."
     },
     "sources": [
       {
@@ -402,61 +415,72 @@
     ],
     "caption": "Uma rejeição automatizada não é, por si só, ilegal. Quando a decisão usa exclusivamente tratamento automatizado de dados pessoais e afeta seus interesses, a LGPD permite solicitar revisão e informações sobre critérios e procedimentos, respeitados os segredos comercial e industrial.\n\n#InteligenciaArtificial #Recrutamento #LGPD #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
     "qa": {
-      "status": "blocked_audio",
+      "status": "pending_instagram_processing",
       "legal_notes": "Art. 20 não garante contratação, abertura de código nem revisão necessariamente por pessoa humana.",
-      "audio": "blocked",
+      "audio": "Instrumental original por síntese, sem narração ou samples; AAC, áudio não silencioso verificado.",
       "factual": "passed",
       "legal": "passed",
-      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+      "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
+      "visual": "passed"
     },
-    "status": "blocked",
-    "media_urls": [],
-    "container_id": null,
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-12h-curriculo-algoritmo/music-reel.mp4"
+    ],
+    "container_id": "18130288636826984",
     "media_id": null,
     "permalink": null,
     "published_at": null,
     "scenes": [
       {
         "seconds": 8,
-        "screen": [
-          "Um algoritmo",
-          "recusou seu currículo?"
+        "lines": [
+          "Seu currículo",
+          "foi recusado",
+          "por um algoritmo?"
         ],
-        "speech": "Seu currículo foi eliminado por um algoritmo? Isso, sozinho, não torna a seleção ilegal."
-      },
-      {
-        "seconds": 10,
-        "screen": [
-          "Decisão só automatizada?",
-          "Entenda os critérios."
-        ],
-        "speech": "Se a decisão foi tomada unicamente pelo tratamento automatizado dos seus dados e afetou seus interesses, existem direitos."
+        "detail": "Isso, sozinho, não torna a seleção ilegal."
       },
       {
         "seconds": 9,
-        "screen": [
-          "Você pode pedir",
-          "revisão e informações."
+        "lines": [
+          "Decisão só",
+          "automatizada?"
         ],
-        "speech": "A LGPD permite pedir revisão e informações sobre os critérios e procedimentos usados."
+        "detail": "Se envolve seus dados pessoais e afeta seus interesses, a LGPD prevê direitos."
       },
       {
         "seconds": 9,
-        "screen": [
-          "Guarde o retorno.",
-          "Procure o canal oficial."
+        "lines": [
+          "Peça revisão",
+          "e informações."
         ],
-        "speech": "Há proteção a segredos comerciais e industriais. Guarde a resposta e procure o canal de privacidade da empresa."
+        "detail": "Você pode pedir os critérios e procedimentos usados na decisão."
+      },
+      {
+        "seconds": 8,
+        "lines": [
+          "Use o canal de",
+          "privacidade da empresa."
+        ],
+        "detail": "Segredos comerciais e industriais são protegidos. A revisão não garante contratação."
       }
     ],
-    "narration": "Seu currículo foi eliminado por um algoritmo? Isso, sozinho, não torna a seleção ilegal. Se a decisão foi tomada unicamente pelo tratamento automatizado dos seus dados e afetou seus interesses, existem direitos. A LGPD permite pedir revisão e informações sobre os critérios e procedimentos usados. Há proteção a segredos comerciais e industriais. Guarde a resposta e procure o canal de privacidade da empresa.",
+    "narration": null,
     "alternative_hooks": [
       "Seu currículo foi eliminado por um algoritmo?",
       "Antes de confiar na tecnologia, confira este cuidado.",
       "Tecnologia e direitos: entenda o que muda na prática."
     ],
-    "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
-    "content_path": "editorial/days/2026-10-25/2026-10-25-12h-curriculo-algoritmo-roteiro.json"
+    "error": null,
+    "content_path": "editorial/days/2026-10-25/music-reels.json",
+    "cover_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-12h-curriculo-algoritmo/cover.jpg",
+    "audio_mode": "original_instrumental_no_narration",
+    "container_processing_status": {
+      "id": "18130288636826984",
+      "status": "IN_PROGRESS",
+      "status_code": "IN_PROGRESS"
+    }
   },
   {
     "id": "2026-10-25-12h-reuniao-ia",
@@ -701,7 +725,8 @@
     "approval": {
       "status": "approved",
       "approved_at": "2026-10-25T11:40:50.512098+00:00",
-      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026.",
+      "modification_reference": "Usuário solicitou em 25/10/2026: sem narração, apenas música de fundo."
     },
     "sources": [
       {
@@ -713,61 +738,71 @@
     ],
     "caption": "Antes de compartilhar um print, confira o resultado nos canais oficiais da Justiça Eleitoral. Veja cargo, localidade, horário e percentual de seções totalizadas. Uma imagem isolada pode mostrar uma parcial antiga. Este conteúdo não anuncia vencedores nem antecipa resultados.\n\n#Eleicoes2026 #EducacaoDigital #Desinformacao #DireitoBinario\n\nFontes: https://www.tse.jus.br/",
     "qa": {
-      "status": "blocked_audio",
+      "status": "pending_instagram_processing",
       "legal_notes": "Guia educativo sem números, candidatos ou vencedores; não precisa antecipar apuração das 19h.",
-      "audio": "blocked",
+      "audio": "Instrumental original por síntese, sem narração ou samples; AAC, áudio não silencioso verificado.",
       "factual": "passed",
       "legal": "passed",
-      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+      "independent_review": "PASS editorial e visual após adaptação sem narração; cenas de 7–9 segundos, sem cortes.",
+      "visual": "passed"
     },
-    "status": "blocked",
-    "media_urls": [],
-    "container_id": null,
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-19h-print-apuracao/music-reel.mp4"
+    ],
+    "container_id": "18130288639826984",
     "media_id": null,
     "permalink": null,
     "published_at": null,
     "scenes": [
       {
         "seconds": 7,
-        "screen": [
+        "lines": [
           "Chegou um print",
           "da apuração?"
         ],
-        "speech": "Chegou um print da apuração? Antes de compartilhar, abra a fonte oficial."
+        "detail": "Antes de compartilhar, confira na fonte oficial."
       },
       {
-        "seconds": 9,
-        "screen": [
+        "seconds": 8,
+        "lines": [
           "Confira o cargo,",
           "o local e o horário."
         ],
-        "speech": "Confira o cargo, a localidade e o horário da atualização. Uma imagem pode mostrar uma parcial antiga."
+        "detail": "Uma imagem isolada pode mostrar uma parcial antiga."
       },
       {
-        "seconds": 9,
-        "screen": [
-          "Parcial e resultado final",
-          "não são a mesma coisa."
+        "seconds": 8,
+        "lines": [
+          "Parcial não é",
+          "resultado final."
         ],
-        "speech": "Veja também o percentual de seções totalizadas. Não confunda uma parcial com o resultado final."
+        "detail": "Confira também o percentual de seções totalizadas."
       },
       {
         "seconds": 7,
-        "screen": [
-          "Vá ao portal do TSE.",
-          "Confirme antes de repassar."
+        "lines": [
+          "Acesse o",
+          "portal do TSE."
         ],
-        "speech": "Entre no portal do Tribunal Superior Eleitoral e acesse a divulgação oficial dos resultados."
+        "detail": "Abra a divulgação oficial dos resultados. Confirme antes de repassar."
       }
     ],
-    "narration": "Chegou um print da apuração? Antes de compartilhar, abra a fonte oficial. Confira o cargo, a localidade e o horário da atualização. Uma imagem pode mostrar uma parcial antiga. Veja também o percentual de seções totalizadas. Não confunda uma parcial com o resultado final. Entre no portal do Tribunal Superior Eleitoral e acesse a divulgação oficial dos resultados.",
+    "narration": null,
     "alternative_hooks": [
       "Um print da apuração basta para conferir o resultado?",
       "Antes de confiar na tecnologia, confira este cuidado.",
       "Tecnologia e direitos: entenda o que muda na prática."
     ],
-    "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
-    "content_path": "editorial/days/2026-10-25/2026-10-25-19h-print-apuracao-roteiro.json"
+    "error": null,
+    "content_path": "editorial/days/2026-10-25/music-reels.json",
+    "cover_url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-19h-print-apuracao/cover.jpg",
+    "audio_mode": "original_instrumental_no_narration",
+    "container_processing_status": {
+      "id": "18130288639826984",
+      "status": "IN_PROGRESS",
+      "status_code": "IN_PROGRESS"
+    }
   },
   {
     "id": "2026-10-25-19h-conversa-ia-prova",
