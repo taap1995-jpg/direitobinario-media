@@ -101,15 +101,36 @@
     ],
     "caption": "Não. O rótulo não afasta as demais restrições eleitorais. O calendário de 2026 veda, no intervalo previsto, novos conteúdos sintéticos com imagem, voz ou manifestação de candidatura ou pessoa pública, mesmo identificados. Confira a norma completa antes de publicar ou republicar.\n\n#Eleicoes2026 #InteligenciaArtificial #DireitoEleitoral #DireitoBinario\n\nFontes: https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-760-de-2-de-marco-de-2026",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "Não generalizar vedação a qualquer uso de IA. Conteúdo educativo, sem representação sintética de pessoas públicas.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-01.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "114306"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-02.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "142971"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-03.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "132225"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619607+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-01.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-02.jpg",
@@ -184,15 +205,24 @@
     ],
     "caption": "Golpistas podem usar IA para imitar a voz de advogados. Confirme a identidade por um contato que você já conhece antes de pagar. A OAB disponibiliza o ConfirmADV.\n\nFontes: https://www.oab.org.br/noticia/63100/golpe-do-falso-advogado-plataforma-confirmadv-recebe-quase-10-mil-solicitacoes-em-tres-semanas; https://www.oabpr.org.br/rpc-tv-alerta-para-uso-de-vozes-criadas-por-ia-nos-golpes-do-falso-advogado/",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "Não afirmar que todo pedido de honorários é golpe. Não imitar contato real de advogado.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-falso-advogado.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "138840"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619621+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-falso-advogado.jpg"
     ],
@@ -245,15 +275,24 @@
     ],
     "caption": "Consentir não é autorizar qualquer uso dos seus dados. Na LGPD, consentimento exige finalidade determinada e informação clara; autorizações genéricas são nulas. Também existem outras bases legais. Quando o tratamento se apoia no consentimento, você pode revogá-lo.\n\n#LGPD #Privacidade #ProtecaoDeDados #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "Não sugerir consentimento como única base legal ou eliminação absoluta após revogação.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-aceitei-consentimento.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "121378"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619624+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-aceitei-consentimento.jpg"
     ],
@@ -392,15 +431,36 @@
     ],
     "caption": "Gravar uma reunião e enviar seu conteúdo para uma IA são operações distintas. A avaliação considera finalidade, base legal, dados envolvidos, participantes e deveres de sigilo. Avisá-los é uma medida de transparência; esse aviso, sozinho, não resolve toda a análise.\n\n#Privacidade #InteligenciaArtificial #LGPD #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "Não afirmar que toda gravação exige consentimento de todos. Diferenciar gravação, compartilhamento e tratamento por fornecedor.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-01.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "121615"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-02.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "135460"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-03.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "123860"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619628+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-01.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-02.jpg",
@@ -469,15 +529,24 @@
     ],
     "caption": "Antes de enviar, confira finalidade, retenção e compartilhamento. O melhor interesse da criança deve prevalecer.\n\nFontes: https://bibliotecadigital.mj.gov.br/handle/1/10215",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "Não tratar autorização parental como liberação irrestrita; não mostrar imagem real de criança.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-criancas-app-ia.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "135735"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619630+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-criancas-app-ia.jpg"
     ],
@@ -524,15 +593,24 @@
     ],
     "caption": "Você sabe com quem está falando? Transparência e informação clara orientam as relações de consumo. Identificar o robô é uma boa prática. As exigências específicas variam conforme o serviço e o contexto.\n\n#DireitoDoConsumidor #InteligenciaArtificial #Transparencia #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "CDC arts. 4º e 6º: princípios gerais; não inventar lei universal que obrigue aviso em qualquer interação.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-atendimento-robo.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "110938"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619632+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-atendimento-robo.jpg"
     ],
@@ -658,15 +736,36 @@
     ],
     "caption": "Uma conversa com IA pode ser apresentada e examinada no processo, mas seu valor depende de autenticidade, integridade, contexto e obtenção lícita. Preserve o histórico original, datas e arquivos. A ata notarial pode documentar o que foi observado, sem garantir a veracidade de cada resposta da IA.\n\n#ProvaDigital #DireitoDigital #InteligenciaArtificial #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "CPC arts. 369, 371 e 384. Não prometer admissibilidade nem força probatória automática.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-01.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "144240"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-02.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "126202"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-03.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "129589"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619635+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-01.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-02.jpg",
@@ -735,15 +834,24 @@
     ],
     "caption": "Ao configurar um agente de IA, limite permissões e valores e mantenha confirmação antes de finalizar compras. Orientação preventiva; validade e responsabilidade dependem do caso.\n\nFontes: https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "Conselho preventivo, não afirmar que contratos de agente são sempre válidos ou inválidos.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-agente-ia-compra.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "125656"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619636+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-agente-ia-compra.jpg"
     ],
@@ -790,15 +898,24 @@
     ],
     "caption": "Usaram sua imagem em um anúncio criado por IA? Preserve a publicação, o endereço e os dados do anunciante. O uso comercial da imagem pode justificar pedido de retirada e reparação, conforme as circunstâncias. O fato de a arte ter sido feita com IA não elimina a proteção da sua imagem.\n\n#DireitoDeImagem #InteligenciaArtificial #DireitoDigital #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
     "qa": {
-      "status": "pending_public_media",
+      "status": "passed",
       "legal_notes": "Código Civil arts. 20, 186 e 927. Não prometer indenização automática.",
       "factual": "passed",
       "legal": "passed",
       "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
       "visual": "passed",
-      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+      "technical": "JPEG válido; dimensões conferidas; arquivos renderizados no GitHub; URL pública HTTP 200 e image/jpeg.",
+      "public_media": [
+        {
+          "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-foto-anuncio-ia.jpg",
+          "status": 200,
+          "mime": "image/jpeg",
+          "bytes": "110018"
+        }
+      ],
+      "reviewed_at": "2026-10-25T11:42:40.619638+00:00"
     },
-    "status": "preparing",
+    "status": "ready",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-foto-anuncio-ia.jpg"
     ],

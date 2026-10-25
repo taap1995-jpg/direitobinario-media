@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-25",
+  "static_posts_ready": 9,
+  "reels_blocked_audio": 3,
+  "github_render_run": "https://github.com/taap1995-jpg/direitobinario-media/actions/runs/40189901695",
+  "media_checks": [
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-01.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "114306"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-02.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "142971"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-03.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "132225"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-falso-advogado.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "138840"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-aceitei-consentimento.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "121378"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-01.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "121615"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-02.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "135460"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-03.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "123860"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-criancas-app-ia.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "135735"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-atendimento-robo.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "110938"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-01.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "144240"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-02.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "126202"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-03.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "129589"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-agente-ia-compra.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "125656"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-foto-anuncio-ia.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "bytes": "110018"
+    }
+  ],
+  "independent_review": "Sem erro jurídico crítico; melhorias de clareza aplicadas.",
+  "published_in_this_preparation": false
+}
