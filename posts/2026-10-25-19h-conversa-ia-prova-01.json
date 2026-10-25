@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO BINÁRIO  •  1/3",
+  "title": [
+    "CONVERSA COM IA",
+    "PODE SER PROVA?"
+  ],
+  "sections": [
+    {
+      "label": "DEPENDE DO CONTEXTO",
+      "text": "O registro pode ser analisado no processo. A resposta da IA não se torna verdadeira só por estar no chat."
+    }
+  ],
+  "footer_bold": "Autenticidade e contexto importam.",
+  "source": "Fonte: CPC · arts. 369, 371 e 384",
+  "handle": "@direitobinario",
+  "template": "carousel_editorial"
+}

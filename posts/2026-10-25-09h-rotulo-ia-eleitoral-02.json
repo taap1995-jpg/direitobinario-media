@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO BINÁRIO  •  2/3",
+  "title": [
+    "O RÓTULO NÃO",
+    "AFASTA OS LIMITES."
+  ],
+  "sections": [
+    {
+      "label": "PERÍODO ELEITORAL",
+      "text": "Há restrição a novos conteúdos sintéticos com imagem, voz ou manifestação de candidatura ou pessoa pública."
+    }
+  ],
+  "footer_bold": "A regra também alcança republicação.",
+  "source": "Fonte: TSE · Res. 23.760/2026",
+  "handle": "@direitobinario",
+  "template": "carousel_editorial"
+}

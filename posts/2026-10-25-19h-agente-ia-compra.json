@@ -1,0 +1,18 @@
+{
+  "format": "story",
+  "kicker": "DIREITO & TECNOLOGIA",
+  "title": [
+    "IA COMPRANDO",
+    "POR VOCÊ?"
+  ],
+  "sections": [
+    {
+      "label": "DEFINA LIMITES",
+      "text": "Ative a confirmação\nantes de finalizar a compra."
+    }
+  ],
+  "footer_bold": "Revise as permissões.",
+  "source": "Fonte: Código Civil · #DireitoBinario",
+  "handle": "@direitobinario",
+  "template": "editorial"
+}

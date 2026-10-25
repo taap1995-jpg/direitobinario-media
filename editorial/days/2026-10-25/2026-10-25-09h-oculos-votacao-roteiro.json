@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-25-09h-oculos-votacao",
+  "report_date": "2026-10-25",
+  "topic_id": 2,
+  "topic": "Óculos com câmera podem entrar na cabine?",
+  "format": "reel",
+  "scheduled_for": "2026-10-25T09:00:00-03:00",
+  "schedule_mode": "explicit_time",
+  "approval": {
+    "status": "approved",
+    "approved_at": "2026-10-25T11:40:50.511995+00:00",
+    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+  },
+  "sources": [
+    {
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-3-dias-uso-de-celular-e-de-outros-dispositivos-eletronicos-e-proibido-na-cabine-de-votacao",
+      "checked_at": "2026-10-25",
+      "type": "orientação oficial",
+      "published_at": "2026-10-22"
+    }
+  ],
+  "caption": "Vai votar com óculos inteligentes? Aparelhos capazes de registrar o voto, inclusive óculos com câmera, devem ficar no local indicado pela equipe da seção, mesmo desligados. A regra protege o sigilo do voto. Confira a orientação oficial antes de sair.\n\n#Eleicoes2026 #Privacidade #DireitoDigital #DireitoBinario\n\nFontes: https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-3-dias-uso-de-celular-e-de-outros-dispositivos-eletronicos-e-proibido-na-cabine-de-votacao",
+  "qa": {
+    "status": "blocked_audio",
+    "legal_notes": "Regras de 25/10/2026; não confundir óculos comuns com dispositivos de gravação.",
+    "audio": "blocked",
+    "factual": "passed",
+    "legal": "passed",
+    "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+  },
+  "status": "blocked",
+  "media_urls": [],
+  "container_id": null,
+  "media_id": null,
+  "permalink": null,
+  "published_at": null,
+  "scenes": [
+    {
+      "seconds": 7,
+      "screen": [
+        "Óculos com câmera",
+        "na cabine?"
+      ],
+      "speech": "Óculos com câmera podem entrar na cabine de votação? Não."
+    },
+    {
+      "seconds": 9,
+      "screen": [
+        "Mesmo desligados,",
+        "ficam de fora."
+      ],
+      "speech": "Segundo o Tribunal Superior Eleitoral, a restrição vale também para aparelhos desligados que possam registrar o voto."
+    },
+    {
+      "seconds": 9,
+      "screen": [
+        "Siga a orientação",
+        "da equipe da seção."
+      ],
+      "speech": "Antes de votar, deixe esses objetos no local indicado pela equipe da sua seção."
+    },
+    {
+      "seconds": 7,
+      "screen": [
+        "Seu voto",
+        "é secreto."
+      ],
+      "speech": "A medida protege o sigilo e a liberdade do voto. Compartilhe esta orientação."
+    }
+  ],
+  "narration": "Óculos com câmera podem entrar na cabine de votação? Não. Segundo o Tribunal Superior Eleitoral, a restrição vale também para aparelhos desligados que possam registrar o voto. Antes de votar, deixe esses objetos no local indicado pela equipe da sua seção. A medida protege o sigilo e a liberdade do voto. Compartilhe esta orientação.",
+  "alternative_hooks": [
+    "Óculos com câmera podem entrar na cabine?",
+    "Antes de confiar na tecnologia, confira este cuidado.",
+    "Tecnologia e direitos: entenda o que muda na prática."
+  ],
+  "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
+  "content_path": "editorial/days/2026-10-25/2026-10-25-09h-oculos-votacao-roteiro.json"
+}

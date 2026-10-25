@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO BINÁRIO  •  2/3",
+  "title": [
+    "SAIBA PARA ONDE",
+    "VAI A CONVERSA."
+  ],
+  "sections": [
+    {
+      "label": "ACESSO E RETENÇÃO",
+      "text": "Quem recebe o arquivo? Por quanto tempo? O serviço usa os dados para outras finalidades?"
+    }
+  ],
+  "footer_bold": "Confira o contrato e a política do serviço.",
+  "source": "Fonte: LGPD e ANPD",
+  "handle": "@direitobinario",
+  "template": "carousel_editorial"
+}

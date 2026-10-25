@@ -1,0 +1,825 @@
+[
+  {
+    "id": "2026-10-25-09h-oculos-votacao",
+    "report_date": "2026-10-25",
+    "topic_id": 2,
+    "topic": "Óculos com câmera podem entrar na cabine?",
+    "format": "reel",
+    "scheduled_for": "2026-10-25T09:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.511995+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-3-dias-uso-de-celular-e-de-outros-dispositivos-eletronicos-e-proibido-na-cabine-de-votacao",
+        "checked_at": "2026-10-25",
+        "type": "orientação oficial",
+        "published_at": "2026-10-22"
+      }
+    ],
+    "caption": "Vai votar com óculos inteligentes? Aparelhos capazes de registrar o voto, inclusive óculos com câmera, devem ficar no local indicado pela equipe da seção, mesmo desligados. A regra protege o sigilo do voto. Confira a orientação oficial antes de sair.\n\n#Eleicoes2026 #Privacidade #DireitoDigital #DireitoBinario\n\nFontes: https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-3-dias-uso-de-celular-e-de-outros-dispositivos-eletronicos-e-proibido-na-cabine-de-votacao",
+    "qa": {
+      "status": "blocked_audio",
+      "legal_notes": "Regras de 25/10/2026; não confundir óculos comuns com dispositivos de gravação.",
+      "audio": "blocked",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+    },
+    "status": "blocked",
+    "media_urls": [],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "scenes": [
+      {
+        "seconds": 7,
+        "screen": [
+          "Óculos com câmera",
+          "na cabine?"
+        ],
+        "speech": "Óculos com câmera podem entrar na cabine de votação? Não."
+      },
+      {
+        "seconds": 9,
+        "screen": [
+          "Mesmo desligados,",
+          "ficam de fora."
+        ],
+        "speech": "Segundo o Tribunal Superior Eleitoral, a restrição vale também para aparelhos desligados que possam registrar o voto."
+      },
+      {
+        "seconds": 9,
+        "screen": [
+          "Siga a orientação",
+          "da equipe da seção."
+        ],
+        "speech": "Antes de votar, deixe esses objetos no local indicado pela equipe da sua seção."
+      },
+      {
+        "seconds": 7,
+        "screen": [
+          "Seu voto",
+          "é secreto."
+        ],
+        "speech": "A medida protege o sigilo e a liberdade do voto. Compartilhe esta orientação."
+      }
+    ],
+    "narration": "Óculos com câmera podem entrar na cabine de votação? Não. Segundo o Tribunal Superior Eleitoral, a restrição vale também para aparelhos desligados que possam registrar o voto. Antes de votar, deixe esses objetos no local indicado pela equipe da sua seção. A medida protege o sigilo e a liberdade do voto. Compartilhe esta orientação.",
+    "alternative_hooks": [
+      "Óculos com câmera podem entrar na cabine?",
+      "Antes de confiar na tecnologia, confira este cuidado.",
+      "Tecnologia e direitos: entenda o que muda na prática."
+    ],
+    "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
+    "content_path": "editorial/days/2026-10-25/2026-10-25-09h-oculos-votacao-roteiro.json"
+  },
+  {
+    "id": "2026-10-25-09h-rotulo-ia-eleitoral",
+    "report_date": "2026-10-25",
+    "topic_id": 3,
+    "topic": "“Feito com IA” libera qualquer vídeo eleitoral?",
+    "format": "carousel",
+    "scheduled_for": "2026-10-25T09:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512011+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-760-de-2-de-marco-de-2026",
+        "checked_at": "2026-10-25",
+        "type": "norma eleitoral",
+        "published_at": "2026-03-02"
+      }
+    ],
+    "caption": "Não. O rótulo não afasta as demais restrições eleitorais. O calendário de 2026 veda, no intervalo previsto, novos conteúdos sintéticos com imagem, voz ou manifestação de candidatura ou pessoa pública, mesmo identificados. Confira a norma completa antes de publicar ou republicar.\n\n#Eleicoes2026 #InteligenciaArtificial #DireitoEleitoral #DireitoBinario\n\nFontes: https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-760-de-2-de-marco-de-2026",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "Não generalizar vedação a qualquer uso de IA. Conteúdo educativo, sem representação sintética de pessoas públicas.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-01.jpg",
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-02.jpg",
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-03.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "“FEITO COM IA”",
+          "LIBERA TUDO?"
+        ],
+        "label": "PROPAGANDA ELEITORAL",
+        "body": "Não. Identificar o uso de IA não torna qualquer conteúdo permitido.",
+        "cta": "Deslize para entender."
+      },
+      {
+        "title": [
+          "O RÓTULO NÃO",
+          "AFASTA OS LIMITES."
+        ],
+        "label": "PERÍODO ELEITORAL",
+        "body": "Há restrição a novos conteúdos sintéticos com imagem, voz ou manifestação de candidatura ou pessoa pública.",
+        "cta": "A regra também alcança republicação."
+      },
+      {
+        "title": [
+          "ANTES DE POSTAR,",
+          "CONFIRA A REGRA."
+        ],
+        "label": "JANELA DE RESTRIÇÃO",
+        "body": "72h antes da eleição até 24h após seu término: o aviso de IA não afasta a vedação.",
+        "cta": "Consulte a fonte na legenda."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-09h-rotulo-ia-eleitoral-01.json",
+      "posts/2026-10-25-09h-rotulo-ia-eleitoral-02.json",
+      "posts/2026-10-25-09h-rotulo-ia-eleitoral-03.json"
+    ],
+    "content_path": "posts/2026-10-25-09h-rotulo-ia-eleitoral-01.json"
+  },
+  {
+    "id": "2026-10-25-09h-falso-advogado",
+    "report_date": "2026-10-25",
+    "topic_id": 15,
+    "topic": "Golpe do falso advogado com IA",
+    "format": "story",
+    "scheduled_for": "2026-10-25T09:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512018+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.oab.org.br/noticia/63100/golpe-do-falso-advogado-plataforma-confirmadv-recebe-quase-10-mil-solicitacoes-em-tres-semanas",
+        "checked_at": "2026-10-25",
+        "type": "orientação institucional",
+        "published_at": "2025-05-23"
+      },
+      {
+        "url": "https://www.oabpr.org.br/rpc-tv-alerta-para-uso-de-vozes-criadas-por-ia-nos-golpes-do-falso-advogado/",
+        "checked_at": "2026-10-25",
+        "type": "orientação institucional",
+        "published_at": "2026-01-21"
+      }
+    ],
+    "caption": "Golpistas podem usar IA para imitar a voz de advogados. Confirme a identidade por um contato que você já conhece antes de pagar. A OAB disponibiliza o ConfirmADV.\n\nFontes: https://www.oab.org.br/noticia/63100/golpe-do-falso-advogado-plataforma-confirmadv-recebe-quase-10-mil-solicitacoes-em-tres-semanas; https://www.oabpr.org.br/rpc-tv-alerta-para-uso-de-vozes-criadas-por-ia-nos-golpes-do-falso-advogado/",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "Não afirmar que todo pedido de honorários é golpe. Não imitar contato real de advogado.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-falso-advogado.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "PIX PARA LIBERAR",
+          "O PROCESSO?"
+        ],
+        "label": "A IA PODE IMITAR VOZES",
+        "body": "Confirme com seu advogado\npor um contato já conhecido.",
+        "cta": "Não ceda à urgência."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-09h-falso-advogado.json"
+    ],
+    "content_path": "posts/2026-10-25-09h-falso-advogado.json"
+  },
+  {
+    "id": "2026-10-25-09h-aceitei-consentimento",
+    "report_date": "2026-10-25",
+    "topic_id": 9,
+    "topic": "Cliquei em “aceito”: autorizei tudo?",
+    "format": "feed",
+    "scheduled_for": "2026-10-25T09:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512022+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+        "checked_at": "2026-10-25",
+        "type": "lei",
+        "published_at": "2018-08-14"
+      },
+      {
+        "url": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+        "checked_at": "2026-10-25",
+        "type": "página oficial de referência",
+        "published_at": null
+      }
+    ],
+    "caption": "Consentir não é autorizar qualquer uso dos seus dados. Na LGPD, consentimento exige finalidade determinada e informação clara; autorizações genéricas são nulas. Também existem outras bases legais. Quando o tratamento se apoia no consentimento, você pode revogá-lo.\n\n#LGPD #Privacidade #ProtecaoDeDados #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "Não sugerir consentimento como única base legal ou eliminação absoluta após revogação.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-aceitei-consentimento.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "CLIQUEI EM",
+          "“ACEITO”.",
+          "AUTORIZEI TUDO?"
+        ],
+        "label": "CONSENTIMENTO TEM LIMITES",
+        "body": "Finalidade clara.\nInformação acessível.\nSem autorização genérica.",
+        "cta": "Entenda seus direitos na legenda."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-09h-aceitei-consentimento.json"
+    ],
+    "content_path": "posts/2026-10-25-09h-aceitei-consentimento.json"
+  },
+  {
+    "id": "2026-10-25-12h-curriculo-algoritmo",
+    "report_date": "2026-10-25",
+    "topic_id": 6,
+    "topic": "Seu currículo foi eliminado por um algoritmo?",
+    "format": "reel",
+    "scheduled_for": "2026-10-25T12:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512028+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+        "checked_at": "2026-10-25",
+        "type": "lei",
+        "published_at": "2018-08-14"
+      },
+      {
+        "url": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+        "checked_at": "2026-10-25",
+        "type": "página oficial de referência",
+        "published_at": null
+      }
+    ],
+    "caption": "Uma rejeição automatizada não é, por si só, ilegal. Quando a decisão usa exclusivamente tratamento automatizado de dados pessoais e afeta seus interesses, a LGPD permite solicitar revisão e informações sobre critérios e procedimentos, respeitados os segredos comercial e industrial.\n\n#InteligenciaArtificial #Recrutamento #LGPD #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+    "qa": {
+      "status": "blocked_audio",
+      "legal_notes": "Art. 20 não garante contratação, abertura de código nem revisão necessariamente por pessoa humana.",
+      "audio": "blocked",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+    },
+    "status": "blocked",
+    "media_urls": [],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "scenes": [
+      {
+        "seconds": 8,
+        "screen": [
+          "Um algoritmo",
+          "recusou seu currículo?"
+        ],
+        "speech": "Seu currículo foi eliminado por um algoritmo? Isso, sozinho, não torna a seleção ilegal."
+      },
+      {
+        "seconds": 10,
+        "screen": [
+          "Decisão só automatizada?",
+          "Entenda os critérios."
+        ],
+        "speech": "Se a decisão foi tomada unicamente pelo tratamento automatizado dos seus dados e afetou seus interesses, existem direitos."
+      },
+      {
+        "seconds": 9,
+        "screen": [
+          "Você pode pedir",
+          "revisão e informações."
+        ],
+        "speech": "A LGPD permite pedir revisão e informações sobre os critérios e procedimentos usados."
+      },
+      {
+        "seconds": 9,
+        "screen": [
+          "Guarde o retorno.",
+          "Procure o canal oficial."
+        ],
+        "speech": "Há proteção a segredos comerciais e industriais. Guarde a resposta e procure o canal de privacidade da empresa."
+      }
+    ],
+    "narration": "Seu currículo foi eliminado por um algoritmo? Isso, sozinho, não torna a seleção ilegal. Se a decisão foi tomada unicamente pelo tratamento automatizado dos seus dados e afetou seus interesses, existem direitos. A LGPD permite pedir revisão e informações sobre os critérios e procedimentos usados. Há proteção a segredos comerciais e industriais. Guarde a resposta e procure o canal de privacidade da empresa.",
+    "alternative_hooks": [
+      "Seu currículo foi eliminado por um algoritmo?",
+      "Antes de confiar na tecnologia, confira este cuidado.",
+      "Tecnologia e direitos: entenda o que muda na prática."
+    ],
+    "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
+    "content_path": "editorial/days/2026-10-25/2026-10-25-12h-curriculo-algoritmo-roteiro.json"
+  },
+  {
+    "id": "2026-10-25-12h-reuniao-ia",
+    "report_date": "2026-10-25",
+    "topic_id": 8,
+    "topic": "Uma reunião pode ser gravada e resumida por IA?",
+    "format": "carousel",
+    "scheduled_for": "2026-10-25T12:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512034+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+        "checked_at": "2026-10-25",
+        "type": "lei",
+        "published_at": "2018-08-14"
+      },
+      {
+        "url": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+        "checked_at": "2026-10-25",
+        "type": "página oficial de referência",
+        "published_at": null
+      }
+    ],
+    "caption": "Gravar uma reunião e enviar seu conteúdo para uma IA são operações distintas. A avaliação considera finalidade, base legal, dados envolvidos, participantes e deveres de sigilo. Avisá-los é uma medida de transparência; esse aviso, sozinho, não resolve toda a análise.\n\n#Privacidade #InteligenciaArtificial #LGPD #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "Não afirmar que toda gravação exige consentimento de todos. Diferenciar gravação, compartilhamento e tratamento por fornecedor.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-01.jpg",
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-02.jpg",
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-03.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "REUNIÃO GRAVADA",
+          "E RESUMIDA POR IA?"
+        ],
+        "label": "ANTES DE ATIVAR",
+        "body": "Verifique finalidade, dados envolvidos e regras de sigilo.",
+        "cta": "Gravar e enviar à IA são etapas distintas."
+      },
+      {
+        "title": [
+          "SAIBA PARA ONDE",
+          "VAI A CONVERSA."
+        ],
+        "label": "ACESSO E RETENÇÃO",
+        "body": "Quem recebe o arquivo? Por quanto tempo? O serviço usa os dados para outras finalidades?",
+        "cta": "Confira o contrato e a política do serviço."
+      },
+      {
+        "title": [
+          "TRANSPARÊNCIA",
+          "DESDE O INÍCIO."
+        ],
+        "label": "BOA PRÁTICA",
+        "body": "Informe os participantes. Verifique a base legal e limite o acesso ao necessário.",
+        "cta": "Avisar não substitui a análise jurídica."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-12h-reuniao-ia-01.json",
+      "posts/2026-10-25-12h-reuniao-ia-02.json",
+      "posts/2026-10-25-12h-reuniao-ia-03.json"
+    ],
+    "content_path": "posts/2026-10-25-12h-reuniao-ia-01.json"
+  },
+  {
+    "id": "2026-10-25-12h-criancas-app-ia",
+    "report_date": "2026-10-25",
+    "topic_id": 20,
+    "topic": "Fotos de crianças em aplicativos de IA",
+    "format": "story",
+    "scheduled_for": "2026-10-25T12:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512086+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://bibliotecadigital.mj.gov.br/handle/1/10215",
+        "checked_at": "2026-10-25",
+        "type": "enunciado administrativo",
+        "published_at": "2023-05-22"
+      }
+    ],
+    "caption": "Antes de enviar, confira finalidade, retenção e compartilhamento. O melhor interesse da criança deve prevalecer.\n\nFontes: https://bibliotecadigital.mj.gov.br/handle/1/10215",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "Não tratar autorização parental como liberação irrestrita; não mostrar imagem real de criança.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-criancas-app-ia.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "FOTO DE CRIANÇA",
+          "EM APP DE IA?"
+        ],
+        "label": "ANTES DE ENVIAR",
+        "body": "Confira como o aplicativo\nusa e guarda a imagem.",
+        "cta": "Proteja antes de compartilhar."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-12h-criancas-app-ia.json"
+    ],
+    "content_path": "posts/2026-10-25-12h-criancas-app-ia.json"
+  },
+  {
+    "id": "2026-10-25-12h-atendimento-robo",
+    "report_date": "2026-10-25",
+    "topic_id": 13,
+    "topic": "Atendimento deve avisar que é um robô?",
+    "format": "feed",
+    "scheduled_for": "2026-10-25T12:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512093+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "checked_at": "2026-10-25",
+        "type": "lei",
+        "published_at": "1990-09-11"
+      }
+    ],
+    "caption": "Você sabe com quem está falando? Transparência e informação clara orientam as relações de consumo. Identificar o robô é uma boa prática. As exigências específicas variam conforme o serviço e o contexto.\n\n#DireitoDoConsumidor #InteligenciaArtificial #Transparencia #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "CDC arts. 4º e 6º: princípios gerais; não inventar lei universal que obrigue aviso em qualquer interação.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-atendimento-robo.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "É UMA PESSOA",
+          "OU UM ROBÔ?"
+        ],
+        "label": "ATENDIMENTO AUTOMATIZADO",
+        "body": "Clareza sobre o atendimento\najuda o consumidor a decidir.",
+        "cta": "Transparência também é experiência."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-12h-atendimento-robo.json"
+    ],
+    "content_path": "posts/2026-10-25-12h-atendimento-robo.json"
+  },
+  {
+    "id": "2026-10-25-19h-print-apuracao",
+    "report_date": "2026-10-25",
+    "topic_id": 4,
+    "topic": "Um print da apuração basta para conferir o resultado?",
+    "format": "reel",
+    "scheduled_for": "2026-10-25T19:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512098+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.tse.jus.br/",
+        "checked_at": "2026-10-25",
+        "type": "página oficial de referência",
+        "published_at": null
+      }
+    ],
+    "caption": "Antes de compartilhar um print, confira o resultado nos canais oficiais da Justiça Eleitoral. Veja cargo, localidade, horário e percentual de seções totalizadas. Uma imagem isolada pode mostrar uma parcial antiga. Este conteúdo não anuncia vencedores nem antecipa resultados.\n\n#Eleicoes2026 #EducacaoDigital #Desinformacao #DireitoBinario\n\nFontes: https://www.tse.jus.br/",
+    "qa": {
+      "status": "blocked_audio",
+      "legal_notes": "Guia educativo sem números, candidatos ou vencedores; não precisa antecipar apuração das 19h.",
+      "audio": "blocked",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+    },
+    "status": "blocked",
+    "media_urls": [],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "scenes": [
+      {
+        "seconds": 7,
+        "screen": [
+          "Chegou um print",
+          "da apuração?"
+        ],
+        "speech": "Chegou um print da apuração? Antes de compartilhar, abra a fonte oficial."
+      },
+      {
+        "seconds": 9,
+        "screen": [
+          "Confira o cargo,",
+          "o local e o horário."
+        ],
+        "speech": "Confira o cargo, a localidade e o horário da atualização. Uma imagem pode mostrar uma parcial antiga."
+      },
+      {
+        "seconds": 9,
+        "screen": [
+          "Parcial e resultado final",
+          "não são a mesma coisa."
+        ],
+        "speech": "Veja também o percentual de seções totalizadas. Não confunda uma parcial com o resultado final."
+      },
+      {
+        "seconds": 7,
+        "screen": [
+          "Vá ao portal do TSE.",
+          "Confirme antes de repassar."
+        ],
+        "speech": "Entre no portal do Tribunal Superior Eleitoral e acesse a divulgação oficial dos resultados."
+      }
+    ],
+    "narration": "Chegou um print da apuração? Antes de compartilhar, abra a fonte oficial. Confira o cargo, a localidade e o horário da atualização. Uma imagem pode mostrar uma parcial antiga. Veja também o percentual de seções totalizadas. Não confunda uma parcial com o resultado final. Entre no portal do Tribunal Superior Eleitoral e acesse a divulgação oficial dos resultados.",
+    "alternative_hooks": [
+      "Um print da apuração basta para conferir o resultado?",
+      "Antes de confiar na tecnologia, confira este cuidado.",
+      "Tecnologia e direitos: entenda o que muda na prática."
+    ],
+    "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
+    "content_path": "editorial/days/2026-10-25/2026-10-25-19h-print-apuracao-roteiro.json"
+  },
+  {
+    "id": "2026-10-25-19h-conversa-ia-prova",
+    "report_date": "2026-10-25",
+    "topic_id": 16,
+    "topic": "Conversa com IA pode virar prova judicial?",
+    "format": "carousel",
+    "scheduled_for": "2026-10-25T19:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512105+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+        "checked_at": "2026-10-25",
+        "type": "lei",
+        "published_at": "2015-03-16"
+      }
+    ],
+    "caption": "Uma conversa com IA pode ser apresentada e examinada no processo, mas seu valor depende de autenticidade, integridade, contexto e obtenção lícita. Preserve o histórico original, datas e arquivos. A ata notarial pode documentar o que foi observado, sem garantir a veracidade de cada resposta da IA.\n\n#ProvaDigital #DireitoDigital #InteligenciaArtificial #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "CPC arts. 369, 371 e 384. Não prometer admissibilidade nem força probatória automática.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-01.jpg",
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-02.jpg",
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-03.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "CONVERSA COM IA",
+          "PODE SER PROVA?"
+        ],
+        "label": "DEPENDE DO CONTEXTO",
+        "body": "O registro pode ser analisado no processo. A resposta da IA não se torna verdadeira só por estar no chat.",
+        "cta": "Autenticidade e contexto importam."
+      },
+      {
+        "title": [
+          "PRESERVE O",
+          "HISTÓRICO ORIGINAL."
+        ],
+        "label": "ALÉM DO PRINT",
+        "body": "Guarde datas, arquivos e a conversa completa. Evite cortes que mudem o sentido.",
+        "cta": "Mantenha o contexto acessível."
+      },
+      {
+        "title": [
+          "ATA NOTARIAL",
+          "NÃO VALIDA A IA."
+        ],
+        "label": "O QUE ELA DOCUMENTA",
+        "body": "Pode registrar o que o tabelião constatou. A força da prova será avaliada no processo.",
+        "cta": "Guarde o original e busque orientação."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-19h-conversa-ia-prova-01.json",
+      "posts/2026-10-25-19h-conversa-ia-prova-02.json",
+      "posts/2026-10-25-19h-conversa-ia-prova-03.json"
+    ],
+    "content_path": "posts/2026-10-25-19h-conversa-ia-prova-01.json"
+  },
+  {
+    "id": "2026-10-25-19h-agente-ia-compra",
+    "report_date": "2026-10-25",
+    "topic_id": 11,
+    "topic": "IA comprando ou contratando em seu nome",
+    "format": "story",
+    "scheduled_for": "2026-10-25T19:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512108+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "checked_at": "2026-10-25",
+        "type": "lei",
+        "published_at": "2002-01-10"
+      }
+    ],
+    "caption": "Ao configurar um agente de IA, limite permissões e valores e mantenha confirmação antes de finalizar compras. Orientação preventiva; validade e responsabilidade dependem do caso.\n\nFontes: https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "Conselho preventivo, não afirmar que contratos de agente são sempre válidos ou inválidos.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-agente-ia-compra.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "IA COMPRANDO",
+          "POR VOCÊ?"
+        ],
+        "label": "DEFINA LIMITES",
+        "body": "Ative a confirmação\nantes de finalizar a compra.",
+        "cta": "Revise as permissões."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-19h-agente-ia-compra.json"
+    ],
+    "content_path": "posts/2026-10-25-19h-agente-ia-compra.json"
+  },
+  {
+    "id": "2026-10-25-19h-foto-anuncio-ia",
+    "report_date": "2026-10-25",
+    "topic_id": 18,
+    "topic": "Sua foto virou anúncio criado por IA. E agora?",
+    "format": "feed",
+    "scheduled_for": "2026-10-25T19:00:00-03:00",
+    "schedule_mode": "explicit_time",
+    "approval": {
+      "status": "approved",
+      "approved_at": "2026-10-25T11:40:50.512111+00:00",
+      "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "checked_at": "2026-10-25",
+        "type": "lei",
+        "published_at": "2002-01-10"
+      }
+    ],
+    "caption": "Usaram sua imagem em um anúncio criado por IA? Preserve a publicação, o endereço e os dados do anunciante. O uso comercial da imagem pode justificar pedido de retirada e reparação, conforme as circunstâncias. O fato de a arte ter sido feita com IA não elimina a proteção da sua imagem.\n\n#DireitoDeImagem #InteligenciaArtificial #DireitoDigital #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+    "qa": {
+      "status": "pending_public_media",
+      "legal_notes": "Código Civil arts. 20, 186 e 927. Não prometer indenização automática.",
+      "factual": "passed",
+      "legal": "passed",
+      "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados.",
+      "visual": "passed",
+      "technical": "JPEG válido; 1080x1350 ou 1080x1920; sem texto fora das margens; URL pública ainda pendente."
+    },
+    "status": "preparing",
+    "media_urls": [
+      "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-foto-anuncio-ia.jpg"
+    ],
+    "container_id": null,
+    "media_id": null,
+    "permalink": null,
+    "published_at": null,
+    "slides": [
+      {
+        "title": [
+          "SUA FOTO VIROU",
+          "ANÚNCIO COM IA?"
+        ],
+        "label": "DIREITO DE IMAGEM",
+        "body": "Guarde o link e os registros.\nVerifique quem publicou.",
+        "cta": "O uso de IA não elimina seus direitos."
+      }
+    ],
+    "content_paths": [
+      "posts/2026-10-25-19h-foto-anuncio-ia.json"
+    ],
+    "content_path": "posts/2026-10-25-19h-foto-anuncio-ia.json"
+  }
+]

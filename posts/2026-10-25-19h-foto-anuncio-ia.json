@@ -1,0 +1,17 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO & TECNOLOGIA",
+  "title": [
+    "SUA FOTO VIROU",
+    "ANÚNCIO COM IA?"
+  ],
+  "sections": [
+    {
+      "label": "DIREITO DE IMAGEM",
+      "text": "Guarde o link e os registros.\nVerifique quem publicou."
+    }
+  ],
+  "footer_bold": "O uso de IA não elimina seus direitos.",
+  "source": "Fonte: Código Civil",
+  "handle": "@direitobinario"
+}

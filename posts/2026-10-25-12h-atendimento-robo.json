@@ -1,0 +1,17 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO & TECNOLOGIA",
+  "title": [
+    "É UMA PESSOA",
+    "OU UM ROBÔ?"
+  ],
+  "sections": [
+    {
+      "label": "ATENDIMENTO AUTOMATIZADO",
+      "text": "Clareza sobre o atendimento\najuda o consumidor a decidir."
+    }
+  ],
+  "footer_bold": "Transparência também é experiência.",
+  "source": "Fonte: CDC · arts. 4º e 6º",
+  "handle": "@direitobinario"
+}

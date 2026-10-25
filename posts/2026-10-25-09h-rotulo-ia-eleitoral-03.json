@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO BINÁRIO  •  3/3",
+  "title": [
+    "ANTES DE POSTAR,",
+    "CONFIRA A REGRA."
+  ],
+  "sections": [
+    {
+      "label": "JANELA DE RESTRIÇÃO",
+      "text": "72h antes da eleição até 24h após seu término: o aviso de IA não afasta a vedação."
+    }
+  ],
+  "footer_bold": "Consulte a fonte na legenda.",
+  "source": "Fonte: TSE · Res. 23.760/2026",
+  "handle": "@direitobinario",
+  "template": "carousel_editorial"
+}

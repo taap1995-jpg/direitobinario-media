@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO BINÁRIO  •  2/3",
+  "title": [
+    "PRESERVE O",
+    "HISTÓRICO ORIGINAL."
+  ],
+  "sections": [
+    {
+      "label": "ALÉM DO PRINT",
+      "text": "Guarde datas, arquivos e a conversa completa. Evite cortes que mudem o sentido."
+    }
+  ],
+  "footer_bold": "Mantenha o contexto acessível.",
+  "source": "Fonte: CPC · arts. 369, 371 e 384",
+  "handle": "@direitobinario",
+  "template": "carousel_editorial"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO BINÁRIO  •  3/3",
+  "title": [
+    "TRANSPARÊNCIA",
+    "DESDE O INÍCIO."
+  ],
+  "sections": [
+    {
+      "label": "BOA PRÁTICA",
+      "text": "Informe os participantes. Verifique a base legal e limite o acesso ao necessário."
+    }
+  ],
+  "footer_bold": "Avisar não substitui a análise jurídica.",
+  "source": "Fonte: LGPD e ANPD",
+  "handle": "@direitobinario",
+  "template": "carousel_editorial"
+}

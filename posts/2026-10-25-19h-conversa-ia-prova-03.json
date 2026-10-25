@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO BINÁRIO  •  3/3",
+  "title": [
+    "ATA NOTARIAL",
+    "NÃO VALIDA A IA."
+  ],
+  "sections": [
+    {
+      "label": "O QUE ELA DOCUMENTA",
+      "text": "Pode registrar o que o tabelião constatou. A força da prova será avaliada no processo."
+    }
+  ],
+  "footer_bold": "Guarde o original e busque orientação.",
+  "source": "Fonte: CPC · arts. 369, 371 e 384",
+  "handle": "@direitobinario",
+  "template": "carousel_editorial"
+}

@@ -1,0 +1,18 @@
+{
+  "format": "feed",
+  "kicker": "DIREITO & TECNOLOGIA",
+  "title": [
+    "CLIQUEI EM",
+    "“ACEITO”.",
+    "AUTORIZEI TUDO?"
+  ],
+  "sections": [
+    {
+      "label": "CONSENTIMENTO TEM LIMITES",
+      "text": "Finalidade clara.\nInformação acessível.\nSem autorização genérica."
+    }
+  ],
+  "footer_bold": "Entenda seus direitos na legenda.",
+  "source": "Fonte: LGPD e ANPD",
+  "handle": "@direitobinario"
+}

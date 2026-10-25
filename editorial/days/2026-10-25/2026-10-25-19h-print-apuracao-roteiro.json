@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-25-19h-print-apuracao",
+  "report_date": "2026-10-25",
+  "topic_id": 4,
+  "topic": "Um print da apuração basta para conferir o resultado?",
+  "format": "reel",
+  "scheduled_for": "2026-10-25T19:00:00-03:00",
+  "schedule_mode": "explicit_time",
+  "approval": {
+    "status": "approved",
+    "approved_at": "2026-10-25T11:40:50.512098+00:00",
+    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+  },
+  "sources": [
+    {
+      "url": "https://www.tse.jus.br/",
+      "checked_at": "2026-10-25",
+      "type": "página oficial de referência",
+      "published_at": null
+    }
+  ],
+  "caption": "Antes de compartilhar um print, confira o resultado nos canais oficiais da Justiça Eleitoral. Veja cargo, localidade, horário e percentual de seções totalizadas. Uma imagem isolada pode mostrar uma parcial antiga. Este conteúdo não anuncia vencedores nem antecipa resultados.\n\n#Eleicoes2026 #EducacaoDigital #Desinformacao #DireitoBinario\n\nFontes: https://www.tse.jus.br/",
+  "qa": {
+    "status": "blocked_audio",
+    "legal_notes": "Guia educativo sem números, candidatos ou vencedores; não precisa antecipar apuração das 19h.",
+    "audio": "blocked",
+    "factual": "passed",
+    "legal": "passed",
+    "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+  },
+  "status": "blocked",
+  "media_urls": [],
+  "container_id": null,
+  "media_id": null,
+  "permalink": null,
+  "published_at": null,
+  "scenes": [
+    {
+      "seconds": 7,
+      "screen": [
+        "Chegou um print",
+        "da apuração?"
+      ],
+      "speech": "Chegou um print da apuração? Antes de compartilhar, abra a fonte oficial."
+    },
+    {
+      "seconds": 9,
+      "screen": [
+        "Confira o cargo,",
+        "o local e o horário."
+      ],
+      "speech": "Confira o cargo, a localidade e o horário da atualização. Uma imagem pode mostrar uma parcial antiga."
+    },
+    {
+      "seconds": 9,
+      "screen": [
+        "Parcial e resultado final",
+        "não são a mesma coisa."
+      ],
+      "speech": "Veja também o percentual de seções totalizadas. Não confunda uma parcial com o resultado final."
+    },
+    {
+      "seconds": 7,
+      "screen": [
+        "Vá ao portal do TSE.",
+        "Confirme antes de repassar."
+      ],
+      "speech": "Entre no portal do Tribunal Superior Eleitoral e acesse a divulgação oficial dos resultados."
+    }
+  ],
+  "narration": "Chegou um print da apuração? Antes de compartilhar, abra a fonte oficial. Confira o cargo, a localidade e o horário da atualização. Uma imagem pode mostrar uma parcial antiga. Veja também o percentual de seções totalizadas. Não confunda uma parcial com o resultado final. Entre no portal do Tribunal Superior Eleitoral e acesse a divulgação oficial dos resultados.",
+  "alternative_hooks": [
+    "Um print da apuração basta para conferir o resultado?",
+    "Antes de confiar na tecnologia, confira este cuidado.",
+    "Tecnologia e direitos: entenda o que muda na prática."
+  ],
+  "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
+  "content_path": "editorial/days/2026-10-25/2026-10-25-19h-print-apuracao-roteiro.json"
+}

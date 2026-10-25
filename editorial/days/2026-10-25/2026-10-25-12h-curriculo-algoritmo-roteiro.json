@@ -1,0 +1,85 @@
+{
+  "id": "2026-10-25-12h-curriculo-algoritmo",
+  "report_date": "2026-10-25",
+  "topic_id": 6,
+  "topic": "Seu currículo foi eliminado por um algoritmo?",
+  "format": "reel",
+  "scheduled_for": "2026-10-25T12:00:00-03:00",
+  "schedule_mode": "explicit_time",
+  "approval": {
+    "status": "approved",
+    "approved_at": "2026-10-25T11:40:50.512028+00:00",
+    "reference": "Seleção explícita de tema, formato e horário neste chat em 25/10/2026."
+  },
+  "sources": [
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+      "checked_at": "2026-10-25",
+      "type": "lei",
+      "published_at": "2018-08-14"
+    },
+    {
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+      "checked_at": "2026-10-25",
+      "type": "página oficial de referência",
+      "published_at": null
+    }
+  ],
+  "caption": "Uma rejeição automatizada não é, por si só, ilegal. Quando a decisão usa exclusivamente tratamento automatizado de dados pessoais e afeta seus interesses, a LGPD permite solicitar revisão e informações sobre critérios e procedimentos, respeitados os segredos comercial e industrial.\n\n#InteligenciaArtificial #Recrutamento #LGPD #DireitoBinario\n\nFontes: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm; https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+  "qa": {
+    "status": "blocked_audio",
+    "legal_notes": "Art. 20 não garante contratação, abertura de código nem revisão necessariamente por pessoa humana.",
+    "audio": "blocked",
+    "factual": "passed",
+    "legal": "passed",
+    "independent_review": "Revisor independente: sem erro crítico; ajustes de recorte IA, clareza temporal e linguagem aplicados."
+  },
+  "status": "blocked",
+  "media_urls": [],
+  "container_id": null,
+  "media_id": null,
+  "permalink": null,
+  "published_at": null,
+  "scenes": [
+    {
+      "seconds": 8,
+      "screen": [
+        "Um algoritmo",
+        "recusou seu currículo?"
+      ],
+      "speech": "Seu currículo foi eliminado por um algoritmo? Isso, sozinho, não torna a seleção ilegal."
+    },
+    {
+      "seconds": 10,
+      "screen": [
+        "Decisão só automatizada?",
+        "Entenda os critérios."
+      ],
+      "speech": "Se a decisão foi tomada unicamente pelo tratamento automatizado dos seus dados e afetou seus interesses, existem direitos."
+    },
+    {
+      "seconds": 9,
+      "screen": [
+        "Você pode pedir",
+        "revisão e informações."
+      ],
+      "speech": "A LGPD permite pedir revisão e informações sobre os critérios e procedimentos usados."
+    },
+    {
+      "seconds": 9,
+      "screen": [
+        "Guarde o retorno.",
+        "Procure o canal oficial."
+      ],
+      "speech": "Há proteção a segredos comerciais e industriais. Guarde a resposta e procure o canal de privacidade da empresa."
+    }
+  ],
+  "narration": "Seu currículo foi eliminado por um algoritmo? Isso, sozinho, não torna a seleção ilegal. Se a decisão foi tomada unicamente pelo tratamento automatizado dos seus dados e afetou seus interesses, existem direitos. A LGPD permite pedir revisão e informações sobre os critérios e procedimentos usados. Há proteção a segredos comerciais e industriais. Guarde a resposta e procure o canal de privacidade da empresa.",
+  "alternative_hooks": [
+    "Seu currículo foi eliminado por um algoritmo?",
+    "Antes de confiar na tecnologia, confira este cuidado.",
+    "Tecnologia e direitos: entenda o que muda na prática."
+  ],
+  "error": "Narração pendente: HeyGen retornou HTTP 401; ElevenLabs/Composio sem créditos. Não publicar sem áudio aprovado.",
+  "content_path": "editorial/days/2026-10-25/2026-10-25-12h-curriculo-algoritmo-roteiro.json"
+}
