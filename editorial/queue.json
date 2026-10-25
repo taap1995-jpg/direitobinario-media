@@ -793,7 +793,7 @@
       "audio_narration": false,
       "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
     },
-    "status": "ready",
+    "status": "publishing",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-19h-print-apuracao/music-reel.mp4"
     ],
@@ -849,7 +849,8 @@
       "id": "18130288639826984",
       "status": "FINISHED",
       "status_code": "FINISHED"
-    }
+    },
+    "publishing_started_at": "2026-10-25T19:02:00-03:00"
   },
   {
     "id": "2026-10-25-19h-conversa-ia-prova",
@@ -903,7 +904,7 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619635+00:00"
     },
-    "status": "ready",
+    "status": "publishing",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-01.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-conversa-ia-prova-02.jpg",
@@ -947,7 +948,8 @@
       "posts/2026-10-25-19h-conversa-ia-prova-02.json",
       "posts/2026-10-25-19h-conversa-ia-prova-03.json"
     ],
-    "content_path": "posts/2026-10-25-19h-conversa-ia-prova-01.json"
+    "content_path": "posts/2026-10-25-19h-conversa-ia-prova-01.json",
+    "publishing_started_at": "2026-10-25T19:02:00-03:00"
   },
   {
     "id": "2026-10-25-19h-agente-ia-compra",
@@ -989,7 +991,7 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619636+00:00"
     },
-    "status": "ready",
+    "status": "publishing",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-agente-ia-compra.jpg"
     ],
@@ -1011,7 +1013,8 @@
     "content_paths": [
       "posts/2026-10-25-19h-agente-ia-compra.json"
     ],
-    "content_path": "posts/2026-10-25-19h-agente-ia-compra.json"
+    "content_path": "posts/2026-10-25-19h-agente-ia-compra.json",
+    "publishing_started_at": "2026-10-25T19:02:00-03:00"
   },
   {
     "id": "2026-10-25-19h-foto-anuncio-ia",
@@ -1053,7 +1056,7 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619638+00:00"
     },
-    "status": "ready",
+    "status": "publishing",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-19h-foto-anuncio-ia.jpg"
     ],
@@ -1075,6 +1078,7 @@
     "content_paths": [
       "posts/2026-10-25-19h-foto-anuncio-ia.json"
     ],
-    "content_path": "posts/2026-10-25-19h-foto-anuncio-ia.json"
+    "content_path": "posts/2026-10-25-19h-foto-anuncio-ia.json",
+    "publishing_started_at": "2026-10-25T19:02:00-03:00"
   }
 ]
