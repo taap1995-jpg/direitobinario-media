@@ -450,14 +450,14 @@
       "audio_narration": false,
       "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
     },
-    "status": "ready",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-12h-curriculo-algoritmo/music-reel.mp4"
     ],
     "container_id": "18130288636826984",
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "media_id": "18108767462281321",
+    "permalink": "https://www.instagram.com/reel/De6owohANqd/",
+    "published_at": "2026-10-25T15:02:14+00:00",
     "scenes": [
       {
         "seconds": 8,
@@ -507,7 +507,11 @@
       "id": "18130288636826984",
       "status": "FINISHED",
       "status_code": "FINISHED"
-    }
+    },
+    "verified_format": "REELS",
+    "verified_media_type": "VIDEO",
+    "verification_required": false,
+    "publishing_started_at": "2026-10-25T12:01:00-03:00"
   },
   {
     "id": "2026-10-25-12h-reuniao-ia",
@@ -567,16 +571,16 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619628+00:00"
     },
-    "status": "ready",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-01.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-02.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-reuniao-ia-03.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130313128826984",
+    "media_id": "17922339948451105",
+    "permalink": "https://www.instagram.com/p/De6--iQlM3J/",
+    "published_at": "2026-10-25T15:02:55+00:00",
     "slides": [
       {
         "title": [
@@ -611,7 +615,11 @@
       "posts/2026-10-25-12h-reuniao-ia-02.json",
       "posts/2026-10-25-12h-reuniao-ia-03.json"
     ],
-    "content_path": "posts/2026-10-25-12h-reuniao-ia-01.json"
+    "content_path": "posts/2026-10-25-12h-reuniao-ia-01.json",
+    "verified_format": "FEED",
+    "verified_media_type": "CAROUSEL_ALBUM",
+    "verification_required": false,
+    "publishing_started_at": "2026-10-25T12:02:00-03:00"
   },
   {
     "id": "2026-10-25-12h-criancas-app-ia",
@@ -653,14 +661,14 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619630+00:00"
     },
-    "status": "ready",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-criancas-app-ia.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130313038826984",
+    "media_id": "18081896456371883",
+    "permalink": "https://www.instagram.com/stories/direitobinario/4015798911964894326",
+    "published_at": "2026-10-25T15:02:55+00:00",
     "slides": [
       {
         "title": [
@@ -675,7 +683,11 @@
     "content_paths": [
       "posts/2026-10-25-12h-criancas-app-ia.json"
     ],
-    "content_path": "posts/2026-10-25-12h-criancas-app-ia.json"
+    "content_path": "posts/2026-10-25-12h-criancas-app-ia.json",
+    "verified_format": "STORY",
+    "verified_media_type": "IMAGE",
+    "verification_required": false,
+    "publishing_started_at": "2026-10-25T12:02:00-03:00"
   },
   {
     "id": "2026-10-25-12h-atendimento-robo",
@@ -717,14 +729,14 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619632+00:00"
     },
-    "status": "ready",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-12h-atendimento-robo.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130313032826984",
+    "media_id": "18068408417788290",
+    "permalink": "https://www.instagram.com/p/De6-9UmFPaX/",
+    "published_at": "2026-10-25T15:02:55+00:00",
     "slides": [
       {
         "title": [
@@ -739,7 +751,11 @@
     "content_paths": [
       "posts/2026-10-25-12h-atendimento-robo.json"
     ],
-    "content_path": "posts/2026-10-25-12h-atendimento-robo.json"
+    "content_path": "posts/2026-10-25-12h-atendimento-robo.json",
+    "verified_format": "FEED",
+    "verified_media_type": "IMAGE",
+    "verification_required": false,
+    "publishing_started_at": "2026-10-25T12:02:00-03:00"
   },
   {
     "id": "2026-10-25-19h-print-apuracao",
