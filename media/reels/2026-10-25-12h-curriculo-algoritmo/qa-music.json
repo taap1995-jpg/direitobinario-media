@@ -1,0 +1,18 @@
+{
+  "duration": 34,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "music": {
+    "type": "original_instrumental_synthesis",
+    "narration": false,
+    "samples_from_third_parties": false,
+    "bpm": 88,
+    "rms": 0.061420184898184425,
+    "peak": 0.28
+  },
+  "bytes": 1725222,
+  "spoken_audio": false
+}
