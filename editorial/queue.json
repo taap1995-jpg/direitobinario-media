@@ -91,14 +91,14 @@
       "audio_narration": false,
       "music_provenance": "Composição instrumental por síntese própria, sem samples ou obras de terceiros."
     },
-    "status": "publishing",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/media/reels/2026-10-25-09h-oculos-votacao/music-reel.mp4"
     ],
     "container_id": "18130288642826984",
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "media_id": "18020581931735174",
+    "permalink": "https://www.instagram.com/reel/De6ovtojbab/",
+    "published_at": "2026-10-25T12:04:41+00:00",
     "scenes": [
       {
         "seconds": 7,
@@ -149,7 +149,10 @@
       "status": "FINISHED",
       "status_code": "FINISHED"
     },
-    "publishing_started_at": "2026-10-25T09:04:00-03:00"
+    "publishing_started_at": "2026-10-25T09:04:00-03:00",
+    "verified_format": "REELS",
+    "verified_media_type": "VIDEO",
+    "verification_required": false
   },
   {
     "id": "2026-10-25-09h-rotulo-ia-eleitoral",
@@ -203,16 +206,16 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619607+00:00"
     },
-    "status": "publishing",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-01.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-02.jpg",
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-rotulo-ia-eleitoral-03.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130290523826984",
+    "media_id": "18119253982770640",
+    "permalink": "https://www.instagram.com/p/De6qoIAledv/",
+    "published_at": "2026-10-25T12:05:05+00:00",
     "slides": [
       {
         "title": [
@@ -249,7 +252,10 @@
     ],
     "content_path": "posts/2026-10-25-09h-rotulo-ia-eleitoral-01.json",
     "publishing_started_at": "2026-10-25T09:04:00-03:00",
-    "error": null
+    "error": null,
+    "verified_format": "FEED",
+    "verified_media_type": "CAROUSEL_ALBUM",
+    "verification_required": false
   },
   {
     "id": "2026-10-25-09h-falso-advogado",
@@ -297,14 +303,14 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619621+00:00"
     },
-    "status": "publishing",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-falso-advogado.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130290376826984",
+    "media_id": "18107809286220390",
+    "permalink": "https://www.instagram.com/stories/direitobinario/4015709352250170148",
+    "published_at": "2026-10-25T12:05:05+00:00",
     "slides": [
       {
         "title": [
@@ -321,7 +327,10 @@
     ],
     "content_path": "posts/2026-10-25-09h-falso-advogado.json",
     "publishing_started_at": "2026-10-25T09:04:00-03:00",
-    "error": null
+    "error": null,
+    "verified_format": "STORY",
+    "verified_media_type": "IMAGE",
+    "verification_required": false
   },
   {
     "id": "2026-10-25-09h-aceitei-consentimento",
@@ -369,14 +378,14 @@
       ],
       "reviewed_at": "2026-10-25T11:42:40.619624+00:00"
     },
-    "status": "publishing",
+    "status": "published",
     "media_urls": [
       "https://raw.githubusercontent.com/taap1995-jpg/direitobinario-media/main/posts/2026-10-25-09h-aceitei-consentimento.jpg"
     ],
-    "container_id": null,
-    "media_id": null,
-    "permalink": null,
-    "published_at": null,
+    "container_id": "18130290382826984",
+    "media_id": "18095160863173504",
+    "permalink": "https://www.instagram.com/p/De6qmHsldd-/",
+    "published_at": "2026-10-25T12:05:05+00:00",
     "slides": [
       {
         "title": [
@@ -394,7 +403,10 @@
     ],
     "content_path": "posts/2026-10-25-09h-aceitei-consentimento.json",
     "publishing_started_at": "2026-10-25T09:04:00-03:00",
-    "error": null
+    "error": null,
+    "verified_format": "FEED",
+    "verified_media_type": "IMAGE",
+    "verification_required": false
   },
   {
     "id": "2026-10-25-12h-curriculo-algoritmo",
