@@ -1,0 +1,38 @@
+name: Render approved music Reels 2026-10-25
+on:
+  push:
+    paths:
+      - 'editorial/days/2026-10-25/music-reels.json'
+      - 'scripts/render_music_reels_20261025.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: music-reels-20261025
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install renderer dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          pip install pillow numpy
+      - name: Render three approved Reels with original music
+        run: python scripts/render_music_reels_20261025.py
+      - name: Save generated videos and QA
+        run: |
+          git config user.name 'media-bot'
+          git config user.email 'media-bot@users.noreply.github.com'
+          git add media/reels/2026-10-25-*/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Renderiza três Reels de 25/10 com trilha original sem narração'
+            git pull --rebase origin main
+            git push origin main
+          fi
