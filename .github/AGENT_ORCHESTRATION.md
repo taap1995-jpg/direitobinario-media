@@ -6,7 +6,7 @@
 - Guardar os arquivos no repositório de mídia do projeto, com nomes claros e versão rastreável.
 - Fornecer um link verificável para cada arquivo gerado. Distinguir link do arquivo no GitHub (que pode exigir login se o repositório for privado) de uma URL pública de mídia que o Instagram consiga buscar.
 - Para publicar pelo Instagram API/Composio, preparar uma URL de mídia publicamente acessível e estável, validar que ela responde com o tipo de arquivo correto e só então enviar. Nunca fingir que um link GitHub privado é publicamente acessível ao Instagram.
-- Preferência visual: editorial jurídico profissional, português brasileiro acessível, identidade azul-marinho (#0A1628) e dourado (#C9A84C), legibilidade em celular. Para temas atuais, verificar fontes primárias; inspiração explicativa sem copiar outros perfis.
+- Preferência visual vigente a partir de 26/10/2026: seguir os prints do próprio perfil enviados pelo usuário; fundo preto/azul-marinho escuro, azul elétrico e ciano luminoso, texto branco forte e elementos tecnológicos. Texto das artes em CAIXA ALTA, com frases curtas e leitura confortável no celular; preservar URLs e @direitobinario. A direção anterior em dourado foi substituída para novas peças. Consultar a seção de identidade visual vigente em DIRETRIZES.md. Para temas atuais, verificar fontes primárias; inspiração explicativa sem copiar outros perfis.
 
 ## Estado
 - Padrão de coordenação documentado: supervisor + estado compartilhado + revisão cruzada.

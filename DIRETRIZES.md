@@ -1,5 +1,20 @@
 # Diretrizes do fluxo de publicação @direitobinario
 
+## Identidade visual vigente — a partir de 26/10/2026
+
+Preferência expressa pelo usuário em 26/10/2026, com base nos três prints do próprio perfil enviados na conversa. Aplica-se às novas artes de feed, carrossel, Stories e Reels produzidas a partir desta data.
+
+- Fundo preto ou azul-marinho muito escuro, com azul elétrico e ciano luminoso nos destaques. Branco de alto contraste nos textos. Essa direção substitui a orientação anterior de azul-marinho e dourado para novas artes.
+- Aparência tecnológica: linhas de circuito, molduras finas, pontos luminosos, redes digitais e imagens de tecnologia relacionadas ao tema. Usar esses elementos com equilíbrio, preservando áreas de leitura.
+- Títulos grandes, fortes e preferencialmente com tipografia condensada; composição com hierarquia clara, como nas referências enviadas.
+- Texto visível das artes em CAIXA ALTA, inclusive chamadas e textos de apoio. Preservar acentos e grafia correta. Não converter URLs nem o identificador @direitobinario, para não alterar referências funcionais.
+- Frases curtas, poucas palavras por tela, espaçamento adequado e margens seguras. Não reduzir a fonte para encaixar parágrafos: resumir ou dividir o conteúdo. Em Reels, manter tempo suficiente de leitura.
+- Assinatura @direitobinario e identidade de Direito & Tecnologia consistentes. Manter as fontes verificáveis nas peças ou na legenda, conforme o formato.
+- Legendas das publicações continuam com escrita natural em português brasileiro; o pedido de caixa alta refere-se à apresentação visual das artes.
+- Paleta técnica de referência aproximada: fundo #030915 ou #071426; azul #167BD1; ciano #00C8EF; branco #FFFFFF. As referências visuais enviadas prevalecem sobre estes valores aproximados.
+- Na revisão visual, conferir aderência às referências, CAIXA ALTA, contraste, ortografia, tamanho da fonte, margens e tempo de leitura.
+- Esta atualização modifica o padrão das novas peças; não implica editar, excluir ou republicar conteúdo já publicado.
+
 ## Fluxo obrigatório para cada post
 
 1. Pesquisar um tema jurídico ou de IA relevante e confirmar a fonte oficial e a data (ex.: Câmara dos Deputados, Senado, DOU, tribunais).
