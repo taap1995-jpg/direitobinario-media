@@ -1,0 +1,13 @@
+{
+  "format": "feed",
+  "template": "carousel_editorial",
+  "kicker": "PRIVACIDADE + IA",
+  "title": ["IA E CRIANÇAS:", "QUEM PROTEGE", "OS DADOS?"],
+  "sections": [
+    {"label": "HOJE", "text": "A ANPD DESTACOU IA, PRIVACIDADE E PROTEÇÃO DE CRIANÇAS EM DEBATE INTERNACIONAL."},
+    {"label": "POR QUE IMPORTA", "text": "SISTEMAS DIGITAIS PODEM TRATAR DADOS PESSOAIS. CRIANÇAS E ADOLESCENTES EXIGEM PROTEÇÃO REFORÇADA."}
+  ],
+  "footer_bold": "TECNOLOGIA TAMBÉM É TEMA DE DIREITOS.",
+  "source": "FONTE: ANPD — 26/10/2026",
+  "handle": "@direitobinario"
+}
