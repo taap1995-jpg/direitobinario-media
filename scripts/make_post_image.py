@@ -4,7 +4,7 @@ import json, sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
-NAVY=(10,22,40); GOLD=(201,168,76); WHITE=(250,248,242); SOFT=(196,205,222)
+NAVY=(3,9,21); GOLD=(0,200,239); WHITE=(255,255,255); SOFT=(126,206,230)
 FB='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
 FR='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
 FS='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
@@ -16,6 +16,14 @@ def render(spec_path):
     story=spec.get('format')=='story'
     W,H=(1080,1920) if story else (1080,1350)
     im=Image.new('RGB',(W,H),NAVY); d=ImageDraw.Draw(im)
+    # Identidade tecnológica vigente desde 26/10/2026: circuitos e pontos em ciano.
+    tech=(22,123,209); cyan=GOLD
+    for yy in range(90,H-120,210):
+        d.line((W-300,yy,W-90,yy),fill=tech,width=2)
+        d.line((W-190,yy,W-190,min(H-100,yy+72)),fill=tech,width=2)
+        d.ellipse((W-197,min(H-107,yy+65),W-183,min(H-93,yy+79)),fill=cyan)
+    for xx,yy in [(72,88),(W-86,160),(W-120,H-180),(95,H-210)]:
+        d.ellipse((xx-5,yy-5,xx+5,yy+5),fill=cyan)
     if spec.get('template') == 'carousel_editorial':
         d.rectangle((48,48,W-48,H-48),outline=GOLD,width=4)
         d.text((100,115),spec['kicker'],font=font(FB,32),fill=GOLD)
