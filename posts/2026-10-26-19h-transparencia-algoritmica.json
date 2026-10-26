@@ -1,0 +1,13 @@
+{
+  "format": "feed",
+  "template": "carousel_editorial",
+  "kicker": "IA + PODER PÚBLICO",
+  "title": ["ALGORITMO DECIDIU?", "TRANSPARÊNCIA IMPORTA."],
+  "sections": [
+    {"label": "DECISÕES AUTOMATIZADAS", "text": "SISTEMAS DE IA PODEM IMPACTAR DIREITOS E LIBERDADES."},
+    {"label": "GOVERNANÇA", "text": "TRANSPARÊNCIA E PROTEÇÃO DE DADOS SÃO PARTE DO DEBATE REGULATÓRIO."}
+  ],
+  "footer_bold": "TECNOLOGIA PÚBLICA TAMBÉM EXIGE RESPONSABILIDADE.",
+  "source": "FONTE: ANPD — CPDP LATAM 2026, PUBLICADO EM 26/10/2026",
+  "handle": "@direitobinario"
+}
