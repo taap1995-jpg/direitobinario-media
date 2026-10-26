@@ -54,12 +54,18 @@ ff=shutil.which('ffmpeg')
 if not ff:
     import imageio_ffmpeg
     ff=imageio_ffmpeg.get_ffmpeg_exe()
-args=[ff,'-y','-hide_banner','-loglevel','error']
-for i,s in enumerate(scenes):args+=['-loop','1','-t',str(s[0]),'-i',str(out/f'scene{i}.png')]
-args+=['-i',str(out/'music.wav')]
-filters=''.join(f'[{i}:v]fps=30,format=yuv420p,setsar=1[v{i}];' for i in range(len(scenes)))
-filters+=''.join(f'[v{i}]' for i in range(len(scenes)))+f'concat=n={len(scenes)}:v=1:a=0[v]'
-args+=['-filter_complex',filters,'-map','[v]','-map',f'{len(scenes)}:a','-c:v','libx264','-preset','ultrafast','-crf','22','-c:a','aac','-b:a','128k','-ar','44100','-movflags','+faststart','-t',str(total),str(out/'reel_stf_tse.mp4')]
+# A single concat input avoids decoding all full-resolution scenes in parallel.
+listing=out/'scenes.ffconcat'
+entries=['ffconcat version 1.0']
+for i,s in enumerate(scenes):
+    entries.extend([f"file 'scene{i}.png'",f'duration {s[0]}'])
+entries.append(f"file 'scene{len(scenes)-1}.png'")
+listing.write_text('\n'.join(entries)+'\n')
+args=[ff,'-y','-hide_banner','-loglevel','error','-f','concat','-safe','0',
+      '-i',str(listing),'-i',str(out/'music.wav'),'-r','30',
+      '-vf','format=yuv420p,setsar=1','-c:v','libx264','-threads','2',
+      '-preset','ultrafast','-crf','22','-c:a','aac','-b:a','128k','-ar','44100',
+      '-movflags','+faststart','-t',str(total),str(out/'reel_stf_tse.mp4')]
 subprocess.run(args,check=True)
 thumb=Image.new('RGB',(405*4,720*2))
 for i in range(len(scenes)):thumb.paste(Image.open(out/f'scene{i}.png').resize((405,720)),((i%4)*405,(i//4)*720))
