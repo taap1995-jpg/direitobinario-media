@@ -1,0 +1,25 @@
+{
+  "task_id": "prorrogacao-20261026",
+  "format": "REELS",
+  "duration_seconds": 42,
+  "dimensions": "1080x1920",
+  "audio": "Música instrumental original sintetizada; sem narração",
+  "caption": "Lula e Flávio pediram mais tempo para votar, mas os pedidos tinham motivos e abrangências diferentes.\n\nNo episódio de 25/10/2026, a campanha de Lula relatou dificuldades no transporte público. A solicitação começou em cidades da Bahia e depois foi ampliada ao país.\n\nA campanha de Flávio alegou chuvas fortes, alagamentos e falta de energia, pedindo extensão em municípios de Minas Gerais, Rio Grande do Sul, São Paulo, Paraná e Santa Catarina.\n\nCristiano Zanin determinou a prorrogação até as 19h. O esclarecimento e a nota do TSE delimitaram o cumprimento aos locais onde a votação ainda não havia sido encerrada às 17h. Urnas já fechadas teriam seus votos computados e totalizados.\n\nPedido de campanha e decisão judicial são atos distintos. É preciso ler motivo, alcance e condições juntos.\n\nConteúdo explicativo sobre 25/10/2026; a votação mencionada já terminou.\n\nFontes: carrossel do UOL enviado como referência; TSE, nota de 25/10/2026: https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/esclarecimento-sobre-prorrogacao-da-votacao ; Migalhas: https://www.migalhas.com.br/quentes/467196/zanin-aponta-que-prorrogacao-da-votacao-vale-para-urnas-ainda-abertas\n\nSalve e siga @direitobinario para entender o Direito com clareza.\n\n#DireitoEleitoral #Eleicoes2026 #JusticaEleitoral #DireitoBinario",
+  "sources": [
+    "Prints do UOL fornecidos pelo usuário",
+    "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/esclarecimento-sobre-prorrogacao-da-votacao",
+    "https://www.migalhas.com.br/quentes/467196/zanin-aponta-que-prorrogacao-da-votacao-vale-para-urnas-ainda-abertas"
+  ],
+  "qa": {
+    "status": "PASS",
+    "independent_review": 9,
+    "codecs": "H264/AAC",
+    "hashtags_verified": true
+  },
+  "container_id": "18130394653826984",
+  "published_media_id": "17979862400918459",
+  "permalink": "https://www.instagram.com/reel/De8YbVSitSR/",
+  "username": "direitobinario",
+  "published_at": "2026-10-26T04:04:53+00:00",
+  "status": "PUBLISHED_VERIFIED"
+}
