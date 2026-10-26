@@ -1,0 +1,24 @@
+{
+  "format": "feed",
+  "template": "carousel_editorial",
+  "kicker": "ECA DIGITAL + ANPD",
+  "title": [
+    "HOJE TERMINA",
+    "UMA CONSULTA",
+    "QUE PODE MUDAR",
+    "A FISCALIZAÇÃO DIGITAL"
+  ],
+  "sections": [
+    {
+      "label": "26 DE OUTUBRO",
+      "text": "A CONSULTA PÚBLICA DA ANPD SOBRE O REGULAMENTO DE FISCALIZAÇÃO E PROCESSO SANCIONADOR CHEGA AO PRAZO FINAL."
+    },
+    {
+      "label": "POR QUE IMPORTA",
+      "text": "A ATUALIZAÇÃO É RELEVANTE PARA AS NOVAS ATRIBUIÇÕES DA ANPD, INCLUSIVE NA PROTEÇÃO DE CRIANÇAS E ADOLESCENTES NO AMBIENTE DIGITAL."
+    }
+  ],
+  "footer_bold": "REGULAÇÃO DIGITAL TAMBÉM É PROCESSO E FISCALIZAÇÃO.",
+  "source": "FONTE: ANPD — ECA DIGITAL, 16/09/2026",
+  "handle": "@direitobinario"
+}
