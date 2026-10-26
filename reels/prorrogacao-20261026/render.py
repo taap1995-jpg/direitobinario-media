@@ -11,7 +11,7 @@ scenes=[
 (6,'O QUE MUDOU?',['Lula e Flávio','pediram mais','tempo para votar.'],['Os motivos foram diferentes.'],'25 OUT 2026  /  2º TURNO'),
 (8,'PEDIDO DA CAMPANHA DE LULA',['Problemas no','transporte','público.'],['Relatos de dificuldades com ônibus.','O pedido começou na Bahia','e foi ampliado ao país.'],'PEDIDOS  /  01'),
 (8,'PEDIDO DA CAMPANHA DE FLÁVIO',['Chuvas fortes,','alagamentos','e falta de energia.'],['A campanha pediu extensão','em municípios de cinco estados.','MG · RS · SP · PR · SC'],'PEDIDOS  /  02'),
-(8,'DECISÃO DE CRISTIANO ZANIN',['Votação','até as 19h.'],['O esclarecimento restringiu','o cumprimento aos locais','com urnas ainda abertas.'],'STF  /  ESCLARECIMENTO'),
+(8,'DECISÃO DE CRISTIANO ZANIN',['Votação','até as 19h.'],['Valeu onde a votação','ainda não havia sido','encerrada às 17h.'],'STF  /  ESCLARECIMENTO'),
 (7,'O DETALHE JURÍDICO',['Pedido não','é decisão.'],['Motivo, alcance e condições','precisam ser lidos juntos.','Fontes e contexto na legenda.'],'INFORMAÇÃO COM CONTEXTO'),
 (5,'DIREITO & TECNOLOGIA',['Entenda antes','de compartilhar.'],['Siga @direitobinario','Direito explicado com clareza.'],'SALVE  /  COMPARTILHE')
 ]
