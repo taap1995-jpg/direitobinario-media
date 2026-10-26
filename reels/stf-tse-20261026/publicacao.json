@@ -1,0 +1,21 @@
+{
+  "task_id": "stf-tse-20261026",
+  "status": "PUBLISHED_VERIFIED",
+  "format": "REELS",
+  "duration_seconds": 60,
+  "dimensions": "1080x1920",
+  "audio": "Instrumental original; sem narração",
+  "caption": "O STF “passou por cima” do TSE? A expressão é uma crítica, não uma conclusão jurídica.\n\nO advogado Alberto Rollo, entrevistado pela BBC News Brasil, criticou a atuação individual de Cristiano Zanin na prorrogação da votação de 25/10/2026 e apontou demora do TSE. A reportagem também registra avaliações divergentes.\n\nO TSE tem atribuições eleitorais próprias. A Constituição admite atuação do STF em hipóteses específicas, observados os requisitos da via processual. Não existe revisão automática de toda decisão eleitoral.\n\nNo episódio, foi usada uma reclamação constitucional. Ela tem finalidade e requisitos próprios: não equivale a um recurso comum. A demora de um tribunal, por si só, não transfere sua competência a outro.\n\nPara avaliar a decisão, é preciso examinar o cabimento, os fundamentos, a urgência e o alcance da medida. Este vídeo explica esses critérios; não conclui pela legalidade ou ilegalidade da decisão, nem atribui ao plenário do STF a decisão individual mencionada.\n\nFontes:\n• CF, arts. 102 e 121, §3º: https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm\n• CPC, art. 988: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm\n• BBC News Brasil, republicada em O POVO: https://www.opovo.com.br/agencia/bbc/2026/10/26/por-que-o-stf-ordenou-prorrogar-votacao-por-duas-horas-e-o-que-dizem-os-juristas-sobre-medida.html\n• Decisão — Rcl 101.673/BA: https://static.poder360.com.br/uploads/2026/10/zanin-prorroga-eleicoes-25out26.pdf\n\nConteúdo informativo; não substitui orientação jurídica. Salve e siga @direitobinario.\n\n#STF #TSE #DireitoConstitucional #DireitoEleitoral #DireitoBinario",
+  "qa": {
+    "status": "PASS",
+    "independent_score": 9,
+    "attribution_corrected": "Advogado Alberto Rollo, entrevistado pela BBC",
+    "jurisdiction_caveat": "Demora não transfere competência automaticamente",
+    "legal_remedy": "Reclamação não é recurso comum"
+  },
+  "container_id": "18130396147826984",
+  "media_id": "18042071627638296",
+  "permalink": "https://www.instagram.com/reel/De8Z9QEDmkx/",
+  "username": "direitobinario",
+  "published_at": "2026-10-26T04:18:45+00:00"
+}
