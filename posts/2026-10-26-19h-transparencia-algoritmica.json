@@ -2,7 +2,7 @@
   "format": "feed",
   "template": "carousel_editorial",
   "kicker": "IA + PODER PÚBLICO",
-  "title": ["ALGORITMO DECIDIU?", "TRANSPARÊNCIA CONTA."],
+  "title": ["IA DECIDIU?", "EXIJA CLAREZA."],
   "sections": [
     {"label": "DECISÕES AUTOMATIZADAS", "text": "SISTEMAS DE IA PODEM IMPACTAR DIREITOS E LIBERDADES."},
     {"label": "GOVERNANÇA", "text": "TRANSPARÊNCIA E PROTEÇÃO DE DADOS SÃO PARTE DO DEBATE REGULATÓRIO."}
