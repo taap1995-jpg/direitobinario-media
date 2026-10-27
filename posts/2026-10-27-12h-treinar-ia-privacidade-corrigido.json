@@ -4,10 +4,10 @@
   "kicker": "IA + PRIVACIDADE",
   "title": ["TREINAR IA", "SEM COMPARTILHAR", "OS DADOS?"],
   "sections": [
-    {"label": "O EXEMPLO", "text": "A Receita levou à OCDE o uso de aprendizado federado para desenvolver modelos sem centralizar os dados das instituições."},
-    {"label": "POR QUÊ?", "text": "A técnica permite treinar modelos entre instituições mantendo os dados na origem, reduzindo a necessidade de compartilhamento direto."}
+    {"label": "O EXEMPLO", "text": "A Receita apresentou à OCDE o uso de aprendizado federado para treinar modelos sem centralizar os dados."},
+    {"label": "POR QUÊ?", "text": "Os dados permanecem na origem enquanto as instituições colaboram no treinamento do modelo."}
   ],
-  "footer_bold": "IA TAMBÉM PODE SER DESENHADA PARA PRESERVAR A PRIVACIDADE.",
+  "footer_bold": "IA PODE SER DESENHADA PARA PRESERVAR A PRIVACIDADE.",
   "source": "FONTE: RECEITA FEDERAL — 26/10/2026",
   "handle": "@DIREITOBINARIO"
 }
