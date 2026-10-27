@@ -1,0 +1,13 @@
+{
+  "format": "feed",
+  "template": "editorial",
+  "kicker": "DIREITO DIGITAL • 27/10/2026",
+  "title": ["IA COMPANION:", "QUEM PROTEGE O USUÁRIO?"],
+  "sections": [
+    {"label": "NOVO FOCO REGULATÓRIO", "text": "O MJSP anunciou medidas voltadas a IA companions, fraudes on-line e proteção de crianças e adolescentes no ambiente digital."},
+    {"label": "O PONTO JURÍDICO", "text": "Quanto mais uma IA interage, recomenda e coleta dados, maior a importância de transparência, segurança, proteção de dados e mecanismos de prevenção de riscos."}
+  ],
+  "footer_bold": "TECNOLOGIA NOVA NÃO ELIMINA DEVERES JURÍDICOS.",
+  "source": "Fonte: MJSP/Sedigi — ato atualizado em 26/10/2026",
+  "handle": "@direitobinario"
+}
