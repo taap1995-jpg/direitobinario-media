@@ -1,0 +1,12 @@
+{
+  "format": "feed",
+  "kicker": "IA + PROTEÇÃO DE DADOS",
+  "title": ["IA NA GOVERNANÇA", "DOS DADOS:", "QUEM RESPONDE?"],
+  "sections": [
+    {"label": "O DEBATE", "text": "A ANPD DESTACOU O PAPEL DA GOVERNANÇA DIANTE DO AVANÇO DA IA."},
+    {"label": "NA PRÁTICA", "text": "TECNOLOGIA NÃO AFASTA RESPONSABILIDADES SOBRE DADOS PESSOAIS."}
+  ],
+  "footer_bold": "IA EXIGE GOVERNANÇA, TRANSPARÊNCIA E RESPONSABILIDADE.",
+  "source": "FONTE: ANPD — 26/10/2026",
+  "handle": "@DIREITOBINARIO"
+}
