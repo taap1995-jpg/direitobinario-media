@@ -1,0 +1,22 @@
+name: render-three-carousels
+on:
+  push:
+    paths: ['scripts/generate_three_carousels.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          sudo apt-get update -y
+          sudo apt-get install -y fonts-dejavu-core
+          pip install pillow
+      - run: python scripts/generate_three_carousels.py
+      - run: |
+          git config user.name 'media-bot'
+          git config user.email 'media-bot@users.noreply.github.com'
+          git add public/posts/
+          if ! git diff --cached --quiet; then git commit -m 'Render carrosseis Dark Tech'; git pull --rebase origin main; git push; fi
