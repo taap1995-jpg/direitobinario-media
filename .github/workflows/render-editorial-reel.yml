@@ -1,10 +1,15 @@
 name: Render editorial Reels
 on:
+  workflow_dispatch:
+    inputs:
+      full_render:
+        description: Render full video after visual approval
+        required: false
+        default: 'false'
   push:
     paths:
       - 'reels/editorial/*.json'
       - 'scripts/render_editorial_reel.py'
-  workflow_dispatch:
 permissions:
   contents: write
 concurrency:
@@ -24,42 +29,31 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y ffmpeg fonts-dejavu-core
           pip install pillow
-      - name: Render editorial videos
+      - name: Visual QA preview scene 3
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_render != 'true' }}
+        run: python scripts/render_editorial_reel.py reels/editorial/2026-10-28-tse-ia-eleicoes.json --preview-scene 3
+      - name: Full render after approval
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_render == 'true' }}
+        run: python scripts/render_editorial_reel.py reels/editorial/2026-10-28-tse-ia-eleicoes.json
+      - name: Save QA preview
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_render != 'true' }}
         run: |
-          found=0
-          for f in reels/editorial/*.json; do
-            if python - "$f" <<'PY'
-          import json, sys
-          from pathlib import Path
-          p = Path(sys.argv[1])
-          try:
-              data = json.loads(p.read_text(encoding='utf-8'))
-          except Exception as exc:
-              print(f"::warning file={p}::Skipping invalid JSON: {exc}")
-              raise SystemExit(1)
-          required = ('slug', 'scenes')
-          missing = [key for key in required if key not in data]
-          if missing:
-              print(f"::notice file={p}::Skipping non-render spec; missing: {', '.join(missing)}")
-              raise SystemExit(1)
-          PY
-            then
-              echo "Rendering $f"
-              python scripts/render_editorial_reel.py "$f"
-              found=1
-            fi
-          done
-          if [ "$found" -eq 0 ]; then
-            echo "No valid editorial reel specs found."
-            exit 1
+          git config user.name 'media-bot'
+          git config user.email 'media-bot@users.noreply.github.com'
+          git add renders/*-qa-scene-03.png
+          if ! git diff --cached --quiet; then
+            git commit -m 'QA visual: cena 3 editorial'
+            git pull --rebase origin main
+            git push origin main
           fi
-      - name: Save public media
+      - name: Save full media
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_render == 'true' }}
         run: |
           git config user.name 'media-bot'
           git config user.email 'media-bot@users.noreply.github.com'
           git add media/reels/
           if ! git diff --cached --quiet; then
-            git commit -m 'Renderiza Reels editoriais e QA técnico'
+            git commit -m 'Renderiza Reel editorial após QA visual'
             git pull --rebase origin main
             git push origin main
           fi

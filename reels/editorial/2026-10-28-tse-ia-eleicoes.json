@@ -3,12 +3,68 @@
   "title": "A IA PODE MEXER NAS ELEIÇÕES?",
   "audio": "Sem narração; trilha tecnológica/suspense AAC 128 kbps.",
   "scenes": [
-    {"seconds":3,"kicker":"A IA PODE","lines":["MEXER NAS","ELEIÇÕES?"],"note":"O ponto central é como a Justiça Eleitoral tenta reduzir manipulação e desinformação com IA."},
-    {"seconds":4,"kicker":"O TSE ENDURECEU","lines":["AS REGRAS","PARA IA"],"note":"A regulamentação eleitoral de 2026 exige mais transparência e impõe limites ao uso de conteúdo sintético."},
-    {"seconds":5,"kicker":"USOU IA?","lines":["TEM QUE","AVISAR"],"note":"Conteúdo sintético em propaganda eleitoral deve trazer identificação clara sobre o uso de inteligência artificial."},
-    {"seconds":5,"kicker":"DEEPFAKE","lines":["PODE VIRAR","PROBLEMA JURÍDICO"],"note":"Manipulações enganosas capazes de afetar a integridade do pleito podem gerar consequências eleitorais e jurídicas."},
-    {"seconds":5,"kicker":"72H ANTES","lines":["REGRA AINDA","MAIS DURA"],"note":"O período próximo à votação recebe restrições adicionais para novos conteúdos sintéticos produzidos ou alterados por IA."},
-    {"seconds":4,"kicker":"A IA NÃO PODE","lines":["ESCOLHER","POR VOCÊ"],"note":"Sistemas de IA não devem ranquear candidaturas nem recomendar voto em um candidato."},
-    {"seconds":4,"kicker":"ISSO PROTEGE","lines":["A ELEIÇÃO?","COMENTE: IA"],"note":"@direitobinario — salve e compartilhe para lembrar das regras."}
+    {
+      "seconds": 6,
+      "kicker": "A IA PODE",
+      "lines": [
+        "MEXER NAS",
+        "ELEIÇÕES?"
+      ],
+      "note": "O ponto central é como a Justiça Eleitoral tenta reduzir manipulação e desinformação com IA."
+    },
+    {
+      "seconds": 6,
+      "kicker": "O TSE ENDURECEU",
+      "lines": [
+        "AS REGRAS",
+        "PARA IA"
+      ],
+      "note": "A regulamentação eleitoral de 2026 exige mais transparência e impõe limites ao uso de conteúdo sintético."
+    },
+    {
+      "seconds": 6,
+      "kicker": "USOU IA?",
+      "lines": [
+        "TEM QUE",
+        "AVISAR"
+      ],
+      "note": "Conteúdo sintético em propaganda eleitoral deve trazer identificação clara sobre o uso de inteligência artificial."
+    },
+    {
+      "seconds": 6,
+      "kicker": "DEEPFAKE",
+      "lines": [
+        "PODE VIRAR",
+        "PROBLEMA JURÍDICO"
+      ],
+      "note": "Manipulações enganosas capazes de afetar a integridade do pleito podem gerar consequências eleitorais e jurídicas."
+    },
+    {
+      "seconds": 6,
+      "kicker": "72H ANTES",
+      "lines": [
+        "REGRA AINDA",
+        "MAIS DURA"
+      ],
+      "note": "O período próximo à votação recebe restrições adicionais para novos conteúdos sintéticos produzidos ou alterados por IA."
+    },
+    {
+      "seconds": 6,
+      "kicker": "A IA NÃO PODE",
+      "lines": [
+        "ESCOLHER",
+        "POR VOCÊ"
+      ],
+      "note": "Sistemas de IA não devem ranquear candidaturas nem recomendar voto em um candidato."
+    },
+    {
+      "seconds": 6,
+      "kicker": "ISSO PROTEGE",
+      "lines": [
+        "A ELEIÇÃO?",
+        "COMENTE: IA"
+      ],
+      "note": "@direitobinario — salve e compartilhe para lembrar das regras."
+    }
   ]
 }
