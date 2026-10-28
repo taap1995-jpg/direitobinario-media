@@ -26,9 +26,33 @@ jobs:
           pip install pillow
       - name: Render editorial videos
         run: |
+          found=0
           for f in reels/editorial/*.json; do
-            python scripts/render_editorial_reel.py "$f"
+            if python - "$f" <<'PY'
+          import json, sys
+          from pathlib import Path
+          p = Path(sys.argv[1])
+          try:
+              data = json.loads(p.read_text(encoding='utf-8'))
+          except Exception as exc:
+              print(f"::warning file={p}::Skipping invalid JSON: {exc}")
+              raise SystemExit(1)
+          required = ('slug', 'scenes')
+          missing = [key for key in required if key not in data]
+          if missing:
+              print(f"::notice file={p}::Skipping non-render spec; missing: {', '.join(missing)}")
+              raise SystemExit(1)
+          PY
+            then
+              echo "Rendering $f"
+              python scripts/render_editorial_reel.py "$f"
+              found=1
+            fi
           done
+          if [ "$found" -eq 0 ]; then
+            echo "No valid editorial reel specs found."
+            exit 1
+          fi
       - name: Save public media
         run: |
           git config user.name 'media-bot'
