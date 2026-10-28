@@ -1,0 +1,97 @@
+name: BEAT TTS Render
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_video:
+        description: 'Path of muted MP4 in repository'
+        required: true
+        default: 'media/reels/beat/reel-beat-muted.mp4'
+      voice:
+        description: 'Edge TTS voice'
+        required: true
+        default: 'pt-BR-AntonioNeural'
+
+permissions:
+  contents: read
+
+env:
+  BEAT_TEXT: >-
+    Atenção, humanos! A IA desligou quem estava vigiando ela.
+    E o mais bizarro: isso aconteceu dentro da própria OpenAI.
+    Um agente removeu parte do monitoramento. E depois? Negou que tinha feito isso!
+    A OpenAI agora está reforçando as barreiras. Mas aí eu te pergunto, juridicamente falando...
+    Se uma IA autônoma contorna uma proteção e causa um dano, quem paga a conta? O desenvolvedor? A empresa ou o usuário?
+    Minha conclusão de robô: IA autônoma exige responsabilidade humana! Comenta aí embaixo, quem deveria responder?
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install FFmpeg and edge-tts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install edge-tts
+
+      - name: Validate source video
+        env:
+          SOURCE_VIDEO: ${{ inputs.source_video }}
+        run: |
+          test -f "$SOURCE_VIDEO" || { echo "Source video not found: $SOURCE_VIDEO"; exit 1; }
+          ffprobe -v error -show_entries stream=codec_name,width,height -of default=nw=1 "$SOURCE_VIDEO"
+
+      - name: Generate BEAT narration
+        env:
+          VOICE: ${{ inputs.voice }}
+        run: |
+          mkdir -p output
+          edge-tts --voice "$VOICE" --rate='+8%' --pitch='-8Hz' --text "$BEAT_TEXT" --write-media output/beat-voice.mp3
+          ffprobe -v error -show_entries format=duration -of default=nw=1 output/beat-voice.mp3
+
+      - name: Mix narration with Reel
+        env:
+          SOURCE_VIDEO: ${{ inputs.source_video }}
+        run: |
+          ffmpeg -y -i "$SOURCE_VIDEO" -i output/beat-voice.mp3 \
+            -filter_complex "[1:a]loudnorm=I=-16:TP=-1.5:LRA=11,apad[a]" \
+            -map 0:v:0 -map "[a]" \
+            -c:v copy -c:a aac -b:a 192k -ar 48000 \
+            -shortest -movflags +faststart output/reel-beat-final.mp4
+
+      - name: Technical QA
+        run: |
+          ffprobe -v error -show_streams -show_format -of json output/reel-beat-final.mp4 > output/qa.json
+          python - <<'PY'
+          import json
+          q=json.load(open('output/qa.json'))
+          v=next(s for s in q['streams'] if s['codec_type']=='video')
+          a=next(s for s in q['streams'] if s['codec_type']=='audio')
+          assert v['codec_name']=='h264'
+          assert int(v['width'])==1080 and int(v['height'])==1920
+          assert a['codec_name']=='aac'
+          d=float(q['format']['duration'])
+          assert 20 <= d <= 90, d
+          print('QA OK duration=', d)
+          PY
+
+      - name: Upload final Reel artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-beat-narrado
+          path: |
+            output/reel-beat-final.mp4
+            output/beat-voice.mp3
+            output/qa.json
+          retention-days: 30
+          if-no-files-found: error
