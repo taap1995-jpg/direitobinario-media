@@ -1,0 +1,25 @@
+name: Render Deepfake Pix
+on:
+  push:
+    paths: ['scripts/render_deepfake_pix_20261028.py', '.github/workflows/render-deepfake-pix.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update -y && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install pillow numpy
+      - run: python scripts/render_deepfake_pix_20261028.py
+      - run: |
+          git config user.name media-bot
+          git config user.email media-bot@users.noreply.github.com
+          git add media/reels/2026-10-28-deepfake-pix
+          git commit -m "Renderiza Reel Pix com música e sem narração"
+          git pull --rebase origin main
+          git push origin main
