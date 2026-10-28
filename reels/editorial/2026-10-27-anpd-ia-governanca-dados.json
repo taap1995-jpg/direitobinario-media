@@ -1,0 +1,13 @@
+{
+  "slug": "2026-10-27-anpd-ia-governanca-dados",
+  "title": "IA USA SEUS DADOS. QUEM RESPONDE?",
+  "audio": "Sem narração; leitura em tela, trilha tecnológica discreta.",
+  "scenes": [
+    {"seconds":5,"kicker":"IA USA SEUS DADOS.","lines":["QUEM RESPONDE?"],"note":"A governança de dados virou ponto central no uso responsável de inteligência artificial."},
+    {"seconds":7,"kicker":"A ANPD ENTROU NO DEBATE","lines":["IA + LGPD","GOVERNANÇA","RESPONSABILIDADE"],"note":"Em encontro recente, a ANPD destacou a relação entre IA, governança de dados e responsabilidades no ambiente digital."},
+    {"seconds":7,"kicker":"NÃO É SÓ TECNOLOGIA","lines":["DADOS PESSOAIS","BASE LEGAL","TRANSPARÊNCIA"],"note":"Sistemas de IA que tratam dados pessoais continuam sujeitos às regras aplicáveis de proteção de dados."},
+    {"seconds":7,"kicker":"QUEM DECIDE?","lines":["EMPRESA?","ALGORITMO?","HUMANO?"],"note":"Automatizar uma decisão não elimina a necessidade de governança, controles e definição de responsabilidades."},
+    {"seconds":7,"kicker":"IA NÃO APAGA A LGPD","lines":["INOVAÇÃO ≠ VALE-TUDO","DADOS TÊM REGRAS"],"note":"A inovação precisa conviver com direitos dos titulares e medidas adequadas de proteção de dados."},
+    {"seconds":6,"kicker":"E VOCÊ?","lines":["CONFIA SEUS DADOS À IA?","COMENTE E SALVE"],"note":"@DIREITOBINARIO"}
+  ]
+}
