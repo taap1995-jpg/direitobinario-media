@@ -1,0 +1,38 @@
+name: Render Post 2026-10-28 19h
+on:
+  push:
+    paths:
+      - '.github/workflows/render-post-2026-10-28-19h.yml'
+      - 'posts/2026-10-28-19h-ia-soberana/render.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: render-post-2026-10-28-19h
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-dejavu-core
+          pip install pillow numpy
+      - name: Render approved image
+        run: python posts/2026-10-28-19h-ia-soberana/render.py
+      - name: Save media
+        run: |
+          git config user.name 'media-bot'
+          git config user.email 'media-bot@users.noreply.github.com'
+          git add media/posts/2026-10-28-19h-ia-soberana/post.jpg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Renderiza post 19h IA soberana'
+            git pull --rebase origin main
+            git push origin main
+          fi
