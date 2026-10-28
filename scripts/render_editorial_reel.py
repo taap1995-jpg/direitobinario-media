@@ -13,26 +13,26 @@ def run(args): subprocess.run(args,check=True)
 def font(size,bold=True): return ImageFont.truetype(FB if bold else FR,size)
 def text_w(f,s): return f.getlength(s)
 
-def wrap_fit(text, start_size, max_width=780, min_size=32, max_lines=3, bold=True):
+def wrap_fit(text, start_size, max_width=780, min_size=32, max_lines=4, bold=True, max_chars=20):
     words=text.split()
     for size in range(start_size,min_size-1,-2):
         f=font(size,bold); lines=[]; cur=''
         for word in words:
             cand=(cur+' '+word).strip()
-            if text_w(f,cand)<=max_width or not cur: cur=cand
+            if (len(cand) <= max_chars and text_w(f,cand)<=max_width) or not cur: cur=cand
             else: lines.append(cur); cur=word
         if cur: lines.append(cur)
         if len(lines)<=max_lines and all(text_w(f,x)<=max_width for x in lines): return lines,f
     f=font(min_size,bold); lines=[]; cur=''
     for word in words:
         cand=(cur+' '+word).strip()
-        if text_w(f,cand)<=max_width or not cur: cur=cand
+        if (len(cand) <= max_chars and text_w(f,cand)<=max_width) or not cur: cur=cand
         else: lines.append(cur); cur=word
     if cur: lines.append(cur)
     return lines,f
 
-def draw_block(d,x,y,text,size,color,bold=True,max_width=780,max_lines=3,gap=12):
-    lines,f=wrap_fit(text,size,max_width,32,max_lines,bold)
+def draw_block(d,x,y,text,size,color,bold=True,max_width=780,max_lines=4,gap=12,max_chars=20):
+    lines,f=wrap_fit(text,size,max_width,32,max_lines,bold,max_chars)
     bbox=f.getbbox('Ag'); lh=bbox[3]-bbox[1]+gap
     for line in lines:
         d.text((x,y),line,font=f,fill=color); y+=lh
@@ -41,31 +41,32 @@ def draw_block(d,x,y,text,size,color,bold=True,max_width=780,max_lines=3,gap=12)
 def load_beat():
     if not BEAT_PATH.exists(): raise FileNotFoundError(f'BEAT not found: {BEAT_PATH}')
     src=Image.open(BEAT_PATH).convert('RGBA')
-    # Official sheet: retain left-side mascot pose, then constrain to support-visual size.
     crop=src.crop((0,0,min(960,src.width),src.height))
     crop.thumbnail((300,300),Image.Resampling.LANCZOS)
     return crop
 
 def scene_image(sc,idx,total,beat):
     im=Image.new('RGB',(W,H),NAVY); d=ImageDraw.Draw(im)
-    # Header / hook area.
     d.text((LEFT,TOP),'DB / DIREITO BINÁRIO',font=font(29),fill=GOLD)
     d.line((LEFT,TOP+60,RIGHT,TOP+60),fill=CYAN,width=3)
     y=TOP+115
-    y=draw_block(d,LEFT,y,sc['kicker'],50,CYAN,True,780,2,10)+24
+    y=draw_block(d,LEFT,y,sc['kicker'],88,CYAN,True,780,3,10,18)+24
     headline=' '.join(sc.get('lines',[]))
-    y=draw_block(d,LEFT,y,headline,78,WHITE,True,780,3,14)
-    # Clean explanatory panel in center; no mascot or decorative bars behind it.
-    panel_top=max(850,y+70); panel_bottom=1390
+    y=draw_block(d,LEFT,y,headline,120,WHITE,True,780,4,14,18)
+    note_lines,note_font=wrap_fit(sc.get('note',''),72,690,32,7,False,20)
+    note_bbox=note_font.getbbox('Ag'); note_lh=note_bbox[3]-note_bbox[1]+14
+    panel_h=max(300, len(note_lines)*note_lh + 110)
+    panel_top=max(800,y+55); panel_bottom=min(1390,panel_top+panel_h)
+    if panel_bottom-panel_top < panel_h:
+        panel_top=max(760,panel_bottom-panel_h)
     d.rounded_rectangle((LEFT,panel_top,RIGHT,panel_bottom),radius=28,fill=PANEL,outline='#173A5E',width=2)
     note_y=panel_top+55
-    draw_block(d,LEFT+45,note_y,sc.get('note',''),36,SOFT,False,690,6,10)
-    # BEAT is a small support visual fixed bottom-right, outside text panel.
+    for line in note_lines:
+        d.text((LEFT+45,note_y),line,font=note_font,fill=SOFT); note_y += note_lh
     bx=RIGHT-beat.width; by=1580-beat.height
     im.paste(beat,(bx,by),beat)
     d=ImageDraw.Draw(im)
     d.text((LEFT,1575),'@direitobinario',font=font(29),fill=GOLD)
-    # Quiet progress indicator only; no waveform/audio bars.
     seg=780/total
     for k in range(total):
         x=LEFT+k*seg
