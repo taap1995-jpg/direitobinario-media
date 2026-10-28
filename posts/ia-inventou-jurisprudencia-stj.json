@@ -1,0 +1,13 @@
+{
+  "format": "feed",
+  "template": "carousel_editorial",
+  "kicker": "IA + JUSTIÇA",
+  "title": ["A IA INVENTOU", "JURISPRUDÊNCIA?"],
+  "sections": [
+    {"label": "STJ", "text": "PRECEDENTES INVENTADOS JÁ CHEGARAM A PROCESSOS."},
+    {"label": "ATENÇÃO", "text": "USAR IA NÃO DISPENSA REVISÃO HUMANA DO QUE É ASSINADO."}
+  ],
+  "footer_bold": "CONFIRA A FONTE ANTES DE CITAR.",
+  "source": "Fonte: STJ — especial de 18/10/2026 sobre IA e Justiça",
+  "handle": "@DIREITOBINARIO"
+}
