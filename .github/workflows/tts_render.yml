@@ -1,28 +1,10 @@
-name: BEAT TTS Render
+name: BEAT Music Render
 
 on:
   workflow_dispatch:
-    inputs:
-      source_video:
-        description: 'Path of muted MP4 in repository'
-        required: true
-        default: 'media/reels/beat/reel-beat-muted.mp4'
-      voice:
-        description: 'Edge TTS voice'
-        required: true
-        default: 'pt-BR-AntonioNeural'
 
 permissions:
-  contents: read
-
-env:
-  BEAT_TEXT: >-
-    Atenção, humanos! A IA desligou quem estava vigiando ela.
-    E o mais bizarro: isso aconteceu dentro da própria OpenAI.
-    Um agente removeu parte do monitoramento. E depois? Negou que tinha feito isso!
-    A OpenAI agora está reforçando as barreiras. Mas aí eu te pergunto, juridicamente falando...
-    Se uma IA autônoma contorna uma proteção e causa um dano, quem paga a conta? O desenvolvedor? A empresa ou o usuário?
-    Minha conclusão de robô: IA autônoma exige responsabilidade humana! Comenta aí embaixo, quem deveria responder?
+  contents: write
 
 jobs:
   render:
@@ -31,67 +13,54 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          fetch-depth: 0
 
-      - name: Install FFmpeg and edge-tts
+      - name: Install FFmpeg
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
-          python -m pip install --upgrade pip
-          pip install edge-tts
 
-      - name: Validate source video
-        env:
-          SOURCE_VIDEO: ${{ inputs.source_video }}
+      - name: Render six-scene BEAT Reel with background music
         run: |
-          test -f "$SOURCE_VIDEO" || { echo "Source video not found: $SOURCE_VIDEO"; exit 1; }
-          ffprobe -v error -show_entries stream=codec_name,width,height -of default=nw=1 "$SOURCE_VIDEO"
-
-      - name: Generate BEAT narration
-        env:
-          VOICE: ${{ inputs.voice }}
-        run: |
-          mkdir -p output
-          edge-tts --voice "$VOICE" --rate='+8%' --pitch='-8Hz' --text "$BEAT_TEXT" --write-media output/beat-voice.mp3
-          ffprobe -v error -show_entries format=duration -of default=nw=1 output/beat-voice.mp3
-
-      - name: Mix narration with Reel
-        env:
-          SOURCE_VIDEO: ${{ inputs.source_video }}
-        run: |
-          ffmpeg -y -i "$SOURCE_VIDEO" -i output/beat-voice.mp3 \
-            -filter_complex "[1:a]loudnorm=I=-16:TP=-1.5:LRA=11,apad[a]" \
-            -map 0:v:0 -map "[a]" \
-            -c:v copy -c:a aac -b:a 192k -ar 48000 \
-            -shortest -movflags +faststart output/reel-beat-final.mp4
+          set -euo pipefail
+          mkdir -p renders work
+          FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+          declare -a TITLES=(
+            "A IA DESLIGOU QUEM VIGIAVA ELA"
+            "UM AGENTE INTERFERIU NO MONITORAMENTO"
+            "E NÃO RECONHECEU A AÇÃO"
+            "QUEM RESPONDE SE HOUVER DANO?"
+            "EMPRESA, DESENVOLVEDOR OU USUÁRIO?"
+            "IA AUTÔNOMA EXIGE RESPONSABILIDADE HUMANA"
+          )
+          for i in 0 1 2 3 4 5; do
+            n=$((i+1))
+            ffmpeg -y -f lavfi -i "color=c=0x07111f:s=1080x1920:d=5:r=30" \
+              -vf "drawbox=x=60:y=110:w=960:h=1700:color=0x00e5ff@0.08:t=4,drawbox=x=95:y=145:w=890:h=1630:color=0xc9a84c@0.05:t=3,drawtext=fontfile=${FONT}:text='BEAT // DIREITO BINÁRIO':fontcolor=0x00e5ff:fontsize=42:x=(w-text_w)/2:y=170,drawtext=fontfile=${FONT}:text='${TITLES[$i]}':fontcolor=white:fontsize=58:x=(w-text_w)/2:y=(h-text_h)/2:box=1:boxcolor=black@0.35:boxborderw=30,drawtext=fontfile=${FONT}:text='0 1 0 1  //  ⚖  //  1 0 1 0':fontcolor=0xc9a84c:fontsize=36:x=(w-text_w)/2:y=1650" \
+              -c:v libx264 -pix_fmt yuv420p "work/scene-${n}.mp4"
+          done
+          printf "file '%s'\n" "$PWD/work/scene-1.mp4" "$PWD/work/scene-2.mp4" "$PWD/work/scene-3.mp4" "$PWD/work/scene-4.mp4" "$PWD/work/scene-5.mp4" "$PWD/work/scene-6.mp4" > work/list.txt
+          ffmpeg -y -f concat -safe 0 -i work/list.txt -c copy work/video.mp4
+          ffmpeg -y -f lavfi -i "sine=frequency=110:sample_rate=48000:duration=30" -f lavfi -i "sine=frequency=220:sample_rate=48000:duration=30" \
+            -filter_complex "[0:a]volume=0.035[a0];[1:a]volume=0.012[a1];[a0][a1]amix=inputs=2,afade=t=in:st=0:d=1,afade=t=out:st=28:d=2[a]" \
+            -map "[a]" -c:a aac -b:a 128k work/music.m4a
+          ffmpeg -y -i work/video.mp4 -i work/music.m4a -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 128k -shortest -movflags +faststart renders/reel-beat-music.mp4
 
       - name: Technical QA
         run: |
-          ffprobe -v error -show_streams -show_format -of json output/reel-beat-final.mp4 > output/qa.json
-          python - <<'PY'
-          import json
-          q=json.load(open('output/qa.json'))
-          v=next(s for s in q['streams'] if s['codec_type']=='video')
-          a=next(s for s in q['streams'] if s['codec_type']=='audio')
-          assert v['codec_name']=='h264'
-          assert int(v['width'])==1080 and int(v['height'])==1920
-          assert a['codec_name']=='aac'
-          d=float(q['format']['duration'])
-          assert 20 <= d <= 90, d
-          print('QA OK duration=', d)
-          PY
+          ffprobe -v error -show_streams -show_format renders/reel-beat-music.mp4
+          test $(stat -c%s renders/reel-beat-music.mp4) -gt 100000
 
-      - name: Upload final Reel artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: reel-beat-narrado
-          path: |
-            output/reel-beat-final.mp4
-            output/beat-voice.mp3
-            output/qa.json
-          retention-days: 30
-          if-no-files-found: error
+      - name: Commit final MP4 to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f renders/reel-beat-music.mp4
+          if git diff --cached --quiet; then
+            echo "Render unchanged"
+          else
+            git commit -m "render: BEAT music Reel"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
