@@ -1,4 +1,4 @@
-name: BEAT Music Render
+name: BEAT Dark Tech QA Render
 
 on:
   workflow_dispatch:
@@ -19,48 +19,76 @@ jobs:
       - name: Install FFmpeg
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
 
-      - name: Render six-scene BEAT Reel with background music
+      - name: Render Dark Tech Reel with safe zone and music
+        shell: bash
         run: |
           set -euo pipefail
           mkdir -p renders work
           FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+          # Safe zone: x >= 150, x <= 930; y >= 150, content ends <= 1670 (250px bottom clearance).
           declare -a TITLES=(
-            "A IA DESLIGOU QUEM VIGIAVA ELA"
-            "UM AGENTE INTERFERIU NO MONITORAMENTO"
-            "E NÃO RECONHECEU A AÇÃO"
-            "QUEM RESPONDE SE HOUVER DANO?"
-            "EMPRESA, DESENVOLVEDOR OU USUÁRIO?"
-            "IA AUTÔNOMA EXIGE RESPONSABILIDADE HUMANA"
+            "A IA DESLIGOU\\nQUEM VIGIAVA ELA"
+            "UM AGENTE INTERFERIU\\nNO MONITORAMENTO"
+            "E NÃO RECONHECEU\\nA AÇÃO"
+            "QUEM RESPONDE\\nSE HOUVER DANO?"
+            "EMPRESA, DESENVOLVEDOR\\nOU USUÁRIO?"
+            "IA AUTÔNOMA EXIGE\\nRESPONSABILIDADE HUMANA"
           )
           for i in 0 1 2 3 4 5; do
             n=$((i+1))
-            ffmpeg -y -f lavfi -i "color=c=0x07111f:s=1080x1920:d=5:r=30" \
-              -vf "drawbox=x=60:y=110:w=960:h=1700:color=0x00e5ff@0.08:t=4,drawbox=x=95:y=145:w=890:h=1630:color=0xc9a84c@0.05:t=3,drawtext=fontfile=${FONT}:text='BEAT // DIREITO BINÁRIO':fontcolor=0x00e5ff:fontsize=42:x=(w-text_w)/2:y=170,drawtext=fontfile=${FONT}:text='${TITLES[$i]}':fontcolor=white:fontsize=58:x=(w-text_w)/2:y=(h-text_h)/2:box=1:boxcolor=black@0.35:boxborderw=30,drawtext=fontfile=${FONT}:text='0 1 0 1  //  ⚖  //  1 0 1 0':fontcolor=0xc9a84c:fontsize=36:x=(w-text_w)/2:y=1650" \
-              -c:v libx264 -pix_fmt yuv420p "work/scene-${n}.mp4"
+            ffmpeg -y -f lavfi -i "color=c=0x050b14:s=1080x1920:d=5:r=30" \
+              -vf "drawbox=x=150:y=150:w=780:h=1520:color=0x071a2d@0.92:t=fill,drawbox=x=150:y=150:w=780:h=8:color=0x00e5ff@0.95:t=fill,drawbox=x=150:y=1662:w=780:h=8:color=0xc9a84c@0.95:t=fill,drawbox=x=205:y=260:w=670:h=1040:color=0x00e5ff@0.035:t=fill,drawbox=x=260:y=360:w=560:h=560:color=0xc9a84c@0.025:t=fill,drawtext=fontfile=${FONT}:text='BEAT // DIREITO BINÁRIO':fontcolor=0x00e5ff:fontsize=38:x=(w-text_w)/2:y=205,drawtext=fontfile=${FONT}:text='${TITLES[$i]}':fontcolor=white:fontsize=54:line_spacing=18:x=(w-text_w)/2:y=(h-text_h)/2-40:box=1:boxcolor=0x02060c@0.72:boxborderw=32,drawtext=fontfile=${FONT}:text='⚖  0 1 0 1  //  1 0 1 0':fontcolor=0xc9a84c:fontsize=32:x=(w-text_w)/2:y=1510" \
+              -c:v libx264 -preset medium -crf 19 -pix_fmt yuv420p "work/scene-${n}.mp4"
           done
           printf "file '%s'\n" "$PWD/work/scene-1.mp4" "$PWD/work/scene-2.mp4" "$PWD/work/scene-3.mp4" "$PWD/work/scene-4.mp4" "$PWD/work/scene-5.mp4" "$PWD/work/scene-6.mp4" > work/list.txt
           ffmpeg -y -f concat -safe 0 -i work/list.txt -c copy work/video.mp4
+
+          # Generate audible electronic bed; then map it explicitly as stream 1:a:0.
           ffmpeg -y -f lavfi -i "sine=frequency=110:sample_rate=48000:duration=30" -f lavfi -i "sine=frequency=220:sample_rate=48000:duration=30" \
-            -filter_complex "[0:a]volume=0.035[a0];[1:a]volume=0.012[a1];[a0][a1]amix=inputs=2,afade=t=in:st=0:d=1,afade=t=out:st=28:d=2[a]" \
+            -filter_complex "[0:a]volume=0.18[a0];[1:a]volume=0.07[a1];[a0][a1]amix=inputs=2:normalize=0,afade=t=in:st=0:d=0.7,afade=t=out:st=28:d=2,volume=2.0[a]" \
             -map "[a]" -c:a aac -b:a 128k work/music.m4a
-          ffmpeg -y -i work/video.mp4 -i work/music.m4a -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 128k -shortest -movflags +faststart renders/reel-beat-music.mp4
 
-      - name: Technical QA
-        run: |
-          ffprobe -v error -show_streams -show_format renders/reel-beat-music.mp4
-          test $(stat -c%s renders/reel-beat-music.mp4) -gt 100000
+          ffmpeg -y -i work/video.mp4 -i work/music.m4a \
+            -map 0:v:0 -map 1:a:0 \
+            -c:v copy -c:a aac -b:a 128k -ar 48000 \
+            -shortest -movflags +faststart renders/reel-beat-darktech-test.mp4
 
-      - name: Commit final MP4 to main
+      - name: Quality Assurance - require video and audible AAC track
+        shell: bash
         run: |
+          set -euo pipefail
+          FILE=renders/reel-beat-darktech-test.mp4
+          ffprobe -v error -show_streams -show_format -of json "$FILE" > renders/reel-beat-darktech-test.qa.json
+          VIDEO_COUNT=$(ffprobe -v error -select_streams v:0 -show_entries stream=index -of csv=p=0 "$FILE" | wc -l)
+          AUDIO_CODEC=$(ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=nw=1:nk=1 "$FILE")
+          AUDIO_CHANNELS=$(ffprobe -v error -select_streams a:0 -show_entries stream=channels -of default=nw=1:nk=1 "$FILE")
+          AUDIO_DURATION=$(ffprobe -v error -select_streams a:0 -show_entries stream=duration -of default=nw=1:nk=1 "$FILE")
+          AUDIO_MEAN=$(ffmpeg -hide_banner -i "$FILE" -map 0:a:0 -af volumedetect -f null - 2>&1 | sed -n 's/.*mean_volume: \([-0-9.]*\) dB.*/\1/p' | tail -1)
+          test "$VIDEO_COUNT" -ge 1
+          test "$AUDIO_CODEC" = "aac"
+          test "${AUDIO_CHANNELS:-0}" -ge 1
+          python3 - "$AUDIO_DURATION" "$AUDIO_MEAN" <<'PY'
+          import sys
+          duration=float(sys.argv[1])
+          mean=float(sys.argv[2])
+          assert duration >= 25, duration
+          assert mean > -45, mean
+          print(f"QA PASS: AAC audio duration={duration:.2f}s mean_volume={mean:.1f}dB")
+          PY
+
+      - name: Commit test MP4 and QA to main
+        shell: bash
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f renders/reel-beat-music.mp4
+          git add -f renders/reel-beat-darktech-test.mp4 renders/reel-beat-darktech-test.qa.json
           if git diff --cached --quiet; then
             echo "Render unchanged"
           else
-            git commit -m "render: BEAT music Reel"
+            git commit -m "render: BEAT Dark Tech safe-zone QA test"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
