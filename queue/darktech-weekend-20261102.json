@@ -1,0 +1,68 @@
+[
+  {
+    "id": "06-heranca-reels",
+    "date": "2026-11-07T08:00:00-03:00",
+    "type": "REELS",
+    "files": [
+      "artifacts/darktech-20261102/06-heranca/reel.mp4"
+    ],
+    "caption": "Seu patrimônio digital pode sobreviver a você. Acesso e herança, porém, são questões diferentes.\nCriptoativos com valor econômico podem integrar a sucessão. Mensagens, fotos privadas e contas pessoais exigem atenção à intimidade do falecido e de terceiros, às regras da plataforma e ao caso concreto.\nO STJ admitiu incidente associado ao inventário, com profissional especializado, para identificar e classificar bens digitais protegidos por senha, preservando conteúdos privados.\nOrganize um inventário de ativos e um plano seguro de acesso. Em autocustódia, perder chaves sem recuperação pode impedir o acesso; em corretoras, os procedimentos são diferentes. Um arquivo chamado 'testamento digital' não substitui as formalidades legais.\nEnvie para quem tem cripto e ainda não organizou isso.\n\nFontes:\nhttps://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/01102025-Acesso-a-heranca-digital-protegida-por-senha-exige-incidente-processual-proprio--decide-Terceira-Turma.aspx\n\n#Direito #Tecnologia #InteligenciaArtificial #DireitoDigital #LGPD #SegurancaDigital #DireitoETecnologia #DireitoBinario #CidadaniaDigital",
+    "sources": [
+      "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/01102025-Acesso-a-heranca-digital-protegida-por-senha-exige-incidente-processual-proprio--decide-Terceira-Turma.aspx"
+    ],
+    "status": "scheduled",
+    "provider": "github-actions"
+  },
+  {
+    "id": "06-heranca-carousel",
+    "date": "2026-11-07T17:00:00-03:00",
+    "type": "CAROUSEL",
+    "files": [
+      "artifacts/darktech-20261102/06-heranca/slide-01.jpg",
+      "artifacts/darktech-20261102/06-heranca/slide-02.jpg",
+      "artifacts/darktech-20261102/06-heranca/slide-03.jpg",
+      "artifacts/darktech-20261102/06-heranca/slide-04.jpg",
+      "artifacts/darktech-20261102/06-heranca/slide-05.jpg"
+    ],
+    "caption": "Seu patrimônio digital pode sobreviver a você. Acesso e herança, porém, são questões diferentes.\nCriptoativos com valor econômico podem integrar a sucessão. Mensagens, fotos privadas e contas pessoais exigem atenção à intimidade do falecido e de terceiros, às regras da plataforma e ao caso concreto.\nO STJ admitiu incidente associado ao inventário, com profissional especializado, para identificar e classificar bens digitais protegidos por senha, preservando conteúdos privados.\nOrganize um inventário de ativos e um plano seguro de acesso. Em autocustódia, perder chaves sem recuperação pode impedir o acesso; em corretoras, os procedimentos são diferentes. Um arquivo chamado 'testamento digital' não substitui as formalidades legais.\nEnvie para quem tem cripto e ainda não organizou isso.\n\nFontes:\nhttps://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/01102025-Acesso-a-heranca-digital-protegida-por-senha-exige-incidente-processual-proprio--decide-Terceira-Turma.aspx\n\n#Direito #Tecnologia #InteligenciaArtificial #DireitoDigital #LGPD #SegurancaDigital #DireitoETecnologia #DireitoBinario #CidadaniaDigital",
+    "sources": [
+      "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/01102025-Acesso-a-heranca-digital-protegida-por-senha-exige-incidente-processual-proprio--decide-Terceira-Turma.aspx"
+    ],
+    "status": "scheduled",
+    "provider": "github-actions"
+  },
+  {
+    "id": "07-eleicoes-reels",
+    "date": "2026-11-08T08:00:00-03:00",
+    "type": "REELS",
+    "files": [
+      "artifacts/darktech-20261102/07-eleicoes/reel.mp4"
+    ],
+    "caption": "O aviso 'feito com IA' não é um passe livre na propaganda eleitoral.\nA Resolução TSE 23.610/2019, com alterações inclusive da Resolução 23.755/2026, exige transparência no uso de conteúdo sintético e prevê vedações específicas.\nDeepfakes usadas na propaganda para favorecer ou prejudicar candidaturas são proibidas. Chatbots de campanha não podem simular conversa com candidato ou outra pessoa real. Há também restrições temporais específicas que precisam ser observadas.\nEste é um guia das regras, sem afirmação sobre resultado eleitoral ou prazo para uma próxima eleição. Sanções não são automáticas: dependem da infração e do devido processo.\nConfira a origem, preserve o link e consulte os canais oficiais da Justiça Eleitoral. Você confia na regulação da IA?\n\nFontes:\nhttps://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-610-de-18-de-dezembro-de-2019\nhttps://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026\n\n#Direito #Tecnologia #InteligenciaArtificial #DireitoDigital #LGPD #SegurancaDigital #DireitoETecnologia #DireitoBinario #CidadaniaDigital",
+    "sources": [
+      "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-610-de-18-de-dezembro-de-2019",
+      "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026"
+    ],
+    "status": "scheduled",
+    "provider": "github-actions"
+  },
+  {
+    "id": "07-eleicoes-carousel",
+    "date": "2026-11-08T17:00:00-03:00",
+    "type": "CAROUSEL",
+    "files": [
+      "artifacts/darktech-20261102/07-eleicoes/slide-01.jpg",
+      "artifacts/darktech-20261102/07-eleicoes/slide-02.jpg",
+      "artifacts/darktech-20261102/07-eleicoes/slide-03.jpg",
+      "artifacts/darktech-20261102/07-eleicoes/slide-04.jpg",
+      "artifacts/darktech-20261102/07-eleicoes/slide-05.jpg"
+    ],
+    "caption": "O aviso 'feito com IA' não é um passe livre na propaganda eleitoral.\nA Resolução TSE 23.610/2019, com alterações inclusive da Resolução 23.755/2026, exige transparência no uso de conteúdo sintético e prevê vedações específicas.\nDeepfakes usadas na propaganda para favorecer ou prejudicar candidaturas são proibidas. Chatbots de campanha não podem simular conversa com candidato ou outra pessoa real. Há também restrições temporais específicas que precisam ser observadas.\nEste é um guia das regras, sem afirmação sobre resultado eleitoral ou prazo para uma próxima eleição. Sanções não são automáticas: dependem da infração e do devido processo.\nConfira a origem, preserve o link e consulte os canais oficiais da Justiça Eleitoral. Você confia na regulação da IA?\n\nFontes:\nhttps://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-610-de-18-de-dezembro-de-2019\nhttps://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026\n\n#Direito #Tecnologia #InteligenciaArtificial #DireitoDigital #LGPD #SegurancaDigital #DireitoETecnologia #DireitoBinario #CidadaniaDigital",
+    "sources": [
+      "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-610-de-18-de-dezembro-de-2019",
+      "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026"
+    ],
+    "status": "scheduled",
+    "provider": "github-actions"
+  }
+]
