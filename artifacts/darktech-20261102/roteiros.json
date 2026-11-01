@@ -1,0 +1,392 @@
+[
+  {
+    "id": "01-deepfake",
+    "date": "2026-11-02",
+    "label": "VOZ CLONADA",
+    "kind": "phone",
+    "reel": [
+      [
+        "É A VOZ DO SEU FILHO.\nMAS É ELE?",
+        ""
+      ],
+      [
+        "A IA PODE IMITAR\nQUEM VOCÊ AMA.",
+        "UM PEDIDO DE PIX URGENTE PODE SER FRAUDE."
+      ],
+      [
+        "O GOLPE É DIGITAL.\nO CRIME É REAL.",
+        "A FRAUDE PODE CONFIGURAR ESTELIONATO, CONFORME O CASO."
+      ],
+      [
+        "ANTES DO PIX,\nCONFIRME POR OUTRO CANAL.",
+        "SE HOUVE GOLPE: AVISE O BANCO E GUARDE AS PROVAS."
+      ],
+      [
+        "ENVIE PARA\nSEUS PAIS.",
+        "A VOZ SOZINHA NÃO PROVA A IDENTIDADE."
+      ]
+    ],
+    "slides": [
+      [
+        "GOLPE DA\nDEEPFAKE",
+        "COMO O DIREITO TE PROTEGE — E ONDE EXIGE CUIDADO."
+      ],
+      [
+        "PARECE REAL.\nPODE SER IA.",
+        "DEEPFAKES IMITAM VOZ OU IMAGEM. O REALISMO NÃO COMPROVA QUEM ESTÁ DO OUTRO LADO."
+      ],
+      [
+        "TECNOLOGIA NOVA.\nFRAUDE CONHECIDA.",
+        "ENGANAR PARA OBTER VANTAGEM ILÍCITA E CAUSAR PREJUÍZO PODE CONFIGURAR ESTELIONATO. O ENQUADRAMENTO DEPENDE DA CONDUTA."
+      ],
+      [
+        "O BANCO RESPONDE\nEM TODO CASO?",
+        "NÃO AUTOMATICAMENTE. FALHAS DE SEGURANÇA E OPERAÇÕES ATÍPICAS PODEM GERAR RESPONSABILIDADE. SÚMULA 479/STJ."
+      ],
+      [
+        "PRESERVE.\nDENUNCIE.\nPEÇA A REMOÇÃO.",
+        "GUARDE ÁUDIOS ORIGINAIS, LINKS, DATAS E COMPROVANTES. REGISTRE B.O. CONTEÚDO ILÍCITO PODE SER QUESTIONADO; NÃO HÁ DIREITO GERAL AO ESQUECIMENTO."
+      ]
+    ],
+    "caption": "A voz parece familiar. A urgência, também. É exatamente aí que o golpe tenta te pegar.\nConfirme a identidade por outro canal antes de transferir. Se já houve fraude, contate imediatamente o banco pelos canais oficiais, peça análise do MED quando for Pix e preserve áudios originais, links, comprovantes e protocolos.\nO estelionato e a responsabilidade civil dependem dos fatos. Banco ou plataforma não respondem automaticamente por todo golpe.\nEnvie para seus pais e salve este alerta.",
+    "sources": [
+      "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/21102025-Bancos-e-instituicoes-de-pagamento-devem-indenizar-clientes-por-falhas-que-viabilizam-golpe-da-falsa-central.aspx",
+      "https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=786"
+    ]
+  },
+  {
+    "id": "02-vigilancia",
+    "date": "2026-11-03",
+    "label": "VIGILÂNCIA NO TRABALHO",
+    "kind": "eye",
+    "reel": [
+      [
+        "SEU CHEFE PODE\nLER SEU WHATSAPP?",
+        ""
+      ],
+      [
+        "O COMPUTADOR\nÉ DA EMPRESA.",
+        "ISSO NÃO TORNA SUAS CONVERSAS PESSOAIS PÚBLICAS."
+      ],
+      [
+        "MONITORAR NÃO É\nDEVASSAR A VIDA PRIVADA.",
+        "O CONTROLE CORPORATIVO EXIGE FINALIDADE, TRANSPARÊNCIA E LIMITES."
+      ],
+      [
+        "AVISO PRÉVIO NÃO\nAUTORIZA TODO ACESSO.",
+        "A INTIMIDADE CONTINUA PROTEGIDA, MESMO NO EQUIPAMENTO DA FIRMA."
+      ],
+      [
+        "SALVE ANTES DE\nABRIR O WHATSAPP.",
+        "ENCERRE SESSÕES PESSOAIS EM COMPUTADORES COMPARTILHADOS."
+      ]
+    ],
+    "slides": [
+      [
+        "SEU CHEFE VÊ\nTUDO O QUE\nVOCÊ DIGITA?",
+        "MONITORAMENTO TEM LIMITES. ENTENDA A DIFERENÇA."
+      ],
+      [
+        "O PODER DIRETIVO\nNÃO É ILIMITADO.",
+        "A EMPRESA PODE FISCALIZAR O TRABALHO, RESPEITANDO INTIMIDADE, NECESSIDADE E PROPORCIONALIDADE."
+      ],
+      [
+        "CORPORATIVO NÃO\nSIGNIFICA SEM LIMITES.",
+        "E-MAILS E CHATS DE TRABALHO PODEM TER CONTROLE COM FINALIDADE LEGÍTIMA E TRANSPARÊNCIA. ISSO NÃO LIBERA TODA LEITURA."
+      ],
+      [
+        "WHATSAPP PESSOAL\nCONTINUA PESSOAL.",
+        "DEIXAR A CONTA ABERTA NO COMPUTADOR DA FIRMA NÃO AUTORIZA LEITURA OU DIVULGAÇÃO ABUSIVA. CÂMERAS NO HOME OFFICE TAMBÉM EXIGEM LIMITES."
+      ],
+      [
+        "SUA PRIVACIDADE\nFOI VIOLADA?",
+        "GUARDE POLÍTICAS INTERNAS, AVISOS E REGISTROS DO ACESSO. PROCURE O ENCARREGADO DE DADOS, SINDICATO OU ORIENTAÇÃO JURÍDICA. SALVE ESTE GUIA."
+      ]
+    ],
+    "caption": "O equipamento é corporativo. A sua intimidade não vira propriedade da empresa.\nO monitoramento de ferramentas profissionais exige finalidade legítima, transparência, necessidade e proporcionalidade. Um aviso genérico não autoriza devassa em conversas pessoais.\nO TRT-MG manteve indenização em caso de leitura, fotografia e compartilhamento interno de WhatsApp pessoal aberto no computador do trabalho. É uma decisão sobre fatos específicos, não autorização para generalizar qualquer situação.\nSalve e confira as políticas do seu trabalho.",
+    "sources": [
+      "https://portal.trt3.jus.br/internet/conheca-o-trt/comunicacao/noticias-juridicas/trt-mg-mantem-indenizacao-por-acesso-a-mensagens-privadas-de-empregada-e-divulgacao-no-ambiente-de-trabalho",
+      "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html"
+    ]
+  },
+  {
+    "id": "03-pix",
+    "date": "2026-11-04",
+    "label": "FRAUDE BANCÁRIA",
+    "kind": "pix",
+    "reel": [
+      [
+        "SEU PIX SUMIU.\nQUEM PAGA?",
+        ""
+      ],
+      [
+        "A DEVOLUÇÃO\nNÃO É AUTOMÁTICA.",
+        "É PRECISO ANALISAR COMO A FRAUDE ACONTECEU."
+      ],
+      [
+        "OPERAÇÕES ATÍPICAS\nACENDEM O ALERTA.",
+        "FALHAS DO SERVIÇO PODEM GERAR RESPONSABILIDADE DO BANCO."
+      ],
+      [
+        "AVISE O BANCO AGORA.\nPEÇA ANÁLISE DO MED.",
+        "NO PIX, O MECANISMO NÃO GARANTE RECUPERAÇÃO."
+      ],
+      [
+        "GUARDE AS PROVAS.\nCOMPARTILHE O ALERTA.",
+        "FORNECER SENHA NÃO DEFINE, SOZINHO, QUEM RESPONDE."
+      ]
+    ],
+    "slides": [
+      [
+        "SEU PIX SUMIU.\nE AGORA?",
+        "UM GUIA PRÁTICO PARA AGIR DEPOIS DA FRAUDE."
+      ],
+      [
+        "BANCO PRIMEIRO.\nNÃO ESPERE 24H.",
+        "USE OS CANAIS OFICIAIS. CONTESTE AS TRANSAÇÕES E PEÇA ANÁLISE DO MED NO PIX. REGISTRE B.O. EM PARALELO."
+      ],
+      [
+        "MED NÃO É\nDEVOLUÇÃO GARANTIDA.",
+        "O PEDIDO PODE SER FEITO EM ATÉ 80 DIAS, MAS AJA IMEDIATAMENTE. A RECUPERAÇÃO DEPENDE DA ANÁLISE E DE RECURSOS DISPONÍVEIS."
+      ],
+      [
+        "QUANDO O BANCO\nPODE RESPONDER?",
+        "O CDC, ART. 14, E A SÚMULA 479/STJ AMPARAM A ANÁLISE DE FALHAS DO SERVIÇO. TRANSAÇÕES FORA DO PERFIL SÃO UM ALERTA."
+      ],
+      [
+        "QUANDO O PEDIDO\nPODE SER NEGADO?",
+        "AUSÊNCIA DE FALHA DO SERVIÇO OU CULPA EXCLUSIVA COMPROVADA PODEM AFASTAR A RESPONSABILIDADE. CADA CASO EXIGE PROVA."
+      ],
+      [
+        "MONTE SUA\nPASTA DE PROVAS.",
+        "EXTRATOS, COMPROVANTES, HORÁRIOS, MENSAGENS E PROTOCOLOS. SEM SOLUÇÃO, PROCURE OUVIDORIA, PROCON OU ORIENTAÇÃO JURÍDICA."
+      ]
+    ],
+    "caption": "Caiu em golpe? Não espere o dia seguinte para agir.\nContate o banco pelos canais oficiais, conteste as operações e solicite análise do MED se a transferência foi Pix. Registre B.O. em paralelo e preserve todos os comprovantes.\nO MED pode ser solicitado em até 80 dias, mas agir rápido importa. Ele não garante devolução: há análise e dependência de recursos recuperáveis.\nA responsabilidade bancária também não é automática. Falhas de segurança e operações incompatíveis com o perfil do cliente são relevantes; entregar senha não encerra, sozinho, a discussão.\nSalve este passo a passo.",
+    "sources": [
+      "https://www.bcb.gov.br/estabilidadefinanceira/pix-seguranca",
+      "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15072026-Sem-transacoes-incompativeis-com-perfil-de-cliente--banco-nao-responde-por-golpe-da-falsa-central.aspx",
+      "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/21102025-Bancos-e-instituicoes-de-pagamento-devem-indenizar-clientes-por-falhas-que-viabilizam-golpe-da-falsa-central.aspx"
+    ]
+  },
+  {
+    "id": "04-dados",
+    "date": "2026-11-05",
+    "label": "VAZAMENTO DE DADOS",
+    "kind": "lock",
+    "reel": [
+      [
+        "VAZOU DADOS.\nQUEM PAGA A CONTA?",
+        ""
+      ],
+      [
+        "A LGPD PREVÊ\nSANÇÕES.",
+        "A MULTA PODE CHEGAR A R$ 50 MILHÕES POR INFRAÇÃO."
+      ],
+      [
+        "MAS A MULTA\nNÃO É AUTOMÁTICA.",
+        "DEPENDE DE PROCESSO ADMINISTRATIVO E DOS CRITÉRIOS LEGAIS."
+      ],
+      [
+        "INCIDENTE RELEVANTE\nEXIGE COMUNICAÇÃO.",
+        "A REGRA GERAL DA ANPD É DE 3 DIAS ÚTEIS, NOS CASOS APLICÁVEIS."
+      ],
+      [
+        "JÁ AVISARAM QUE\nSEUS DADOS VAZARAM?",
+        "CONTE NOS COMENTÁRIOS, SEM EXPOR DADOS PESSOAIS."
+      ]
+    ],
+    "slides": [
+      [
+        "VAZAMENTO:\nQUEM PAGA\nA CONTA?",
+        "O QUE EMPRESAS E USUÁRIOS PRECISAM SABER."
+      ],
+      [
+        "INCIDENTE NÃO É\nSÓ ATAQUE HACKER.",
+        "PERDA, ACESSO INDEVIDO OU DIVULGAÇÃO ACIDENTAL PODEM AFETAR DADOS PESSOAIS. CONTER E DOCUMENTAR É ESSENCIAL."
+      ],
+      [
+        "AVISAR É PARTE\nDA RESPOSTA.",
+        "HAVENDO RISCO OU DANO RELEVANTE, O CONTROLADOR DEVE COMUNICAR ANPD E TITULARES. REGRA GERAL: 3 DIAS ÚTEIS, COM EXCEÇÕES."
+      ],
+      [
+        "R$ 50 MILHÕES?\nENTENDA O LIMITE.",
+        "MULTA SIMPLES: ATÉ 2% DO FATURAMENTO NO BRASIL, EXCLUÍDOS TRIBUTOS, LIMITADA A R$ 50 MILHÕES POR INFRAÇÃO. EXIGE PROCESSO."
+      ],
+      [
+        "SEUS DIREITOS\nCONTINUAM VALENDO.",
+        "PEÇA INFORMAÇÕES, ACESSO E CORREÇÃO. ELIMINAÇÃO TEM HIPÓTESES E EXCEÇÕES. RESPONSABILIDADE, SOLIDARIEDADE E INDENIZAÇÃO DEPENDEM DO CASO."
+      ]
+    ],
+    "caption": "Vazamento não gera automaticamente multa máxima nem indenização para todo mundo.\nA LGPD prevê multa simples de até 2% do faturamento da pessoa jurídica de direito privado, grupo ou conglomerado no Brasil no último exercício, excluídos os tributos, limitada a R$ 50 milhões por infração. A aplicação exige processo administrativo e critérios legais.\nIncidentes que possam ocasionar risco ou dano relevante aos titulares devem ser comunicados pelo controlador à ANPD e aos afetados. O prazo geral é de 3 dias úteis a partir do conhecimento de que o incidente afetou dados pessoais, ressalvadas as regras específicas e exceções aplicáveis.\nPeça informações ao controlador e guarde protocolos. Direitos de eliminação e responsabilidade solidária têm requisitos, não são universais.\nJá recebeu aviso de vazamento? Comente sem publicar seus dados.",
+    "sources": [
+      "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html",
+      "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/comunicado-de-incidente-de-seguranca-cis"
+    ]
+  },
+  {
+    "id": "05-fakes",
+    "date": "2026-11-06",
+    "label": "PERFIS FALSOS",
+    "kind": "fake",
+    "reel": [
+      [
+        "PERFIL FAKE:\nÉ SÓ BRINCADEIRA?",
+        ""
+      ],
+      [
+        "UM PSEUDÔNIMO\nNÃO É CRIME POR SI SÓ.",
+        "O QUE VOCÊ FAZ COM ELE É DECISIVO."
+      ],
+      [
+        "FINGIR SER OUTRO\nPODE TER CONSEQUÊNCIAS.",
+        "A FALSA IDENTIDADE EXIGE OS ELEMENTOS DO ART. 307 DO CÓDIGO PENAL."
+      ],
+      [
+        "EXPOSIÇÃO E OFENSAS\nPODEM GERAR RESPONSABILIDADE.",
+        "CRIMES CONTRA A HONRA E DANOS CIVIS DEPENDEM DO CASO."
+      ],
+      [
+        "NÃO APAGUE\nAS PROVAS.",
+        "GUARDE LINKS E DATAS. ENVIE PARA QUEM ACHA QUE VALE TUDO."
+      ]
+    ],
+    "slides": [
+      [
+        "PERFIL FAKE:\nOPINIÃO OU\nCRIME?",
+        "A CONDUTA IMPORTA MAIS QUE O NOME DO PERFIL."
+      ],
+      [
+        "NEM TODO NOME\nFICTÍCIO É CRIME.",
+        "PSEUDÔNIMO, HUMOR E CRÍTICA NÃO SE CONFUNDEM AUTOMATICAMENTE COM FALSA IDENTIDADE OU OFENSA."
+      ],
+      [
+        "FALSA IDENTIDADE\nTEM REQUISITOS.",
+        "O ART. 307 DO CP TRATA DE ATRIBUIR FALSA IDENTIDADE PARA OBTER VANTAGEM OU CAUSAR DANO. O RESULTADO NÃO PRECISA SE CONCRETIZAR."
+      ],
+      [
+        "LIBERDADE NÃO\nELIMINA RESPONSABILIDADE.",
+        "CALÚNIA, DIFAMAÇÃO E INJÚRIA TÊM ELEMENTOS DISTINTOS. AMEAÇAS E DISCRIMINAÇÃO TAMBÉM PODEM SER ILÍCITAS."
+      ],
+      [
+        "COMO REAGIR\nSEM PERDER PROVAS?",
+        "GUARDE URLS, DATAS E CONTEXTO ANTES DE DENUNCIAR. IDENTIFICAÇÃO PODE EXIGIR ORDEM JUDICIAL E DADOS TÉCNICOS. IP SOZINHO NÃO PROVA AUTORIA."
+      ]
+    ],
+    "caption": "Criar um perfil com nome fictício não torna alguém criminoso automaticamente. Usá-lo para se passar por outra pessoa, ofender, ameaçar ou fraudar pode mudar completamente o cenário.\nO art. 307 do Código Penal exige atribuição de falsa identidade com finalidade de obter vantagem ou causar dano. O STJ esclarece que a obtenção efetiva da vantagem ou a ocorrência do prejuízo não são necessárias para a consumação.\nGuarde URLs, datas, contexto e arquivos antes de denunciar. A identificação pode exigir medidas judiciais e cruzamento de registros: endereço IP não equivale, sozinho, a autoria comprovada.\nSalve para consultar e não confunda crítica com licença para ofender.",
+    "sources": [
+      "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&aplicacao=informativo&b=INFJ&i=151&l=50&livre=%2707&p=true&refinar=S.DISP.&t="
+    ]
+  },
+  {
+    "id": "06-heranca",
+    "date": "2026-11-07",
+    "label": "HERANÇA DIGITAL",
+    "kind": "vault",
+    "reel": [
+      [
+        "VOCÊ MORRE.\nE SEU BITCOIN?",
+        ""
+      ],
+      [
+        "PATRIMÔNIO DIGITAL\nPODE ENTRAR NA HERANÇA.",
+        "MAS NEM TODA CONTA OU MENSAGEM É TRANSMISSÍVEL."
+      ],
+      [
+        "HERDAR NÃO É\nGANHAR ACESSO A TUDO.",
+        "A INTIMIDADE DO FALECIDO E DE TERCEIROS CONTINUA IMPORTANDO."
+      ],
+      [
+        "SEM ACESSO,\nO RISCO AUMENTA.",
+        "EM AUTOCUSTÓDIA, PERDER AS CHAVES PODE IMPEDIR A RECUPERAÇÃO."
+      ],
+      [
+        "ORGANIZE HOJE.\nPROTEJA QUEM FICA.",
+        "COMPARTILHE COM QUEM TEM CRIPTO. NÃO ENVIE SENHAS POR COMENTÁRIOS."
+      ]
+    ],
+    "slides": [
+      [
+        "QUEM HERDA\nSUA VIDA\nDIGITAL?",
+        "FOTOS, CONTAS E CRIPTOMOEDAS NÃO TÊM A MESMA REGRA."
+      ],
+      [
+        "SEPARE PATRIMÔNIO\nDE INTIMIDADE.",
+        "ATIVOS ECONÔMICOS PODEM INTEGRAR A SUCESSÃO. MENSAGENS E DADOS PRIVADOS EXIGEM PROTEÇÃO DO FALECIDO E DE TERCEIROS."
+      ],
+      [
+        "BITCOIN SEM CHAVE:\nUM RISCO REAL.",
+        "EM AUTOCUSTÓDIA, SEM CHAVE OU MECANISMO DE RECUPERAÇÃO O ACESSO PODE SER IMPOSSÍVEL. EM CORRETORAS, HÁ PROCEDIMENTOS PRÓPRIOS."
+      ],
+      [
+        "PLANEJAMENTO\nNÃO É COMPARTILHAR SENHA.",
+        "INVENTARIE ATIVOS, DEFINA ACESSO SEGURO E USE CONTATOS DE LEGADO QUANDO DISPONÍVEIS. TESTAMENTO EXIGE FORMALIDADES LEGAIS."
+      ],
+      [
+        "HERDAR NÃO É\nACESSAR TUDO.",
+        "O STJ ADMITIU INCIDENTE PRÓPRIO NO INVENTÁRIO PARA IDENTIFICAR BENS DIGITAIS, PRESERVANDO A INTIMIDADE. BUSQUE ORIENTAÇÃO SUCESSÓRIA."
+      ]
+    ],
+    "caption": "Seu patrimônio digital pode sobreviver a você. Acesso e herança, porém, são questões diferentes.\nCriptoativos com valor econômico podem integrar a sucessão. Mensagens, fotos privadas e contas pessoais exigem atenção à intimidade do falecido e de terceiros, às regras da plataforma e ao caso concreto.\nO STJ admitiu incidente associado ao inventário, com profissional especializado, para identificar e classificar bens digitais protegidos por senha, preservando conteúdos privados.\nOrganize um inventário de ativos e um plano seguro de acesso. Em autocustódia, perder chaves sem recuperação pode impedir o acesso; em corretoras, os procedimentos são diferentes. Um arquivo chamado 'testamento digital' não substitui as formalidades legais.\nEnvie para quem tem cripto e ainda não organizou isso.",
+    "sources": [
+      "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/01102025-Acesso-a-heranca-digital-protegida-por-senha-exige-incidente-processual-proprio--decide-Terceira-Turma.aspx"
+    ]
+  },
+  {
+    "id": "07-eleicoes",
+    "date": "2026-11-08",
+    "label": "IA E MANIPULAÇÃO",
+    "kind": "ballot",
+    "reel": [
+      [
+        "QUEM FORMOU\nSUA OPINIÃO?",
+        ""
+      ],
+      [
+        "UM VÍDEO REALISTA\nPODE SER FALSO.",
+        "A IA CONSEGUE IMITAR IMAGEM E VOZ."
+      ],
+      [
+        "NA PROPAGANDA ELEITORAL,\nHÁ LIMITES.",
+        "O TSE PROÍBE DEEPFAKES PARA FAVORECER OU PREJUDICAR CANDIDATURAS."
+      ],
+      [
+        "O AVISO 'FEITO COM IA'\nNÃO LIBERA TUDO.",
+        "ROTULAGEM NÃO TORNA UM CONTEÚDO PROIBIDO PERMITIDO."
+      ],
+      [
+        "CONFIRA A ORIGEM\nANTES DE COMPARTILHAR.",
+        "VOCÊ CONFIA NA REGULAÇÃO DA IA? COMENTE."
+      ]
+    ],
+    "slides": [
+      [
+        "IA NAS ELEIÇÕES:\nO AVISO\nBASTA?",
+        "ROTULAR NÃO LIBERA TODA MANIPULAÇÃO."
+      ],
+      [
+        "O QUE EXIGE\nTRANSPARÊNCIA?",
+        "A PROPAGANDA COM CONTEÚDO SINTÉTICO DEVE INFORMAR O USO DE IA DE FORMA EXPLÍCITA, DESTACADA E ACESSÍVEL, CONFORME AS REGRAS DO TSE."
+      ],
+      [
+        "DEEPFAKE NÃO\nVIRA LÍCITA COM AVISO.",
+        "É PROIBIDO USAR DEEPFAKE NA PROPAGANDA PARA FAVORECER OU PREJUDICAR CANDIDATURA. A VEDAÇÃO TEM REQUISITOS ESPECÍFICOS."
+      ],
+      [
+        "CHATBOT NÃO PODE\nFINGIR SER CANDIDATO.",
+        "A COMUNICAÇÃO DE CAMPANHA COM IA EXIGE TRANSPARÊNCIA. SIMULAR INTERLOCUÇÃO COM CANDIDATO OU OUTRA PESSOA REAL É VEDADO."
+      ],
+      [
+        "VIU MANIPULAÇÃO?\nPRESERVE E DENUNCIE.",
+        "GUARDE LINK, DATA E ARQUIVO. CONSULTE OS CANAIS OFICIAIS DA JUSTIÇA ELEITORAL. SANÇÕES DEPENDEM DA CONDUTA E DO PROCESSO."
+      ]
+    ],
+    "caption": "O aviso 'feito com IA' não é um passe livre na propaganda eleitoral.\nA Resolução TSE 23.610/2019, com alterações inclusive da Resolução 23.755/2026, exige transparência no uso de conteúdo sintético e prevê vedações específicas.\nDeepfakes usadas na propaganda para favorecer ou prejudicar candidaturas são proibidas. Chatbots de campanha não podem simular conversa com candidato ou outra pessoa real. Há também restrições temporais específicas que precisam ser observadas.\nEste é um guia das regras, sem afirmação sobre resultado eleitoral ou prazo para uma próxima eleição. Sanções não são automáticas: dependem da infração e do devido processo.\nConfira a origem, preserve o link e consulte os canais oficiais da Justiça Eleitoral. Você confia na regulação da IA?",
+    "sources": [
+      "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-610-de-18-de-dezembro-de-2019",
+      "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026"
+    ]
+  }
+]
