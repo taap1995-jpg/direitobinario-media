@@ -169,7 +169,7 @@ def illustration(kind,size=650,variant=0):
         for i in range(7):
             d.text(((155+i*65)*ss,25*ss),str(i%2),font=font(26*ss),fill=C if i%2 else P)
         line([(255,401),(525,401)],G,6)
-    robot(d,640,280,ss,variant)
+    robot(d,610,280,ss,variant)
     glow=im.filter(ImageFilter.GaussianBlur(9*ss))
     glow.putalpha(glow.getchannel("A").point(lambda a:int(a*.55)))
     combined=Image.alpha_composite(glow,im)
@@ -200,26 +200,20 @@ def card(day,pair,index,total,reel=False):
     label=f"{day['label']}  /  {index+1:02d}"
     d.text((70,154 if not reel else 236),label,font=font(25),fill=G)
     title_y=203 if not reel else 300
-    title_h=330 if not reel else 390
+    title_h=280 if not reel else 390
     # consistent large headlines, fit checked
-    used=block(d,pair[0],(65,title_y),940,76 if not reel else 82,title_h)
+    used=block(d,pair[0],(65,title_y),940,70 if not reel else 82,title_h)
     # Full illustrative field separates heading and supporting text.
-    art_y=590 if reel else 540
-    art_size=970 if reel else 900
+    art_y=650 if reel else 720
+    art_size=900 if reel else 760
     art=illustration(day["kind"],art_size,index)
     im.paste(art,((1080-art.width)//2,art_y),art)
     d=ImageDraw.Draw(im)
     body_y=1250 if reel else 1090
     # carousel body below title and above illustration, room 190
     if not reel:
-        body_y=title_y+used+28
-        max_body=min(260,535-body_y)
-        # If heading uses 3+ lines, put body in bottom panel.
-        if max_body<165:
-            body_y=1030
-            max_body=180
-        else:max_body=535-body_y
-        block(d,pair[1],(70,body_y),925,32,max_body,color="#cbd5e3",bold=False)
+        body_y=title_y+used+24
+        block(d,pair[1],(70,body_y),925,32,710-body_y,color="#cbd5e3",bold=False)
     elif pair[1]:
         d.rounded_rectangle((65,1215,1015,1505),radius=24,fill="#101e31",outline="#26475b",width=2)
         block(d,pair[1],(92,1250),875,43,215,color="#d6e0ec",bold=False)
