@@ -1,0 +1,16 @@
+BAIXOU UMA IA OU INSTALOU UM GOLPE? 🤖⚠️
+
+A Check Point Research identificou a campanha Yoba: criminosos usavam projetos falsos no GitHub para imitar aplicativos de IA e distribuir malware. O programa observado na etapa final foi o XMRig, usado para minerar criptomoedas sem autorização. A estrutura também pode entregar outras ameaças.
+
+Isso não demonstra invasão dos serviços oficiais do ChatGPT ou do Claude. O golpe explora a confiança nos nomes dessas ferramentas.
+
+Antes de instalar, confira a origem no site oficial. Resultado de busca, nome conhecido e até um arquivo legítimo dentro do pacote não garantem que o conjunto seja seguro.
+
+Instalou algo suspeito? Desconecte da rede e procure suporte. Em computador de trabalho, avise a equipe de TI. Se houver risco às contas, use outro dispositivo seguro para trocar senhas e encerrar sessões suspeitas. Guarde links e registros.
+
+Salve este guia e envie para quem está testando novas ferramentas de IA.
+
+Fonte: Check Point Research, 27/10/2026.
+https://research.checkpoint.com/2026/tricks-from-the-past-deployed-via-signed-chatgpt-and-claude-binaries/
+
+Ilustrações geradas por IA; telas ilustrativas. @direitobinario
