@@ -1,0 +1,260 @@
+[
+  {
+    "path": "artifacts/darktech-20261102/01-deepfake/reel.mp4",
+    "status": 200,
+    "type": "application/octet-stream",
+    "bytes": "963622"
+  },
+  {
+    "path": "artifacts/darktech-20261102/01-deepfake/slide-01.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "256111"
+  },
+  {
+    "path": "artifacts/darktech-20261102/01-deepfake/slide-02.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "276767"
+  },
+  {
+    "path": "artifacts/darktech-20261102/01-deepfake/slide-03.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "308341"
+  },
+  {
+    "path": "artifacts/darktech-20261102/01-deepfake/slide-04.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "301020"
+  },
+  {
+    "path": "artifacts/darktech-20261102/01-deepfake/slide-05.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "314036"
+  },
+  {
+    "path": "artifacts/darktech-20261102/02-vigilancia/reel.mp4",
+    "status": 200,
+    "type": "application/octet-stream",
+    "bytes": "1018949"
+  },
+  {
+    "path": "artifacts/darktech-20261102/02-vigilancia/slide-01.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "291766"
+  },
+  {
+    "path": "artifacts/darktech-20261102/02-vigilancia/slide-02.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "311584"
+  },
+  {
+    "path": "artifacts/darktech-20261102/02-vigilancia/slide-03.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "318813"
+  },
+  {
+    "path": "artifacts/darktech-20261102/02-vigilancia/slide-04.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "335153"
+  },
+  {
+    "path": "artifacts/darktech-20261102/02-vigilancia/slide-05.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "330750"
+  },
+  {
+    "path": "artifacts/darktech-20261102/03-pix/reel.mp4",
+    "status": 200,
+    "type": "application/octet-stream",
+    "bytes": "989633"
+  },
+  {
+    "path": "artifacts/darktech-20261102/03-pix/slide-01.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "266919"
+  },
+  {
+    "path": "artifacts/darktech-20261102/03-pix/slide-02.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "300984"
+  },
+  {
+    "path": "artifacts/darktech-20261102/03-pix/slide-03.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "302138"
+  },
+  {
+    "path": "artifacts/darktech-20261102/03-pix/slide-04.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "308517"
+  },
+  {
+    "path": "artifacts/darktech-20261102/03-pix/slide-05.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "312211"
+  },
+  {
+    "path": "artifacts/darktech-20261102/03-pix/slide-06.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "310596"
+  },
+  {
+    "path": "artifacts/darktech-20261102/04-dados/reel.mp4",
+    "status": 200,
+    "type": "application/octet-stream",
+    "bytes": "985535"
+  },
+  {
+    "path": "artifacts/darktech-20261102/04-dados/slide-01.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "264636"
+  },
+  {
+    "path": "artifacts/darktech-20261102/04-dados/slide-02.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "297340"
+  },
+  {
+    "path": "artifacts/darktech-20261102/04-dados/slide-03.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "292614"
+  },
+  {
+    "path": "artifacts/darktech-20261102/04-dados/slide-04.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "294495"
+  },
+  {
+    "path": "artifacts/darktech-20261102/04-dados/slide-05.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "314146"
+  },
+  {
+    "path": "artifacts/darktech-20261102/05-fakes/reel.mp4",
+    "status": 200,
+    "type": "application/octet-stream",
+    "bytes": "984340"
+  },
+  {
+    "path": "artifacts/darktech-20261102/05-fakes/slide-01.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "257010"
+  },
+  {
+    "path": "artifacts/darktech-20261102/05-fakes/slide-02.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "282790"
+  },
+  {
+    "path": "artifacts/darktech-20261102/05-fakes/slide-03.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "295868"
+  },
+  {
+    "path": "artifacts/darktech-20261102/05-fakes/slide-04.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "291447"
+  },
+  {
+    "path": "artifacts/darktech-20261102/05-fakes/slide-05.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "307924"
+  },
+  {
+    "path": "artifacts/darktech-20261102/06-heranca/reel.mp4",
+    "status": 200,
+    "type": "application/octet-stream",
+    "bytes": "973792"
+  },
+  {
+    "path": "artifacts/darktech-20261102/06-heranca/slide-01.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "266094"
+  },
+  {
+    "path": "artifacts/darktech-20261102/06-heranca/slide-02.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "301810"
+  },
+  {
+    "path": "artifacts/darktech-20261102/06-heranca/slide-03.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "306587"
+  },
+  {
+    "path": "artifacts/darktech-20261102/06-heranca/slide-04.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "307358"
+  },
+  {
+    "path": "artifacts/darktech-20261102/06-heranca/slide-05.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "306392"
+  },
+  {
+    "path": "artifacts/darktech-20261102/07-eleicoes/reel.mp4",
+    "status": 200,
+    "type": "application/octet-stream",
+    "bytes": "968989"
+  },
+  {
+    "path": "artifacts/darktech-20261102/07-eleicoes/slide-01.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "262574"
+  },
+  {
+    "path": "artifacts/darktech-20261102/07-eleicoes/slide-02.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "299515"
+  },
+  {
+    "path": "artifacts/darktech-20261102/07-eleicoes/slide-03.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "295216"
+  },
+  {
+    "path": "artifacts/darktech-20261102/07-eleicoes/slide-04.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "301848"
+  },
+  {
+    "path": "artifacts/darktech-20261102/07-eleicoes/slide-05.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": "310219"
+  }
+]
