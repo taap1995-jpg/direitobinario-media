@@ -1,0 +1,5 @@
+{
+  "checked_at": "2026-11-01T23:58:21.104188+00:00",
+  "status": "blocked",
+  "error": "IG_USER_ID/IG_ACCESS_TOKEN ausentes nos secrets do GitHub."
+}
