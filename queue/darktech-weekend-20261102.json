@@ -10,8 +10,9 @@
     "sources": [
       "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/01102025-Acesso-a-heranca-digital-protegida-por-senha-exige-incidente-processual-proprio--decide-Terceira-Turma.aspx"
     ],
-    "status": "scheduled",
-    "provider": "github-actions"
+    "status": "scheduled_automation_composio",
+    "automation_id": "6ae7d25ab5748191b54e651798867efe",
+    "provider": "chatgpt-automation-composio"
   },
   {
     "id": "06-heranca-carousel",
@@ -28,8 +29,9 @@
     "sources": [
       "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/01102025-Acesso-a-heranca-digital-protegida-por-senha-exige-incidente-processual-proprio--decide-Terceira-Turma.aspx"
     ],
-    "status": "scheduled",
-    "provider": "github-actions"
+    "status": "scheduled_automation_composio",
+    "automation_id": "6ae7d25d57b881918a05911d85d6b19c",
+    "provider": "chatgpt-automation-composio"
   },
   {
     "id": "07-eleicoes-reels",
@@ -43,8 +45,9 @@
       "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-610-de-18-de-dezembro-de-2019",
       "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026"
     ],
-    "status": "scheduled",
-    "provider": "github-actions"
+    "status": "scheduled_automation_composio",
+    "automation_id": "6ae7d25fb1bc8191aa3180d9619585ab",
+    "provider": "chatgpt-automation-composio"
   },
   {
     "id": "07-eleicoes-carousel",
@@ -62,7 +65,8 @@
       "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-610-de-18-de-dezembro-de-2019",
       "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026"
     ],
-    "status": "scheduled",
-    "provider": "github-actions"
+    "status": "scheduled_automation_composio",
+    "automation_id": "6ae7d262520881919c0f7513a4f01348",
+    "provider": "chatgpt-automation-composio"
   }
 ]
