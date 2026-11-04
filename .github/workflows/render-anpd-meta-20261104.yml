@@ -1,0 +1,35 @@
+name: Render Reel ANPD Meta 2026-11-04
+on:
+  push:
+    paths:
+      - 'reels/anpd-meta-conta-20261104/render.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: anpd-meta-conta-20261104
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update -y && sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - run: pip install pillow numpy
+      - run: python reels/anpd-meta-conta-20261104/render.py
+      - name: Commit rendered assets
+        run: |
+          test -s media/reels/anpd-meta-conta-20261104/reel.mp4
+          test -s media/reels/anpd-meta-conta-20261104/cover.jpg
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1 media/reels/anpd-meta-conta-20261104/reel.mp4
+          git config user.name media-bot
+          git config user.email media-bot@users.noreply.github.com
+          git add media/reels/anpd-meta-conta-20261104
+          git diff --cached --quiet && exit 0
+          git commit -m "Render approved Reel about Meta account suspensions"
+          git pull --rebase origin main
+          git push origin main
