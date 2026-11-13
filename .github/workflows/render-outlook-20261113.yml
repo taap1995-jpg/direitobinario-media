@@ -1,0 +1,30 @@
+name: Render Outlook Carousel 2026-11-13
+on:
+  push:
+    paths:
+      - 'posts/outlook-20261113/render.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python posts/outlook-20261113/render.py
+      - name: Commit images
+        run: |
+          test -s media/posts/outlook-20261113/slide-1.jpg
+          test -s media/posts/outlook-20261113/slide-5.jpg
+          git config user.name media-bot
+          git config user.email media-bot@users.noreply.github.com
+          git add media/posts/outlook-20261113
+          git diff --cached --quiet && exit 0
+          git commit -m "Render Outlook legal carousel for Direito Binario"
+          git pull --rebase origin main
+          git push origin main
